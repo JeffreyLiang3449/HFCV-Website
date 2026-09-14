@@ -1,0 +1,189 @@
+project:
+  type: website
+  output-dir: docs
+website:
+  title: My Website
+  navbar:
+    background: primary
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "About"
+        href: about.qmd
+  sidebar:
+    style: docked
+    contents:
+    - section: 2024 E90 work
+      contents:
+      - section: Chassis Model
+        contents:
+        - href: 2024 E90 work/Chassis Model/3D collar Large Wrapped with clevis Drawing
+            v2.qmd
+          text: 3D collar Large Wrapped with clevis Drawing v2
+        - href: 2024 E90 work/Chassis Model/CAR DIMS.qmd
+          text: CAR DIMS
+        - href: 2024 E90 work/Chassis Model/Chassis Drawn Design(1).qmd
+          text: Chassis Drawn Design(1)
+        - href: 2024 E90 work/Chassis Model/Chassis Drawn Design.qmd
+          text: Chassis Drawn Design
+      - section: Fall  23 Prework
+        contents:
+        - href: 2024 E90 work/Fall _23 Prework/E90 Project Proposal (Hydrogen Carr)_.qmd
+          text: 'E90 Project Proposal (Hydrogen Carr) '
+        - href: 2024 E90 work/Fall _23 Prework/E90TopicMemo_Chai_Horvat.qmd
+          text: E90TopicMemo Chai Horvat
+        - href: 2024 E90 work/Fall _23 Prework/Prototype Rules - Hydrogen Carr.qmd
+          text: Prototype Rules   Hydrogen Carr
+      - section: First Tension Test (3 8)
+        contents:
+        - href: 2024 E90 work/First Tension Test (3-8)/Tension test notes_.qmd
+          text: 'Tension test notes '
+      - section: Presentation materials (old)
+        contents:
+        - href: 2024 E90 work/Presentation materials (old)/E90 Mid-Semester Reivew.qmd
+          text: E90 Mid Semester Reivew
+        - href: 2024 E90 work/Presentation materials (old)/Final Presentation Outline.qmd
+          text: Final Presentation Outline
+        - href: 2024 E90 work/Presentation materials (old)/Mid Semester Review Presentation
+            Outline.qmd
+          text: Mid Semester Review Presentation Outline
+      - href: 2024 E90 work/Ben & Justin E90 Time Log (Spring _24).qmd
+        text: Ben & Justin E90 Time Log (Spring  24)
+      - href: 2024 E90 work/E90 Final Report Chai Horvat 2024_.qmd
+        text: 'E90 Final Report Chai Horvat 2024 '
+      - href: 2024 E90 work/E90 HFCV Final Presentation.qmd
+        text: E90 HFCV Final Presentation
+    - section: 2024 Summer Research
+      contents:
+      - href: 2024 Summer Research/Chassis Sketches.qmd
+        text: Chassis Sketches
+      - href: 2024 Summer Research/HFCV SummerPresentation.qmd
+        text: HFCV SummerPresentation
+      - href: 2024 Summer Research/Summer 24 HFCV Final Report_.qmd
+        text: 'Summer 24 HFCV Final Report '
+      - href: 2024 Summer Research/Summer Notes.qmd
+        text: Summer Notes
+    - section: 2025 E90 work
+      contents:
+      - section: Calculations  turning
+        contents:
+        - href: 2025 E90 work/Calculations_ turning/Turning Rad.qmd
+          text: Turning Rad
+      - section: Designs
+        contents:
+        - section: Brake
+          contents:
+          - href: 2025 E90 work/Designs/Brake/Brake Stand Drawing v1.qmd
+            text: Brake Stand Drawing v1
+          - href: 2025 E90 work/Designs/Brake/FINAL PEDAL DRAWING v3.qmd
+            text: FINAL PEDAL DRAWING v3
+          - href: 2025 E90 work/Designs/Brake/Pedal Stand Drawing v1.qmd
+            text: Pedal Stand Drawing v1
+        - section: Suspension
+          contents:
+          - href: 2025 E90 work/Designs/Suspension/Suspension Plate Drawing v1.qmd
+            text: Suspension Plate Drawing v1
+      - section: Proposal
+        contents:
+        - href: 2025 E90 work/Proposal/2025 Final Proposal -- Moran, Salas.qmd
+          text: 2025 Final Proposal    Moran, Salas
+        - href: 2025 E90 work/Proposal/Project Proposal Memo.qmd
+          text: Project Proposal Memo
+        - href: 2025 E90 work/Proposal/Salas.Moran.Draft_Project_Proposal.qmd
+          text: Salas.Moran.Draft Project Proposal
+      - section: Req + constraints
+        contents:
+        - href: 2025 E90 work/Req + constraints/Salas_Moran Requirements and Constraints.qmd
+          text: Salas Moran Requirements and Constraints
+      - href: 2025 E90 work/E90 Mid-Semester Presentation (GS, MM).qmd
+        text: E90 Mid Semester Presentation (GS, MM)
+      - href: 2025 E90 work/Final Presentation Draft.qmd
+        text: Final Presentation Draft
+      - href: 2025 E90 work/HFCV 2025 Final Report (E90).qmd
+        text: HFCV 2025 Final Report (E90)
+      - href: 2025 E90 work/HFCV To-Do List.qmd
+        text: HFCV To Do List
+    - section: 2025 Summer Research
+      contents:
+      - href: 2025 Summer Research/HFCV Notes Nora.qmd
+        text: HFCV Notes Nora
+      - href: 2025 Summer Research/HFCV Summer 2025 Sigma Xi Abstract.qmd
+        text: HFCV Summer 2025 Sigma Xi Abstract
+      - href: 2025 Summer Research/HFCV SummerPresentation_Jun25.qmd
+        text: HFCV SummerPresentation Jun25
+      - href: 2025 Summer Research/Linkage Fabrication Procedure - Shiley.qmd
+        text: Linkage Fabrication Procedure   Shiley
+      - href: 2025 Summer Research/Matthew Shiley HFCV Summer 2025 Plan & Notes.qmd
+        text: Matthew Shiley HFCV Summer 2025 Plan & Notes
+      - href: 2025 Summer Research/Summer25_HFCV_FinalReport_Jiang.qmd
+        text: Summer25 HFCV FinalReport Jiang
+    - section: 2026 E90 work
+      contents:
+      - href: 2026 E90 work/JanoKimaruE90_Report.qmd
+        text: JanoKimaruE90 Report
+      - href: 2026 E90 work/Mid-Semester Presentation.qmd
+        text: Mid Semester Presentation
+    - section: 2026 Shell Eco Marathon
+      contents:
+      - href: 2026 Shell Eco Marathon/2026 Shell Eco Marathon Debrief Document.qmd
+        text: 2026 Shell Eco Marathon Debrief Document
+      - href: 2026 Shell Eco Marathon/Fall 25 Budget HFCV.qmd
+        text: Fall 25 Budget HFCV
+      - href: 2026 Shell Eco Marathon/HFCV Recruiting Round 2.qmd
+        text: HFCV Recruiting Round 2
+      - href: 2026 Shell Eco Marathon/HFCV Running Report Document.qmd
+        text: HFCV Running Report Document
+      - href: 2026 Shell Eco Marathon/HFCV_ Freshman Interviews.qmd
+        text: HFCV  Freshman Interviews
+      - href: 2026 Shell Eco Marathon/HFCV_ Instuctions for 11_5_.qmd
+        text: 'HFCV  Instuctions for 11 5 '
+      - href: 2026 Shell Eco Marathon/HFVC Indiana Logistics.qmd
+        text: HFVC Indiana Logistics
+      - href: 2026 Shell Eco Marathon/HFVC Update Document_.qmd
+        text: 'HFVC Update Document '
+    - section: Chassis
+      contents:
+      - section: Drawings
+        contents:
+        - href: Chassis/Drawings/Carbon Fiber Sheet Dimensions and Quantities.qmd
+          text: Carbon Fiber Sheet Dimensions and Quantities
+        - href: Chassis/Drawings/Parts Implementation Drawing ROUGH.qmd
+          text: Parts Implementation Drawing ROUGH
+        - href: Chassis/Drawings/Rear Connector Dimensions and Quantities.qmd
+          text: Rear Connector Dimensions and Quantities
+        - href: Chassis/Drawings/Windshield Design ROUGH.qmd
+          text: Windshield Design ROUGH
+    - section: Editable Documents
+      contents:
+      - href: Editable Documents/HFCV ManufacturingNotes.qmd
+        text: HFCV ManufacturingNotes
+      - href: Editable Documents/HFCV PrelimInfo.qmd
+        text: HFCV PrelimInfo
+      - href: Editable Documents/HFCV_Goals and Expectations.qmd
+        text: HFCV Goals and Expectations
+    - section: Fuel Cell Procedures
+      contents:
+      - href: Fuel Cell Procedures/Running Procedure.qmd
+        text: Running Procedure
+      - href: Fuel Cell Procedures/Safety.qmd
+        text: Safety
+    - section: Literature
+      contents:
+      - href: Literature/Copy of HFCV ManufacturingNotes 8_8.qmd
+        text: Copy of HFCV ManufacturingNotes 8 8
+      - href: Literature/HFCV PrelimInfo 9_16.qmd
+        text: HFCV PrelimInfo 9 16
+      - href: Literature/HFCV SummerPresentation.qmd
+        text: HFCV SummerPresentation
+      - href: Literature/How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and
+          Flexible Carbon Fiber.qmd
+        text: How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon
+          Fiber
+      - href: Literature/Markforged Printer Instructions.qmd
+        text: Markforged Printer Instructions
+      - href: Literature/New Drawing and Manufacturing progress.qmd
+        text: New Drawing and Manufacturing progress
+    - section: Safety
+      contents:
+      - href: Safety/Hydrogen_Fuel_Cell_Safety_Procedure.qmd
+        text: Hydrogen Fuel Cell Safety Procedure

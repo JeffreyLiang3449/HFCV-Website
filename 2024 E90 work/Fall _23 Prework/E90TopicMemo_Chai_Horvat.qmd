@@ -1,0 +1,19 @@
+**Project Title:** Shell Eco-Marathon Vehicle - Hydrogen Carr
+
+**Students:**Justin Chai and Ben Horvat
+
+**Advisor:** Professor Carr Everbach
+
+**External Helpers:** J. Johnson and Alexander Vasquez-Jaffe
+
+**Important Links:**
+
+Rules: [[shell-eco-marathon-2024-official-rules-chapter-i-updated.pdf (shellecomarathon.com)]{.underline}](https://www.shellecomarathon.com/about/global-rules/_jcr_content/root/main/section/simple_copy_copy_143664536/link_list/links/item0.stream/1693543757317/892943cb7be32f26491deba487a52ccfb145bf81/shell-eco-marathon-2024-official-rules-chapter-i-updated.pdf)
+
+Video Series: [[(141) Tech Tips - Hydrogen Safety \| Shell Eco-marathon - YouTube]{.underline}](https://www.youtube.com/watch?v=xB3Okb1tgO4&list=PLEPIVJVCFQH3q4PLtFAsJujpELu0ywmpS)
+
+**Background Info:**
+
+Swarthmore College has previously entered the Shell Eco-Marathon's Prototype contest for a Hydrogen fuel cell vehicle. In previous years, with limited budget and resources, the Swarthmore team has been able to place fairly highly in the competition, and the project has been a successful E90 in the past as a result. The current team is planning to reimagine the legacy hydrogen fuel cell vehicle by updating the frame of the vehicle with lighter and more flexible materials alongside optimization tests for higher fuel efficiency. They plan to adhere to the rules and competition regulations imposed by the Shell Eco-Marathon document above in order to provide clear guidelines on how to safely build a hydrogen fuel cell vehicle. Although the plan is to ultimately attend the competition in Indianapolis, the feasibility of the competition will be assessed throughout the redesign process.
+
+Please look above to the official Shell rules for any specific guideline questions.

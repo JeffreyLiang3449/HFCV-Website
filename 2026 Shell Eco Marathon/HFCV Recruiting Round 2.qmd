@@ -1,0 +1,79 @@
+**Yes**
+
+1.  Rawasy Almaksoudi (Epoxy) - Nora + Matthew
+
+2.  Kinley Zangmo (Hardware, Driver, Fuel Cell) - Open
+
+3.  Stella Saad (no experience) - Jano
+
+4.  Magnus Julin (Elec + Fabrication) - Jano
+
+5.  Jose Quiroz Mariche (general experience) - Eric
+
+6.  Nathan Schwarz (Fuel Cell, no experience) - Jano/Self-Sufficient
+
+7.  Nolan Weygandt (woodshop) - Eric + Matthew
+
+8.  Jasper Mosley (tons) - self sufficient
+
+9.  Isabella Hemler (Izzy) (Driver) - Open/Nora
+
+10. Izzy Reel (No acceptance needed) - Open
+
+11. Kayhaan (No acceptance needed) - Open
+
+12. Jeffery Liang (electrical) - Jano
+
+13. Alex Lyu (would be busy) - Jano
+
++:--------------+:----------------------+:--------------------+:-------------------------------+:------------+
+| **Nora's**    | **Electrical (Jano)** | **Hydrogen (Jano)** | **SBC (Jano)**                 | **Other**   |
+|               |                       |                     |                                |             |
+|               |                       |                     | Wait on this, ask individually |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| **Mathew**    | Stella                | Kinley              |                                | **Eric**    |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Rawasy        | Jeffery               | Nathan              |                                | **Kaw**     |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Magnus        | Alex                  |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Nolan         | Izzy Reel             |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| **Jasper**    |                       |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Kayhaan       |                       |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Jose          |                       |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| Izzy Helmer   |                       |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+| ~~Izzy Reel~~ |                       |                     |                                |             |
++---------------+-----------------------+---------------------+--------------------------------+-------------+
+
+**Maybe -\> No, tell them future**
+
+Avian Pham
+
+David Nuth
+
+Ben Greenberg
+
+Auden Seigel
+
+Jasper Goldstein
+
+Jonas
+
+Evan
+
+Sean Tian
+
+Hans
+
+Matthew Kim
+
+**No -\> tell them future**
+
+Evan
+
+Bowen Shi

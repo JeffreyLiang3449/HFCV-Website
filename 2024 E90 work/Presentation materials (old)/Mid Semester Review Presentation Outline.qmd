@@ -1,0 +1,47 @@
+**Due for 3/29**
+
+**E90 presentation**
+
+- Motivations for the Project
+
+  - Introduction to the Shell Eco Marathon (strict safety standards and competition standards)
+
+  - Introduction to prior vehicles and past failures
+
+  - Why an Overhaul was needed
+
+- Purpose of the project and what were the main goals (what we wanted to accomplish)
+
+  - How do we improve the chassis/frame of the overall vehicle
+
+    - Weight reduction and updating materials
+
+      - Modeling of theoretical fuel efficiency calculations for competition
+
+      - Different material impacts on chassis and vehicle design
+
+      - New Chassis Design
+
+      - Materials testing
+
+        - Why carbon fiber & how to do connections
+
+        - The aluminum connector units vs the 3D printed members
+
+        - Tension test results
+
+        - ~~Compression test results \*\*\*~~
+
+        - Analysis of the comparison and what we would recommend as best practice for a new vehicle as a result
+
+    - Failures so far -\> failed prints, troubles
+
+  - Fuel Cell Revival and successes
+
+- Next steps for the project
+
+  - Suspension redesign
+
+  - Finishing up compression results
+
+  - Revamp current to make more accessible

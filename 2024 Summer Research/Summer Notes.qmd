@@ -1,0 +1,129 @@
+**[Talking to Ben and Justin]{.underline}**
+
+Make bottom of chassis solid - giant sheet of carbon fiber or aluminum
+
+Back half aluminium
+
+Need
+
+-foot break
+
+-back break needs new spring (3 of them)
+
+\-![](media/image3.png){width="6.5in" height="3.0694444444444446in"}
+
+Red box make aluminum joint and not 3D print
+
+-tubes take a week
+
+-mcmastercar 2 days max
+
+-build simulation of front
+
+-carbon fibre middle
+
+-aluminum frame so that
+
+-utm (ask carr/fiona)
+
+Find diameter of wheels
+
+Find how suspension connects onto the vehicle
+
+Redesign front half to have suspension connect
+
+- Most go-karts have suspension attached to one vertical member
+
+- ![](media/image1.png){width="3.0364588801399823in" height="2.4291666666666667in"}
+
+[Steps to use markforged]{.underline}
+
+0\. Login to computer 2
+
+1.  Use a program called eiger.io
+
+    a.  Pretend to be josh
+
+2.  Export what you want to be printed in an [STL file]{.mark}
+
+3.  Import into eiger ur stl file
+
+4.  Have threads on z axis
+
+5.  Material is onyx
+
+    a.  No reinforcement necessary unless shape is wonky
+
+6.  Export Build
+
+7.  Put that file onto flashdrive
+
+8.  Stick drive into printer
+
+9.  Hit print from storage
+
+Look into villanova sae
+
+![](media/image2.png){width="6.5in" height="3.875in"}
+
+[[https://abhijeetscad.wordpress.com/2015/01/03/fsae-car/]{.underline}](https://abhijeetscad.wordpress.com/2015/01/03/fsae-car/)
+
+Look into buying a...
+
+- Gear and pinion steering system
+
+  - [[https://www.amazon.com/dp/B0BBLRNKTD/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk]{.underline}](https://www.amazon.com/dp/B0BBLRNKTD/ref=sspa_dk_hqp_detail_aax_0?psc=1&sp_csd=d2lkZ2V0TmFtZT1zcF9ocXBfc2hhcmVk)
+
+- Suspension system
+
+  - https://www.amazon.com/s?k=go+kart+front+suspension+kit&ref=nb_sb_noss
+
+  - 
+
+- Pivot point for wheels
+
+- Hydraulic disk brakes
+
+- Wheels
+
+  - \$450 [[https://www.trikexplor.com/products/20inch-completed-wheels-with-disc-brakes]{.underline}](https://www.trikexplor.com/products/20inch-completed-wheels-with-disc-brakes)
+
+  - \$150
+
+  - [[Aliexpress]{.underline}](https://www.aliexpress.us/item/3256806193317631.html?src=google&src=google&albch=shopping&acnt=708-803-3821&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&isSmbAutoCall=false&needSmbHouyi=false&src=google&albch=shopping&acnt=708-803-3821&slnk=&plac=&mtctp=&albbt=Google_7_shopping&gclsrc=aw.ds&albagn=888888&ds_e_adid=&ds_e_matchtype=&ds_e_device=c&ds_e_network=x&ds_e_product_group_id=&ds_e_product_id=en3256806193317631&ds_e_product_merchant_id=109230123&ds_e_product_country=US&ds_e_product_language=en&ds_e_product_channel=online&ds_e_product_store_id=&ds_url_v=2&albcp=19623912707&albag=&isSmbAutoCall=false&needSmbHouyi=false&gad_source=1&gclid=CjwKCAjw1K-zBhBIEiwAWeCOF80xnhdW8Z1bSPAmzOAc7m8TYX4EHMYC-qqCJ7EYNa8femJOtxuY9BoCuQoQAvD_BwE&aff_fcid=141d0ef2e13840c88518bf4b58985936-1718372216816-00834-UneMJZVf&aff_fsk=UneMJZVf&aff_platform=aaf&sk=UneMJZVf&aff_trace_key=141d0ef2e13840c88518bf4b58985936-1718372216816-00834-UneMJZVf&terminal_id=0509be3c3d5b4d78957326a8efcb73e9&afSmartRedirect=y&gatewayAdapt=glo2usa)
+
+  - 
+
+- Large piece of clear plastic for bottom trough
+
+Progress Report for Carr
+
+- Have learned necessary fabrication techniques
+
+  - Welding
+
+  - 3D print
+
+  - Lathe
+
+- Have started considering parts we want
+
+  - Suspension and steering ordered
+
+  - Wheel size and disk brake for the front wheels
+
+  - Brakes?
+
+- Very rough rudimentary design
+
+- Working on powerpoint
+
+> Final Report Notes
+>
+> Goals - Redesign and fabricate front half of HFCV Chassis
+>
+> Methods - Utilized E90 Research
+>
+> Results - Have part of the frame completed
+>
+> Significance - prepares for the fall semester and future E90s

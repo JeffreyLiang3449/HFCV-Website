@@ -1,0 +1,120 @@
+Hydrogen Fuel Cell
+Vehicle
+Nora Jiang
+Professor Carr Everbach
+      Table of contents
+
+
+    01           02           03
+Introduction   Current      Future
+               Project   Considerations
+ 01
+Introduction
+What is a HFCV? And why is there one sitting in the High Bay?
+       What you need to know first
+
+
+Hydrogen (H2) as a fuel?           Why switch to H2
+   ●   H2 is an energy carrier     ●   H2 is incredibly energy
+       (like gasoline)                 dense
+   ●   Energy is produced
+                                   ●   Clean in comparison to
+       through electrolysis
+                                       gas
+   ●   Stored as a liquid before
+       entering the fuel cell      ●   Large range before
+                                       needing to refuel
+                       Inside the Fuel Cell
+
+
+                         Our Actual Fuel Cell
+
+
+
+
+Photo Courtesy of 3M
+           Shell Eco Marathon
+
+  What Is It?
+ Competition to make
+   the most energy
+    efficient vehicle
+
+
+Why Compete?
+ Gives a target for our
+  work on the vehicle
+                          Photo Courtesy of Shell Eco Marathon
+ 02
+Current Project
+Rebuilding the Chassis
+Before This Summer
+●   Previous vehicle
+     ○ No longer adheres to Shell’s safety
+        standards
+     ○ Needs a complete rebuild before
+        competition ready
+
+
+●   Revitalization w/ Ben, Jano, and Justin
+     ○ Materials testing
+     ○ Preliminary Chassis Design
+     ○ Rear Brakes and Suspension system
+Rough Design From Ben and Justin
+   Goal:
+New Front End
+            What will that take?
+              Choosing
+        2     Components                                      Construction
+                                                    4
+              What suspension to                              Actually putting
+              use? What size of                               together the front
+              wheels to use?                                  end
+
+
+
+    Fabrication                        Front Chassis
+    Techniques                         Design
+1                                  3                                       5
+    Learning how to weld,              Using the general
+    3D print, and Lathe                idea left by Ben and         Completion
+                                       Justin, create a new
+                                       design
+ 03
+Future Considerations
+Rebuilding the rest of the HFCV
+                        Fall 2024
+
+
+Rear of Chassis                             Floor of Vehicle
+    Build and fit the                            Purchase
+     rear wheel +                             components and
+  suspension system
+                         Electrical              assemble
+
+                        Components
+                         Wire the new car
+                          and put in the
+                         hydrogen system
+                           Spring 2025
+
+
+Cowl Design and Build                               Compete
+      Build the Cowl for                            Transport Team
+     the vehicle so that                           and Car to Indiana
+      its not a skeleton
+
+
+                                Testing
+                               Testing entire
+                             system to the Shell
+                               Eco Marathon
+                               Requirements
+Thank you for
+  listening
+ Questions, Comments, Concerns?
+
+    njiang1@swarthmore.edu
+   avasque1@swarthmore.edu
+   ceverba1@swarthmore.edu
+

@@ -1,0 +1,85 @@
+I recorded my process for fabricating linkages. My setup at home is different from the shop at Singer, but it may still be useful for club members.
+
+## Preparing the Stock
+
+I bought 12 feet of 1"-diameter 6061 aluminum rod.
+
+### Cutting Stock
+
+![](media/image7.jpg){width="6.5in" height="4.875in"}
+
+I started by cutting the length of aluminum rod that would fit in my lathe with a bandsaw. In this case, I cut 12.5" to make 5 end (no tab) members.
+
+# Lathing
+
+## Facing the Stock
+
+![](media/image6.jpg){width="6.5in" height="4.875in"}
+
+When making the first member, I faced the end of the rod using a facing tool.
+
+## Drilling a Center Hole
+
+![](media/image3.jpg){width="6.5in" height="4.875in"}
+
+I then drilled a center hole in the end using a center drill. This allowed me to keep the rod concentric with a live center while cutting. This step was also crucial in order to drill a centered hole with the drill bit later.
+
+I bumped the cutting tool against the freshly faced surface and used it to zero the Y-axis. I then repeatedly bumped the tool against the side of the rod while rotating it around to find the highest point, and zeroed the X-axis there. I found the diameter varied by about 1/100 of an inch, suggesting a slightly non-circular or off-center rod.
+
+## Turning Down
+
+![](media/image4.jpg){width="6.5in" height="4.875in"}
+
+I used a left cutting tool to turn the last \~2" of rod down to 0.74". I did this because out of the sample pieces I measured, the small diameter never exceeded 0.74". These parts will likely need to be turned down further and individually fitted to the carbon fiber tubes.
+
+I turned the part down 0.12" and then 0.24" below the original diameter, leaving a diameter of \~0.76". I then used calipers to measure how much more I had to take off to reach a diameter of 0.74", and finished turning accordingly.
+
+## Cutting Glue Grooves
+
+![](media/image5.jpg){width="6.5in" height="4.875in"}
+
+I cut glue grooves ⅜" and ¾" from the end of the rod using the same left cutting tool.
+
+## Chamfering
+
+![](media/image2.jpg){width="6.5in" height="4.875in"}
+
+I chamfered the end using this chamfering tool. This will allow it to slip into the carbon fiber tube more easily.
+
+## Hollowing Out the Member
+
+![](media/image9.jpg){width="6.5in" height="4.875in"}
+
+I drilled out the center of the rod using a ⅜" drill bit. For end members, I drilled deep enough to go through the whole member. For others, I drilled to a depth slightly less than 2".
+
+I then used a deburring tool to deburr the bore.
+
+## Parting Off
+
+![](media/image8.jpg){width="6.5in" height="4.875in"}
+
+Finally, I parted off using a parting tool. The length of stock I kept depended on the type of member. To cut off an accurate length, I held a flat block against the end of the part, bumped the right side of the parting tool against the block and zeroed the Y-axis. This provided an accurate measurement to the rightmost point on the parting tool blade.
+
+### Total Lengths:
+
+For end members, I parted off 2.2".
+
+For short-tab members, I parted off 3.3".
+
+# Milling
+
+## Work Holding
+
+![](media/image1.jpg){width="6.5in" height="4.875in"}
+
+I secured the lathed portion of the member in a ¾" collet in a square collet block. The square collet block allows you to easily make two cuts 180 degrees apart.
+
+I used this height-variable support to provide some support to the end of the stock. I'm not sure how much it helped, but it worked for me.
+
+## First Cut
+
+![](media/image10.jpg){width="6.5in" height="4.875in"}
+
+I cut 1" from the end of the stock, 0.365" down from the highest point. I found the highest point by moving the tool across the stock, probing it for the highest point and zeroing the Z-axis there.
+
+The team manufacturing document suggested cutting in increments of 0.02"-0.04". With this mill, I found I could cut 0.08" at a time with no issues.

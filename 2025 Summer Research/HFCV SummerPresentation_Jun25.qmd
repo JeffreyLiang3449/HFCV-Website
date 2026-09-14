@@ -1,0 +1,286 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# Hydrogen Fuel Cell Vehicle
+
+# Nora Jiang and Matthew Shiley
+Professor Carr Everbach
+
+# 02
+
+# 01
+
+# 03
+
+# Table of contents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+# Introduction
+
+:::
+
+::: {.column width="50%"}
+
+# Future
+Considerations
+
+# Current 
+Project
+
+:::
+
+::::
+
+::: {.notes}
+
+
+
+
+:::
+
+# 01
+
+# Introduction
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# What is a HFCV? And why is there one sitting in the hallway?
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# What you need to know first
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Hydrogen (H2) as a fuel?
+
+# H2 is incredibly energy dense
+Clean in comparison to gas
+Large range before needing to refuel
+
+# Why switch to H2
+
+# H2 is an energy carrier (like gasoline)
+Energy is produced through electrolysis
+Stored as a liquid before entering the fuel cell
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation_Jun250.png)
+
+__Photo Courtesy of 3M__
+
+:::
+
+::: {.column width="50%"}
+
+__Inside the Fuel Cell__
+
+![](img%5CHFCV%20SummerPresentation_Jun251.jpg)
+
+__Our Actual Fuel Cell__
+
+:::
+
+::::
+
+# Shell Eco Marathon
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Competition to make the most energy efficient vehicle
+
+# What Is It?
+
+# Gives a target for our work on the vehicle
+
+# Why Compete?
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CHFCV%20SummerPresentation_Jun252.jpg)
+
+__Photo Courtesy of Shell Eco Marathon__
+
+:::
+
+::::
+
+# 02
+
+# Current Project
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Rebuilding the Chassis, pt. 2
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# Before This Summer
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* __Previous vehicle __
+  * __No longer adheres to Shell’s safety standards__
+  * __Needs a complete rebuild before competition ready__
+* __Revitalization: 2023\-2025__
+  * __Materials testing__
+  * __Preliminary Chassis Design__
+  * __Rear Brakes and Suspension system__
+  * __New Braking system__
+  * __Steering components__
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation_Jun253.jpg)
+
+:::
+
+::::
+
+# Progress So Far!
+
+![](img%5CHFCV%20SummerPresentation_Jun254.jpg)
+
+# Rough Chassis Design Plan
+
+![](img%5CHFCV%20SummerPresentation_Jun255.png)
+
+# 3D Printed Clips
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation_Jun256.png)
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation_Jun257.png)
+
+:::
+
+::::
+
+# 03
+
+# Future Considerations
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Rebuilding the rest of the HFCV
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# The Next Year (or so)
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Chassis + Cowl 
++
+ Mechanical Components
+
+# Putting it all together
+
+:::
+
+::: {.column width="33%"}
+
+# Transport Team and Car to Indiana
+
+# Compete
+
+# Testing entire system to the Shell Eco Marathon Requirements
+
+# Testing
+
+:::
+
+::::
+
+# Thank you for listening
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+# Questions, Comments, Concerns?
+
+# njiang1@swarthmore.edu
+mshiley1@swarthmore.edu
+avasque1@swarthmore.edu
+ceverba1@swarthmore.edu
+
+:::
+
+::::
+

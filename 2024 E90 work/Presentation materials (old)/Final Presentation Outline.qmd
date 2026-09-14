@@ -1,0 +1,97 @@
+**5/7**
+
+**E90 presentation (aim for \~20** **mins)**
+
+- **Begin by Introducing pictures of the raggedy version of the car and building up the story for the shell eco marathon**
+
+  - Brief show of benchmarking?
+
+- **Motivations for the Project**
+
+  - What is the shell eco-marathon
+
+    - International competition where students can pool their knowledge and build what they believe is the best or to the limits of their abilities (so much both of us did not know coming into the project)
+
+    - Efficiency, sustainability, and engineering competition
+
+  - What made us both intrigued
+
+    - Diff backgrounds and both wanting to try their hand at something in the field of what we know and what path it can lead us
+
+  - What made the shell eco marathon such a great E90 project
+
+    - Interdisciplinary nature of the project due to the rigorous requirements to even race the vehicle on the track -\> where even people make it just a goal to pass the inspection\]
+
+    - The strict safety regulations
+
+  - Introduction to prior vehicles
+
+    - Show the current vehicle running
+
+  - List the necessary changes for an overhaul (build up the fact there was so much to do that a complete overhaul was needed)
+
+- **Purpose of the project (**Ok, so where do we start and what do we focus on?)
+
+  - **Rules give us so many possible upgrades with our limited time (brakes, suspension, and new chassis) -\>** we've decided at this point that the project will focus on providing a foundation of designs so there is a playbook on what to do for future students
+
+  - **Shell Eco-Marathon focuses on efficiency**, so what things affect efficiency and how can we assess what things to focus on?
+
+  - Fuel Efficiency Model and waterfall cascade
+
+    - Comparison of weight reduction, aerodynamic considerations, and efficiency
+
+    - We proved that weight was the number one thing that we needed to focus on for the project, so let's think, how and where do we reduce weight?
+
+    - Different material impacts on chassis and vehicle design
+
+- **Methods and Results (REAL)**
+
+  - Weight reduction and updating materials
+
+    - New Chassis Design (SAP design)
+
+    - Materials testing
+
+      - Why carbon fiber & how we would do connections
+
+      - The aluminum connector units vs the 3D printed members
+
+      - Tension test results
+
+      - Compression test results
+
+      - Analysis of the comparison and what we would recommend as best practice for a new vehicle as a result
+
+    - COST analysis and realistic recommendations that resulted
+
+  - Installation of Rear suspension and design
+
+    - Inspiration and design of the rear suspension
+
+    - Constraints and how did it turn out on old vehicle
+
+    - Benchmark tests of rear suspension response
+
+  - Installation of hydraulic brakes
+
+    - Installation of hydraulic brakes (main considerations)
+
+    - Benchmark tests of using rear hydraulic brakes vs old mechanical brakes
+
+  - Current vehicle revival & benchmark tests
+
+    - Outside and inside speed tests
+
+      - shoutout to work from Jano for getting it to work
+
+  - Conclusions & Future Considerations
+
+    - List of projects we foresee that can stem from our work and the HFCV
+
+    - Our own reflections and what we both learned from tackling such a interdisciplinary project
+
+  - Acknowledgements & Thanks
+
+Appendix:
+
+**How Fuel Cell works and current Fuel cell setup**

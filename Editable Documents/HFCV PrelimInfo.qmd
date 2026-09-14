@@ -1,0 +1,113 @@
+# Understanding the most recent rules and regulations (specifically for chassis) 
+
+### Dimensions (Art. 39)
+
+- The vehicle maximum height must be less than 1000 mm (39.37 in)
+
+- The vehicle track width must be at least 500 mm (19.68 in), measured between the midpoints where the tyres of the outermost wheels touch the ground.
+
+- The ratio of height divided by track width must be less than 1.25.
+
+- The vehicle wheelbase must be at least 1000 mm (39.37 in)
+
+- The maximum total vehicle width must not exceed 1300 mm (51.18 in)
+
+- The maximum total length must not exceed 3500 mm (137.79 in)
+
+- The maximum vehicle weight, without the Driver, is 140 kg. (308 lb)
+
+- None of the body dimensions above must be achieved by design singularities such as 'stuck-on' appendages or cut-outs.
+
+### Turning Radius and Steering (Art. 42)
+
+- Only front wheel steering is permitted. If the Organisers are not satisfied with the effectiveness and/or control of a vehicle\'s steering system, this vehicle will be removed from the competition.
+
+- The turning radius must be 8 m or less. The turning radius is the distance between the centre of the circle and the external wheel of the vehicle. The external wheel of the vehicle must be able to follow a 90° arc of 8 m radius in both directions. The steering system must be designed to prevent any contact between tyre and body or chassis.
+
+### Braking (Art. 43)
+
+- Vehicles must have two hydraulic braking systems, one per axle. Brakes that act on the tyres are not permitted.
+
+- The front brake(s) must have a single foot operated pedal controlling front wheel(s).
+
+- The rear brake(s) must have a single lever action attached to the steering wheel or a single pedal.
+
+- For each axle, a maximum of two master cylinders is allowed, but they must act on a single hydraulic circuit to ensure a proper balance between right and left wheel. One master cylinder per wheel is not allowed.
+
+- It must be possible to activate the two brake systems at the same time without taking either hand off the steering system.
+
+### Tyres Wheels Axles and Hubs (Art. 41)
+
+- Wheels located inside the vehicle body must be isolated from the Driver by a bulkhead and must not touch the chassis or body.
+
+- Any handling or manipulation of wheels by the Driver is forbidden from the moment the vehicle is at the starting line until it crosses the finish line.
+
+- All installations must be carried out in a way that there is no likelihood the wheels will touch other parts of the vehicle (i.e. cables, wires, hoses, and energy compartment components like batteries, etc.). These must be safely mounted/secured so that they cannot interfere with the turning wheel during driving and cause accidents.
+
+### Chassis Solidity - Rollbar (Art. 26)
+
+- must extend 50 mm around the driver's helmet when seated with safety belts fastened
+
+- Must extend beyond the drivers shoulder
+
+- Must withstand static load of 700 N applied in a vertical, horizontal, and or perpendicular direction without deforming in any directions
+
+### Propulsion (Art. 27)
+
+- Rigid bulkhead must isolate and seal the propulsion and energy storage systems from driver's compartment
+
+- If holes are made in the bulkhead to pass through wires or cables it is essential that the wires and cables are protected by a grommet or similar protective material to prevent chafing or damage. All gaps and holes must be filled.\\
+
+### Visibility (Art. 28)
+
+- The vehicle must be equipped with a rear-view mirror on each side of the vehicle, each with a minimum surface area of 2500 mm² (e.g. 50 mm x 50 mm). An electronic device may not replace a rear-view mirror.
+
+### Vehicle Access (Art. 30)
+
+- Vacate in 10 sec or less
+
+- The driver compartment must have a single opening mechanism per door, which must be easily and intuitively operable from both inside and outside the vehicle. The method of opening from the outside must be clearly marked by a red arrow and must not require any tools
+
+### Horn (Art. 31)
+
+- Each vehicle must be equipped with an electrically powered horn typically used in current automobiles. Bike or cycling horns are no longer permitted.
+
+- The horn must emit sound greater than 85 dBA when measured 4 meters in front of the operating vehicle. The horn must produce a continuous single tone sound when activated \-- chirping or siren like tones are not permitted.
+
+- The horn must be powered by the vehicle battery. The power consumed by the horn does not need to be measured by the Joulemeter
+
+### Clutch and Transmission (Art. 34)
+
+- For centrifugal/automatic clutches the starter motor speed must always be below the engagement speed of the clutch.
+
+- Guards for transmission chains and/or belts are mandatory
+
+### Exhaust (Art. 35)
+
+- The exhaust gases must be evacuated outside the vehicle body.
+
+- Exhaust pipes must not extend beyond the rear or the side of the vehicle body.
+
+- Exhaust pipes must be solid with no signs of fatigue or leaks.
+
+- Exhaust pipes must be appropriate for high temperatures.
+
+# Modifications on Ben and Justin's E90
+
+### Requirements
+
+- Keep same dimensions and same general shape
+
+- Need a spot for suspension and steering systems.
+
+- Rear will be kept the exact same
+
+### Rough Sketch 
+
+###  ![](media/image1.jpg){width="4.012957130358705in" height="2.34375in"}![](media/image2.png){width="3.5925010936132984in" height="2.3395614610673667in"}
+
+### Chassis Final Design 
+
+- 
+
+> ![](media/image3.jpg){width="6.5in" height="4.375in"}

@@ -1,0 +1,79 @@
+# Spring 2025
+
+## 4/26
+
+### Report:
+
+- Met to start assembling the chassis.
+
+- Sanded aluminum members to improve epoxy bond.
+
+### To do:
+
+- [[Matthew Shiley]{.underline}](mailto:mshiley1@swarthmore.edu): Talk to J about tapping bore holes: use bigger bolts? Use inserts? Just remake the members?
+
+  - Just use a longer bolt to go through the member with a nut on the end + epoxy?
+
+- Need another double-ended member
+
+- [[Nora Jiang]{.underline}](mailto:njiang1@swarthmore.edu): spec out new connectors for suspension (need longer tabs)
+
+  - Other option: just use existing long-tab members, drill holes
+
+  - Need to make FIVE more long-tab members for suspension
+
+  - Bring dremel for sanding inside of carbon fiber tubes
+
+- [[Alexander Vasquez-Jaffe]{.underline}](mailto:avasque1@swarthmore.edu): Get J to modify the other suspension
+
+### To get:
+
+- Roll of brown paper for protecting floor while epoxying
+
+- Can of compressed air
+
+- Clear tubs for organization of materials
+
+- Vacuum (handeld?)
+
+- Gojo!
+
+- N95 masks
+
+## 5/1
+
+### Report:
+
+- Noticed one of the old tubes of epoxy was left with the nozzle detached. \*NOTE: DO NOT NOZZLE WHEN STORING EPOXY
+
+- Nora reported she will probably working on HFCV over the summer.
+
+- Jano ordered 2'x2' carbon fiber sheet through OSE
+
+- Ideas:
+
+  - Centralize documentation for car design
+
+  - Standardize naming conventions, etc.
+
+### To do:
+
+- [[Matthew Shiley]{.underline}](mailto:mshiley1@swarthmore.edu): Talk to J about bolts/fittings
+
+- Clean up/organize HFCV room
+
+# Template
+
+## MM/DD
+
+### Report:
+
+- 
+
+### To do:
+
+- 
+
+### To get:
+
+- 

@@ -1,0 +1,1429 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>e90-final-report-chai-horvat-2024_ – My Website</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-d28d2a7313a3a3900bfc4b9b4bee8c45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">My Website</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2024 E90 work</li><li class="breadcrumb-item"><a href="../2024 E90 work/E90 Final Report Chai Horvat 2024_.html">E90 Final Report Chai Horvat 2024</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">2024 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Chassis Model</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Chassis Model/3D collar Large Wrapped with clevis Drawing v2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3D collar Large Wrapped with clevis Drawing v2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Chassis Model/CAR DIMS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CAR DIMS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Chassis Model/Chassis Drawn Design(1).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Drawn Design(1)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Chassis Model/Chassis Drawn Design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Drawn Design</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
+ <span class="menu-text">Fall 23 Prework</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Fall _23 Prework/E90 Project Proposal (Hydrogen Carr)_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Project Proposal (Hydrogen Carr)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Fall _23 Prework/E90TopicMemo_Chai_Horvat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90TopicMemo Chai Horvat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Fall _23 Prework/Prototype Rules - Hydrogen Carr.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Prototype Rules Hydrogen Carr</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">First Tension Test (3 8)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/First Tension Test (3-8)/Tension test notes_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tension test notes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Presentation materials (old)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Presentation materials (old)/E90 Mid-Semester Reivew.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Mid Semester Reivew</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Presentation materials (old)/Final Presentation Outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation Outline</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Presentation materials (old)/Mid Semester Review Presentation Outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mid Semester Review Presentation Outline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/Ben &amp; Justin E90 Time Log (Spring _24).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ben &amp; Justin E90 Time Log (Spring  24)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/E90 Final Report Chai Horvat 2024_.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">E90 Final Report Chai Horvat 2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 E90 work/E90 HFCV Final Presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 HFCV Final Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">2024 Summer Research</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 Summer Research/Chassis Sketches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Sketches</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 Summer Research/HFCV SummerPresentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 Summer Research/Summer 24 HFCV Final Report_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer 24 HFCV Final Report</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2024 Summer Research/Summer Notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer Notes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">2025 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Calculations turning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Calculations_ turning/Turning Rad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Turning Rad</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Designs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Brake</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Designs/Brake/Brake Stand Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Brake Stand Drawing v1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Designs/Brake/FINAL PEDAL DRAWING v3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FINAL PEDAL DRAWING v3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Designs/Brake/Pedal Stand Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pedal Stand Drawing v1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Suspension</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Designs/Suspension/Suspension Plate Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suspension Plate Drawing v1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Proposal</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Proposal/2025 Final Proposal -- Moran, Salas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025 Final Proposal Moran, Salas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Proposal/Project Proposal Memo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Proposal Memo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Proposal/Salas.Moran.Draft_Project_Proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Salas.Moran.Draft Project Proposal</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Req + constraints</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Req + constraints/Salas_Moran Requirements and Constraints.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Salas Moran Requirements and Constraints</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/E90 Mid-Semester Presentation (GS, MM).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Mid Semester Presentation (GS, MM)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/Final Presentation Draft.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation Draft</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/HFCV 2025 Final Report (E90).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV 2025 Final Report (E90)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 E90 work/HFCV To-Do List.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV To Do List</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+ <span class="menu-text">2025 Summer Research</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/HFCV Notes Nora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Notes Nora</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/HFCV Summer 2025 Sigma Xi Abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Summer 2025 Sigma Xi Abstract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/HFCV SummerPresentation_Jun25.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation Jun25</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/Linkage Fabrication Procedure - Shiley.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Linkage Fabrication Procedure Shiley</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/Matthew Shiley HFCV Summer 2025 Plan &amp; Notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matthew Shiley HFCV Summer 2025 Plan &amp; Notes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2025 Summer Research/Summer25_HFCV_FinalReport_Jiang.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer25 HFCV FinalReport Jiang</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+ <span class="menu-text">2026 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 E90 work/JanoKimaruE90_Report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JanoKimaruE90 Report</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 E90 work/Mid-Semester Presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mid Semester Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+ <span class="menu-text">2026 Shell Eco Marathon</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/2026 Shell Eco Marathon Debrief Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2026 Shell Eco Marathon Debrief Document</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/Fall 25 Budget HFCV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fall 25 Budget HFCV</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFCV Recruiting Round 2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Recruiting Round 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFCV Running Report Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Running Report Document</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFCV_ Freshman Interviews.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Freshman Interviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFCV_ Instuctions for 11_5_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Instuctions for 11 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFVC Indiana Logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFVC Indiana Logistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../2026 Shell Eco Marathon/HFVC Update Document_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFVC Update Document</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chassis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false">
+ <span class="menu-text">Drawings</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Chassis/Drawings/Carbon Fiber Sheet Dimensions and Quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Carbon Fiber Sheet Dimensions and Quantities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Chassis/Drawings/Parts Implementation Drawing ROUGH.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Parts Implementation Drawing ROUGH</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Chassis/Drawings/Rear Connector Dimensions and Quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rear Connector Dimensions and Quantities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Chassis/Drawings/Windshield Design ROUGH.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Windshield Design ROUGH</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+ <span class="menu-text">Editable Documents</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Editable Documents/HFCV ManufacturingNotes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV ManufacturingNotes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Editable Documents/HFCV PrelimInfo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV PrelimInfo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Editable Documents/HFCV_Goals and Expectations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Goals and Expectations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
+ <span class="menu-text">Fuel Cell Procedures</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Fuel Cell Procedures/Running Procedure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Running Procedure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Fuel Cell Procedures/Safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Safety</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true">
+ <span class="menu-text">Literature</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/Copy of HFCV ManufacturingNotes 8_8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copy of HFCV ManufacturingNotes 8 8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/HFCV PrelimInfo 9_16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV PrelimInfo 9 16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/HFCV SummerPresentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon Fiber.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon Fiber</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/Markforged Printer Instructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Markforged Printer Instructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Literature/New Drawing and Manufacturing progress.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">New Drawing and Manufacturing progress</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true">
+ <span class="menu-text">Safety</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../Safety/Hydrogen_Fuel_Cell_Safety_Procedure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hydrogen Fuel Cell Safety Procedure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2024 E90 work</li><li class="breadcrumb-item"><a href="../2024 E90 work/E90 Final Report Chai Horvat 2024_.html">E90 Final Report Chai Horvat 2024</a></li></ol></nav></header>
+
+
+
+
+<p>Shell Eco-Marathon Hydrogen Vehicle Revitalization Effort</p>
+<p>ENGR 090 Final Design Project</p>
+<p>Justin Chai ’24 &amp; Benjamin Horvat ’24<br>
+Advised By: Professor Carr Everbach</p>
+<p>Swarthmore College, Department of Engineering</p>
+<p>May 2024</p>
+<p><strong>Abstract</strong></p>
+<p>This E90 project was focused on designing, assessing, and fabricating components for a new hydrogen-powered vehicle aiming for participation in the Shell Eco-Marathon. By completing this project, we wanted to gain experience in the design of vehicles and vehicle systems with an energy-efficiency-focused design. This includes a reimagining of the materials and methods used to construct the chassis, building out calculation models to understand how design decisions, such as weight changes and material property shifts, affect the overall efficiency of the vehicle, and providing proof of concept vehicle elements like a new rear suspension and hydraulic braking system. Overall, the team concluded that the new chassis should be fabricated using wrapped carbon fiber members with a hybrid aluminum insert and carbon fiber reinforced 3D printed collar system for the joints. Alongside the successes on the chassis fabrication and rear suspension implementation on the current 2018 iteration of the Swarthmore hydrogen fuel cell vehicle, the team was also able to quantitatively conclude that weight reduction is the top priority in increasing our overall fuel efficiency and competitiveness. With all the successes of the E90 considered and the monumental amount of learning that resulted from it, we hope that our work attracts more participants to take part in the Shell Eco-Marathon hydrogen fuel cell vehicle project, and we hope to have laid a good foundation so that future teams can run the Swarthmore vehicle at the historic Indy 500 track.</p>
+<p><strong>Introduction</strong></p>
+<p><mark>The advent of climate change pressures innovators to explore alternative energy methods beyond conventional renewable sources. As the world grapples with the urgent need to curtail global carbon emissions, transportation becomes a focal point, demanding innovative approaches to increase EV battery efficiency and disrupt industry reliance on natural gas and petroleum. This transportation imperative is emphasized by the transportation sector’s substantial emission contribution</mark>, accounting for approximately one-fifth of global carbon dioxide emissions and over a quarter of annual GHG emissions in the United States. [10]</p>
+<p><mark>Hydrogen vehicles powered by fuel cells offer a promising avenue for revolutionizing industrial and commercial transportation systems. A transition to hydrogen technology holds particular importance for heavy-duty applications, such as freight trains, cargo ships, or cranes, and the importance of this transition is fortified by the recognition that heavy-duty vehicles, although constituting a small fraction of the global vehicle fleet, contribute significantly to greenhouse gas emissions—</mark>23% in the case of the US. [7][15] <mark>Moreover, the continued adoption of hydrogen as a fuel could make impressive strides in transportation due to hydrogen’s energy density and versatility, surpassing that of traditional lithium batteries or diesel fuel. This specific characteristic is especially critical for long-haul transportation, where the high energy demands and weight considerations pose significant implementation challenges for alternative energy options. [16]</mark></p>
+<p><mark>Taking into account the growing investment in hydrogen and the goals of a successful E90 design project, the Shell Eco-Marathon, which has been challenging students worldwide to design energy-efficient vehicles since 1985, inspired us to pursue a more thought-provoking multidisciplinary E90. [1] The competition seeks to provide students with hands-on experience in mechanical implementations of energy systems while contributing to the broader narrative of sustainable transportation. For this engineering design project, the team will focus on re-developing a Prototype-class hydrogen fuel cell vehicle (HFCV) aligned with the stringent rules of the Shell Eco-Marathon. In past years’ E90 projects, the HFCV teams have modified versions of the vehicle to barely pass the Shell Eco-Marathon’s strict testing standards. However, after reading reflections from past teams and speaking with faculty alongside a comparison of past Shell Eco-Marathon regulations and current rules, the current team decided that it would be best to rebuild the HFCV from the ground up, hoping that this redevelopment would provide a new foundation for future iterations of the vehicle. Especially in the context of Swarthmore, the team believes that the Shell Eco-Marathon provides a unique opportunity to use the many facets of engineering students are exposed to whether through the electrical wiring systems used for the car’s safety systems, structural engineering principles to test material properties and chassis designs, or even system responses through the redesign of both the braking and suspensions systems. The immense amount of specific design constraints and requirements detailed by the Shell Eco-Marathon’s annual regulations provide the perfect project for multiple types of engineering students in different specializations to come together for a bigger unified mission akin to actual engineering projects in a research or industry environment. The complete list of necessary updates and technical inspection requirements can be found in Appendix D. Moreover, this project’s interdisciplinary nature is only further emphasized by the continuously evolving nature of the rules which require redesigns and reassessments of engineering best practices every few years, prompting year-long team projects and multiple E90s. In completing this project, the current team will assess the current vehicle while laying the groundwork for a competition-ready vehicle in the years to come.</mark></p>
+<p><strong>Theory</strong></p>
+<p>In the past, Swarthmore College has participated in the Shell Eco-Marathon for multiple years. With the rules of the competition constantly evolving to improve safety and to reflect current vehicular challenges, the 2018 HFCV has reached the end of its competitive lifespan. Needed modifications of the existing design include but are not limited to, back suspension, hydraulic brakes, a new vehicle cowl, and many additional safety considerations. With a current base vehicle that has already been modified multiple times, ending in two recent failures, and given the number of changes needed to qualify for the competition, the team is moving forward with a new design from scratch in hopes of more successful participation in years to come. In the following paragraphs, the mechanics of key components of the HFCV will be discussed alongside their implications on the design process.</p>
+<p><strong>How Does a Hydrogen Fuel Cell Work</strong></p>
+<p>Understanding the mechanics of a hydrogen fuel cell vehicle provides insights into its potential as a sustainable transportation solution. At the heart of this technology lies the Proton Exchange Membrane Fuel Cell (PEMFC), a pivotal component in converting hydrogen into electricity. As pressurized hydrogen enters the anode side of the fuel cell, it undergoes a catalytic process, splitting into H+ ions and electrons (e-). Simultaneously, pressurized oxygen on the cathode side splits into oxygen atoms, each carrying a strong negative charge. The electrons released at the anode side then travel through an external circuit, generating an electric current that powers various components, ultimately returning to the cathode side. [5] Afterward, the hydrogen ions move through an electrolyte membrane that permits only positively charged ions to pass. As a result, on the cathode side, the oxygen atoms attract the H+ ions, forming water (H2O) as a byproduct of the reaction. Figure 1 depicts this hydrogen-to-electricity conversion process.<img src="media/image69.png" style="width:4.35938in;height:2.66641in"></p>
+<p>To harness the electricity produced, individual fuel cells are combined into a stack, connected by bipolar plates. This stack is the power source for the electric motor of the vehicle. The fuel cell stack sends electricity to the motor, allowing it to turn the wheels and propel the vehicle forward.[8] For reference, the fuel cell stack typically used for the Shell-Eco Marathon is the Horizon XP PEM fuel cell which features 30 fuel cells stacked together for an advertised max power of 1000W [17]. This stack implementation showcases the versatility of hydrogen fuel cell technology in delivering power for practical transportation needs as fuel cell units are incredibly small and can compound on top of one another to meet electricity demands compared to battery electric vehicles [18]. See Figure 2 for a diagram of how a fuel cell vehicle’s systems typically interact with each other to propel it forward. [4] The pros of hydrogen fuel cell vehicles are noteworthy. Beyond offering emission-free driving and quick refueling, these vehicles provide an extended range compared to some battery-powered counterparts. However, challenges persist, such as the limited hydrogen fueling infrastructure, high production costs of high-efficiency fuel cells, and unsustainable hydrogen production methods.<img src="media/image20.png" style="width:3.88021in;height:2.61887in"></p>
+<p><strong>Physics of Fuel-Efficient Design</strong></p>
+<p>The Shell Eco-Marathon presents a unique racing challenge that diverges from typical racing ideology: how can we create the most fuel-efficient vehicle while maintaining a high level of safety? Despite this challenge being the antithesis of a timed race, we can rely on designs and research on modern race cars to inform our design decisions. One of the most tried-and-true ways to increase fuel efficiency is by reducing weight. Modern-day race cars are composed mainly of carbon fiber systems that make the overall car as lightweight as possible. While the specifics of these racecar systems may not be as cost-effective for our purposes, we still considered our own versions to strive for a near minimum weight in race conditions. In addition, modern aerodynamic research has completely shifted the expectation of drag on race vehicles. provide some sort of baseline aerodynamic body design that can be worked on in the year following. Likely, the body design itself can be a future project as the aerodynamic considerations of the cowl and body shape could be a considerable undertaking, even using Singer Hall’s basement wind tunnel and the open-air wind tunnel in Singer Hall’s High Bay. Nonetheless, we must ensure that the new vehicle’s frame remains flexible while meeting safety requirements.</p>
+<p>As our focus will be primarily on mechanical systems attached to the chassis, such as the suspension and brakes, putting in the necessary effort to get all systems right is critical. Suspension systems play a role in both the stability and the energy return when the vehicle faces uneven conditions. Minimizing flex and fatigue in the chassis material will help receive more out of the suspension system and allow it to act more ideally. When designing a successful suspension and steering system, the vehicle must be able to adapt and respond to impulses while also maintaining the reaction of the vehicle to mitigate large amounts of energy loss in the process. With modern Shell-Eco Marathon rules now requiring suspension on the rear wheel, we have taken the opportunity to design the full system to our liking. Explored suspension systems were inspired by modern motorbikes’ telescopic fork suspension, modern Formula One vehicles’ wishbone system, and recumbent trike suspension. Regardless of methods, the interaction between the suspension system and the steering system must be considered to ensure safety and high performance. [11] [19]<img src="media/image34.png" style="width:4.88556in;height:1.68229in"></p>
+<p>Our current vehicle provides a great baseline design to move off of and improve. The single-wheel drive back with cambered wheels provides an excellent efficiency-centric design. New designs keep the general wheelbase design but make necessary adjustments for future developments. These future considerations include the location of the design’s center of gravity, the camber of the front wheels, the framing bracing design for load paths, and the widths of the chassis body. All of this is tantamount to a final fuel-efficient vehicle design. [3]</p>
+<p><strong>Strain and Stress on Tubes</strong></p>
+<p>When designing a new chassis, it is important to consider the mechanics behind creating a structure out of individual elements. The design process of a chassis is similar to a truss: place members in a manner that distributes force evenly and efficiently to the ground and/or wheels. Typically in truss design, the primary concern is failure in the member in tension or compression, and thus the members are sized accordingly. Additionally, there needs to be consideration of shear capacity when utilizing joinery such as pins. Both of these principles will be the key to our exploration and testing.</p>
+<p>The most simple model for how loads are distributed in a chassis would be to imagine the entire structure as a single block or beam with the wheels as pins or rollers. When we place a single load (in our case, the driver) at the midspan of the beam, the beam starts to angle in at the ends: pulling on the bottom fibers and compressing the top fibers to resist the downward load. This helps us understand the general tendency of members of a chassis with the top of the chassis primarily resisting tension and the bottom primarily acting in tension.</p>
+<p>If we consider individual joints, it is important to size hardware and materials properly to ensure that unplanned fractures do not occur and compromise the structural integrity of the chassis. When we load a member on a pin, we have to consider the shear capacity of both the material and the pin. Shear can be calculated with the equation below.</p>
+<p><span class="math inline">\(\tau = \frac{F}{A}\)</span></p>
+<p><strong>Eq 1.</strong> τ is the shear stress, F is the force applied, and A is the cross-sectional area in the plane resisting the force</p>
+<p>Additionally, the shear modulus can be calculated using the equation below.</p>
+<p><span class="math inline">\(G = \frac{F/A}{\bigtriangleup x/l} = \frac{Fl}{A \bigtriangleup x}\)</span></p>
+<p><strong>Eq 2.</strong> F is force applied, l is initial length (or thickness of medium), A is area of resisting shear, and Δx is displacement</p>
+<p>While the pinned joint assumptions are useful to get approximate loads, axial loads are not the only design consideration. Many of our joints will act more as fixed joints than pins as the chassis needs some form of rigidity to be functional. Whenever members are fixed in a truss structure, they often become statically indeterminate and take on internal moments. Furthermore, we will be climbing in and out of the chassis, and not all loads can be perfectly applied at joints, so we must also consider bending and moment capacities within members when they are loaded. The equation for deflection at the midspan when applying a force at the center of a simply supported beam is below.</p>
+<p><span class="math inline">\(D = \frac{PL^{3}}{48EI}\)</span></p>
+<p><strong>Eq 3.</strong> D is displacement, L is the length between the supports, E is Modulus of Elasticity, and I is the moment of inertia of the member</p>
+<p>When designing any structure, it is important to balance both overengineering and meeting the needed load. For that reason, structural design codes such as ASCE provide strict minimum factors of safety for structures to ensure that corners are not cut too tight in critical applications and put structures at risk but still provide a cost-effective baseline. In our case, there is no defined design code other than ensuring the safety of our driver in case of a rollover or collision. Designing with a minimum factor of safety of two to three will be critical for the overall weight and performance of the chassis. The primary driver load that we will be designing for is for a 125-200 lb driver, but we must keep in mind that other load scenarios may occur. For this reason, all aspects will be designed with a minimum factor of safety of 2 for a 200 lb driver.</p>
+<p><strong>Hydraulic Brakes 101</strong></p>
+<p>As stated in the Shell Eco-Marathon rules, the HFCV must have two hydraulic brakes acting on the two axles of the vehicle. The HFCV, with the driver inside of it, must also be able to come to a full stop with the front and rear brakes, individually, at a 20° incline. These rule changes emphasize the need for a safety update from the current Swarthmore HFCV, a vehicle that still uses mechanical rim brakes. In previous iterations of the vehicle, mechanical rim brakes were rational choices to hydraulic disc brakes because of their easy maintenance and installation, aerodynamic nature, and lighter weight. Furthermore, although the vehicle is incredibly unlikely to be running in wet conditions or high-speed scenarios, mechanical rim brakes are known for sporting reduced energy dissipation after unideal contact with the bike rim, either by slipping or rim deterioration from friction heating [20]. Comparatively, hydraulic disc brake systems are widely adopted in mountain bikes and cars due to their numerous advantages [3]; specifically, the ability to modulate the braking force with minimal effort is particularly advantageous. In cars, hydraulic brake systems provide efficient and reliable braking, contributing to safety and stability. See Figure 4 of the schematic of a disk brake system acting on a standard automobile. [9] <img src="media/image70.png" style="width:3.35118in;height:2.42194in"></p>
+<p>When the brake pedal is pressed, the master cylinder, acting as the heart of the system, initiates hydraulic pressure by compressing brake fluid [13]. This pressurized fluid is then transmitted through hoses and lines to the brake calipers, which house pistons. Disc brakes, such as the ones depicted in Figure 4, have a rotor attached to the wheel, and calipers with pistons that press against the rotor when hydraulic pressure is applied. This clamping generates friction, slowing or stopping the rotation of the wheel [12]. Because of this disc rotor clamping system, the bike’s braking system is now unattached to the condition of the bike rims, making it more reliable in unideal testing environments. Moreover, since a disc rotor system dissipates friction heating into the metallic disc rotor instead of the bike rim, disc brakes can allow for more severe levels of braking on downhill sections or sudden emergency stops [21]. Although the implementation and installation of these hydraulic brakes required the team to spend more time considering the interaction of the brake’s components with the HFCV’s chassis and wheel systems, the hydraulic brakes are a necessary component to enter the competition and to successfully race the vehicle safely and efficiently.</p>
+<p><strong>Methods</strong></p>
+<p><strong><mark>Design Constraints &amp; Goals</mark></strong></p>
+<p>As stated in the introduction, there are several design constraints from the Shell Eco-Marathon rulebook for the hydrogen fuel cell prototype vehicle class that we must adhere to to create a competition-ready vehicle. Because the main goal is to design the mechanical portions of the HFCV that could be time-consuming for future fuel cell teams, the following constraints were the main considerations for this E90 project.</p>
+<p>The current hydrogen fuel cell stack is a 2019 model of Horizon’s H-1000 Fuel Cell stack. [6] As this fuel cell was purchased to be an integral part of Swarthmore’s next iteration of the Shell Eco-Marathon HFCV, the fuel cell will likely not be replaced and will be a constraint on the potential power and energy that will power the vehicle. One thing to also consider is that the maximum weight of the vehicle without the driver is 140kg.</p>
+<p>Additionally, there are strict dimension requirements for the Eco-Marathon Prototype-class vehicle. The vehicle’s maximum height must be less than 1m, and its track width (measured from the midpoints of one tire to the opposite) must be a minimum of 0.5m. The wheelbase(length between a tire on one side to the tire in front/behind it) must be at least 1m. The ratio of the height and track width must be less than 1.25, and the vehicle’s width must not exceed 1.3m. The maximum vehicle length should not exceed 3.5m; furthermore, the dimensions cannot be achieved by appendages or singularities attached to the main chassis of the vehicle. Moreover, the HFCV must have front-wheel steering only. The turning radius must be 8 meters or less, and the external wheels of the vehicle must be able to follow a 90° arc of 8 meters in both left and right directions.</p>
+<p>As stated in the braking theory section, the HFCV must have two hydraulic braking systems, one per axle, and no brakes acting on the tires directly are permitted. Furthermore, the front brake(s) must be operated by a single foot pedal accessed by the driver, and the rear brake(s) must have a single lever action attached to the front brake pedal or the steering handles. These design constraints were explored and the groundwork for the hydraulic brakes was laid out. It is important to note that these constraints informed design decisions for this E90, but future HFCV projects will have to encompass all technical inspection design constraints listed in Appendix D.</p>
+<p>Finally, all design aspects of this project are intended to be flexible to work on both the current vehicle and the future vehicle. This ensures that all efforts can be tested and proven on the current vehicle before the next vehicle is designed to work with that system. To save time in getting competition-ready, we intend to transfer any part or subsystem of the original design where logical and possible within the current ruleset.</p>
+<p><strong>Benchmarking the Current Vehicle</strong></p>
+<p>During the beginning of the development process, we were eager to begin calculations on new design changes concerning chassis weight, fuel cell power, and the efficiency ratings of the current HFCV. As the Shell Eco-Marathon focuses on testing fuel efficiency in miles per cubic meter of hydrogen, we knew that we would want to start with an understanding of how new designs may affect efficiency before beginning any fabrication or materials research. However, we quickly learned that because previous teams focused on completing any design constraints hindering them from entering the current HFCV into the competition, they never had the opportunity to do any quantitative benchmarking of the vehicle’s capabilities. Thus, the team decided to begin the project by revitalizing the current HFCV into its former glory, making it operational and running for the first time in 4 years. <img src="media/image51.png" style="width:4.61573in;height:2.1875in"></p>
+<p>The original goals of the baseline tests were to establish a final weight of the current HFCV in its competition state, to test the front and rear mechanical rim brake responses, to find the maximum speed the current vehicle can traverse in outside and inside conditions, and to find the maximum power exerted by the 2019 Horizon H-1000 Fuel Cell. As seen in Figure 5, the current HFCV was weighed on a heavy-duty scale built for measuring the weight of concrete blocks. This was done after clearing old electrical wiring and cleaning up the floor of the car’s chassis. Additionally, a current sophomore, Jano Vasquez ’25, assisted in revitalizing the current HFCV by installing a steering column and swapping out denser springs into the front suspension system to realize additional final design changes from the 2018 team. The vehicle was then able to be weighed after being propped onto a basket on its center of gravity which was the location of its firewall. This weight of the square aluminum chassis can now be compared with other theoretical chassis built out of alternative materials such as round chrome-moly, round aluminum, wrapped carbon fiber tubes, and round stainless steel. <img src="media/image49.png" style="width:4.13559in;height:2.18612in"></p>
+<p>After spending time troubleshooting with the Horizon support team to acquire the properly updated controller systems to safely operate the 2019 Horizon H-1000 Fuel Cell, the vehicle’s motor could be tested for its capabilities. To quantitatively test the maximum speed and the maximum power of the vehicle, two cone-measuring tape setups were used. As seen in Figure 6, the outside setup comprised twenty tick marks that represented a total measured length of 20 feet and two small yellow cones that represented the start and endpoints. This was done on a level parking lot near Singer Hall at Swarthmore College. For the maximum speed test, we would start the HFCV on a straightaway from the starting cone about 200 feet away to give it time to ramp up its speed. As the vehicle began to pass the cones, we had a team member record the passage of the vehicle through the 20-foot cone setup. This was done 3-4 times to ensure that the fuel cell stack was amply warmed up and able to operate at its maximum capacity. Similarly to the outside setup, the inside tests were completed with an 18-foot cone setup and a 160-foot straightaway to ramp up speed. These tests were also done 4 times to ensure the fuel cell’s optimal performance. All tests were then analyzed in a software called Kinovea which converts 60 fps videos of objects into kinematic data. Though Kinovea is used for sports movement analysis, we were able to ascertain the average maximum velocity and acceleration of the current vehicle in two scenarios. Because we assumed that only frictional and drag forces are acting on the vehicle, we could conclude that any positive acceleration was caused by thrust provided by the fuel cell stack. As a result, we could use the maximum speed and acceleration data to also extrapolate the power rating of the Horizon fuel cell stack.</p>
+<p>However, in the act of running these speed tests to ascertain the fuel cell stack’s capabilities, the team had to readjust the rear wheel to stop potential startup errors from the car’s safety system. By adjusting the wheel, the rear wheel did not have enough clearance from the chassis to safely reattach the rear mechanical rim brake, so the team decided to remove the rear mechanical rim brake entirely from the current vehicle. The team concluded that current 2024 and 2025 Eco-Marathon rules dictated the replacement of the mechanical rim brakes with hydraulic disc brakes, and as a result, we did not move forward with testing the mechanical rim brake responses in the outside and inside scenarios as there was no need to do quantitative comparisons with the disc brakes in the future. <img src="media/image45.png" style="width:3.70978in;height:3.70978in"></p>
+<p><strong>Building a Fuel Efficiency Comparison &amp; Prediction Model</strong></p>
+<p>To provide more confidence for any design changes and their effects on the overall efficiency of the vehicle, the team pursued the construction of a fuel efficiency prediction model that could compare competition fuel efficiency ratings between different variations of the vehicle and the current vehicle. This was done to provide some quantitative estimate on what design changes would be most effective in the pursuit of higher efficiency. The first step of building out the fuel efficiency comparison model was laying out the constants that would remain the same for all calculations which include: the density of hydrogen, the density of unleaded gasoline, the density of regular air, the kinetic friction coefficient of asphalt and rubber, the net caloric value of hydrogen gas, and the net caloric value of unleaded gasoline. The density of unleaded gasoline and the net caloric value of hydrogen gas and unleaded gasoline are standardized by the Shell Eco-Marathon rules to simplify calculations for all teams’ simulations [19]. As a result, many variables can be interchanged in the fuel efficiency model to mimic different driving scenarios or vehicle configurations. On the fuel cell stack itself, we will be able to interchange the thermal-efficiency rating of the fuel cell, the percentage of hydrogen leakage in the hydrogen piping, and the maximum power that the hydrogen fuel cell can produce. Furthermore, we can also input the impact of mechanical design decisions through variables such as the estimated drag coefficient, the estimated frontal area of the vehicle, and most importantly, the weight of the vehicle with a driver in it. Finally, the distance traveled and the desired average speed can be changed depending on the driving scenario presented. These variables are changeable, but the purpose of the simulation is to use 4 full lengths of the Indy 500 racetrack because that is where the 2024 and 2025 races take place, and the average speed of 30 kph is a standard speed that the majority of competitors cap their motors to for optimal efficiency. All of these variables’ magnitudes and units for the presented simulations can be found in Table 1.</p>
+<p><span class="math inline">\(D = \frac{⍴v(Cd)A}{2}\)</span></p>
+<p><strong>Eq 4.</strong> The formula used for the drag forces. ⍴ is the density of air. V is the average velocity of the vehicle. C<sub>d</sub> is the coefficient of drag of the vehicle. A is the frontal area of the vehicle.</p>
+<p><span class="math inline">\(F = \mu N\)</span></p>
+<p><strong>Eq 5.</strong> The formula for the frictional forces. μ is the coefficient of kinetic friction. N is the normal force exerted on the car by the ground.</p>
+<p>The model’s calculations comprise two main sections: the energy consumption estimation and the fuel efficiency comparison. The energy consumption estimation uses the assumption that the only power needed by the fuel cell is energy to provide thrust to overcome drag and frictional forces acting on the car. After calculating the total energy consumed and the distance traveled by the HFCV to reach the desired average speed, the model calculates the drag forces and frictional forces as seen in equations 3 and 4. We then look to calculate the power loss equivalent of both the friction and drag forces by multiplying them by the average speed. This will allow us to calculate the cumulative energy lost by these forces throughout the simulated track runtime, and by adding the total energy lost by these forces with the energy used to ramp up to the average speed, we can conclusively calculate the total energy used by the fuel cell.</p>
+<p>Now, we can calculate the fuel efficiency of the vehicle by dividing the total energy required by the volume of hydrogen required to power the HFCV. This can be shown in Equation 5, and the calculation to find the total miles per cubic meter of hydrogen gas can be found in Equation 6.</p>
+<p><span class="math inline">\(V = \frac{E}{⍴*J}\)</span></p>
+<p><strong>Eq 6.</strong> The formula used to calculate the cubic meters of hydrogen gas needed. V is the volume of the gas needed. E is the total energy consumed by the vehicle. ⍴ is the density of hydrogen. J is the net caloric value of hydrogen.</p>
+<p><span class="math inline">\(E = \frac{D}{V}\)</span></p>
+<p><strong>Eq 7.</strong> The formula to calculate the fuel efficiency in competition units of miles per cubic meter of Hydrogen. D is the distance driven in miles. V is the cubic meters of hydrogen used.</p>
+<p><strong>Load Determination with SAP Model</strong></p>
+<p>To estimate the approximate forces that the members of a chassis will take on, we will treat the entire system as a truss with the primary purpose of supporting the load of the driver. In this model, wheels will act as our anchor, as in true application the loads that are being supported by the chassis frame must be supported from the ground. To avoid static indeterminacy in our model, we will treat the points where the wheel is likely to connect to the body as fixed attachment points with moment resistance. While we realize that the wheelbase likely has slight shifts in position depending on the load and the elongation or shortening of the individual members, we will treat these points in space to be entirely fixed so that we can develop a practical baseline. <img src="media/image54.png" style="width:4.35363in;height:2.3139in"></p>
+<p><strong>Tensile Testing with Carbon Fiber Members</strong></p>
+<p>Carbon fiber tubes have two common compositions: pultruded and wrapped. Pultruded carbon fiber is constructed by aligning individual strands of carbon fiber along the length of the member. In contrast, wrapped carbon fiber takes various strands of carbon fiber and stacks them on top of each other in layers at different angles to provide a more robust performance. The cost point for a wrapped carbon fiber tube is slightly higher than a pultruded carbon fiber tube, so the performance and other potential benefits against the cost will be weighed throughout our testing.</p>
+<p>Carbon fiber is a quasi-isotropic material, meaning that it has the same material properties in some directions while metals like aluminum are isotropic materials. While carbon fiber does act similarly to metal in tension, especially in tension, but compressive behavior of wrapped carbon fiber is difficult to characterize and often not ideal.</p>
+<p>When it comes to joining the carbon fiber members together, less traditional methods must be used to have high strength and reliable performance. To solve this problem, often epoxy and a connector are introduced. In our case, we decided to use a high-strength epoxy known as 3M DP420. When researching effective methods of composite joineries, we came across a study that indicated that adding glass beads helped boost epoxy performance. Other ways to boost epoxy performance include adding texture to the mating surfaces along with adding a key, or space for epoxy to fill in and increase shear interaction with itself rather than the surface.</p>
+<p>We hypothesized that 3D prints or aluminum would provide a good medium to fix a connection between tubes with aluminum. For aluminum, it seemed more natural and time-efficient to use a machined rod to provide a stronger backbone. On the other hand, the 3D print seemed more efficient to support the outside due to its flexibility. Due to the ability to print tensile collars with the carbon-fiber reinforced filament at the Makerspace through their MarkForged printer, the 3D prints offered an inexpensive method to produce comparative draft designs for the joint connections. As a result, we were able to properly test the effect of different carbon fiber joint connection configurations alongside the standardized insert method. For both of the reasons listed, our first draft designs used an aluminum backbone to connect to the inside and the second design used a 3D print collar to grab the outside of the tube. The CAD designs for the 3D printed designs and the technical drawings for the aluminum inserts can be found in Appendix A.</p>
+<p><strong>3-Point Beam Bending Analysis</strong></p>
+<p>For compression tests, similar production methods as the tensile units were used. Half of the tested collars were variations of 3D print collars and inserts made with the MarkForged printer at the maker space, and they were compared under a 3-point beam bending analysis with the aluminum inserts. The CAD designs and technical drawings can be found in Appendix B. When climbing in and out of the vehicle, often the midspan of a member may be loaded. In addition, the primary load of the passenger is loaded at the midspan of a member. For that reason, it is important to consider both moment capacity and deflection in members. To collect maximum moments, maximum loads, and maximum deflection, we set up the UTM to simulate a three-point bending test. We used a triangle pin and a round roller to support the underside of the joint with a roller on top to act as a point load. Below is a picture of the setup.</p>
+<p><img src="media/image56.png" style="width:4.90104in;height:2.93356in"></p>
+<p>We performed two rounds of testing with this general setup. The first round was to test similar designs of inserts for 3D prints and aluminum inserts. As we did not know what the failure mechanism would be on the carbon fiber rod, the first test served as both data collection and hypothesis testing of what material would fail shear, tension, or compression.</p>
+<p>The second round of testing was in cooperation with a variety of students enrolled in ENGR 014. This served as a test of the effects of changing the moment of inertia of the aluminum insert on both the failure mechanism and deflection along with baseline testing to confirm modulus of elasticity. These results can be found in Appendix E.</p>
+<p><strong>Designing a New Rear Suspension System</strong></p>
+<p>As the back suspension with constant contact is a new requirement for the competition, we decided to take inspiration from bike suspension and other single-wheel suspension systems for our design. We considered using a prefabricated fork suspension intended for the front of a mountain bike, however, we believed that this design would allow for wobble along the axis or uneven suspension response between the two sides. For this reason, we continued to search. We eventually settled on a lever arm suspension design similar to a motorbike. This type of suspension is active as soon as the driver sits in the vehicle and is intended for a drive wheel, so the parallels in function fit our vehicle model well. <img src="media/image28.png" style="width:4.41146in;height:3.35061in"></p>
+<p>As we had chrome moly pipe purchased, which is a very high strength-to-weight ratio steel alloy commonly used in bike and chassis construction, we decided to design our suspension to use this material. We tried to remain as minimalist as possible in our design to attempt to reduce weight while ensuring that the final product was both light and functional. We also opted to use a suspension spring with a spring constant of 450 lbs/in as we had it lying around.</p>
+<p><strong>Hydraulic Disc Brake Installation</strong></p>
+<p>As stated in the hydraulic disc brake theory section, the Shell Eco-Marathon requires us to install hydraulic disc brake systems to pass technical inspections moving forward. Because we had no prior experience with installing hydraulic brakes or using disc brakes, the team decided to buy a Shimano Deore RT66 6-Bolt 180mm disc rotor because of its ease of installation onto the current rear wheel hub motor. The hydraulic brake system was explored near the end of the E90 design timeline, so the team could not justify an exploration of a pedal brake system or learn how to bleed the hydraulic brake systems. As a result, the team decided to also purchase a Shimano Bl-Mt200(R) Hydraulic brake system that was pre-bled and made for down-hill trikes. With both of these quick purchases and installations, the team was able to effectively remove the rear mechanical rim brake and replace it with a handle-lever hydraulic disc brake system. Moreover, the installation of the disc brakes coincided with the implementation of the new rear suspension system, so there was necessary maneuvering to ensure that the disc brake calipers would have a stable place to be bolted to while having enough clearance to not fully interfere with free tire movement. As seen in Figure 9, an external piece was 3D printed to fit on top of the left lever arm of the suspension system. The piece was designed to extend off of the lever arm to allow the brake calipers to rest perpendicular to the disc rotor. <img src="media/image53.png" style="width:3.39063in;height:3.53618in"></p>
+<p>Finally, It is important to note that this hydraulic brake replacement only encompassed the rear wheel as the front two wheels featured a unique drum brake system that is built into the front tire hubs. We decided that replacing the drum brake system would require a complete replacement of the front two tires alongside a reinstallation of the front suspension system which was outside the time restraints of the project. Thus, the hydraulic brake exploration ended at the rear brake with additional documentation on how to fully install a disc brake system on all wheels.</p>
+<p><strong>Results &amp; Discussion</strong></p>
+<p><strong>Current Vehicle Benchmarks</strong></p>
+<p>To compare any new vehicle with the current vehicle, the current vehicle’s base capabilities were quantified. As the team hypothesized that weight reduction would be one of the most important aspects for increased efficiency for the new vehicle, Table 2 reveals the weight breakdown of the most important components of the current HFCV. The table reveals that there are two main components that future designs should address for weight reduction: the front suspension system and the chassis. The front suspension system is currently 19.11% of the current vehicle’s weight which is over 50% of the non-chassis related weight. Nonetheless, a redesign of the front suspension could be a viable next option for weight reduction after swapping out the square aluminum chassis with a different lighter-weight material. The table makes it clear that it is still a top priority that chassis weight needs to be reduced in a redesign of the vehicle. <img src="media/image33.png" style="width:4.45742in;height:3.27007in"><img src="media/image19.png" style="width:4.29814in;height:3.68133in"></p>
+<p>This leads us to Figure 10 which compares the total weight of a new chassis made of 4 different materials. We are comparing 4 different types of round tubing against the current 0.75-inch square tubing. The simulated weight comparisons reveal that our intuition of swapping the square tubes for round tubes already shaves off considerable weight, but the comparison also reveals that similar “lighter” metals like stainless steel and chrome moly also provide a rough 33% chassis weight reduction. We were then able to properly confirm that wrapped carbon fiber tubing would be a significant weight reducer, dropping the weight of a new chassis by almost 66%. This helped build even more confidence that if a new chassis could be made out of carbon fiber, the new vehicle could be incredibly effective. <img src="media/image25.png" style="width:4.41311in;height:2.59375in"></p>
+<p>Finally, both Tables 3 and 4 reveal the inside and outside top speeds of the current vehicle. We were able to find that the vehicle averages 6.53 meters per second in inside conditions and 9.57 meters per second in outside conditions. This roughly translates to 14.6 miles per hour and 21.1 miles per hour, respectively. This is likely due to the differing amount of grip the inside and outside flooring provided for the car to accelerate. We were also able to confirm using the acceleration data that the hydrogen fuel cell is outputting power slightly under its 1000W rating which provides a higher amount of confidence for continued usage of the 2019 fuel cell stack. We hope that with a weight reduction and newer tires, the top speed of the car should increase as we can capitalize on the fuel cell’s power. <img src="media/image31.png" style="width:4.54167in;height:2.38716in"></p>
+<p><strong>Comparisons of Design Choice Effects on Efficiency</strong></p>
+<p>One of the key first steps after benchmarking the car was determining the level of prioritization for each new design aspect of the vehicle. Because we wanted to make sure that the new vehicle would be competitive with other vehicles at the Shell Eco-Marathon in terms of fuel efficiency but also built promptly, we took it upon ourselves to determine the best design order using a fuel efficiency simulation of the current vehicle, as mentioned in the methods section. This design comparison in Figure 11 encompassed three design choices that we felt were immensely significant to vehicle mileage increases: weight reduction, drag reduction, and fuel cell efficiency. More importantly, Figure 11 reveals the expected mileage increase when combining design choices, providing ample support to determine the priority of each design choice.</p>
+<p><img src="media/image21.png" style="width:5.68229in;height:4.13167in"></p>
+<p>Figure 11 confirms the initial team hypothesis that weight reduction is the highest impact design change for the new HFCV. As the chassis weight reduction outperforms the frontal area reduction by 5 fold and the thermal efficiency by 5%, we also want to point out that a combination of weight reduction and any of the other design changes is expected to increase the mileage more than a combination of any other design change, and as weight is linked to our kinetic friction calculations and necessary thrust simulations, we can confidently conclude that weight reduction through a new chassis design or mechanical system design is one of the highest priority items for any new competition vehicle. However, to understand the multiplicative impact of weight reduction on other design factors as well as the design order, we continued to run simulations to compare absolute mileage increases, as found in Figure 12.</p>
+<p><img src="media/image52.png" style="width:5.88021in;height:4.14964in"></p>
+<p>The results from the simulation model as seen in Figure 12’s waterfall chart also display the compounding effect that a chassis weight reduction would have on the vehicle's overall fuel efficiency. While the weight reduction would yield great efficiency gains, the additional fuel efficiency gains that can be realized from other potential changes make the weight reduction design more enticing as a first focus point for an HFCV overhaul. We want to point out that the (1) +(2) synergized efficiency gain is nearly the same magnitude as the efficiency gain of just implementing (2) by itself. In this case, the pursuit of chassis weight reduction almost doubles the gains that can be realized by a frontal area decrease, and although the synergy effect is less prominent for a (1) +(3) implementation, an increase by 45 MPGe is still nearly a third of the increases realized by (3) alone. <img src="media/image55.png" style="width:4.59896in;height:3.36116in"></p>
+<p>Having concluded the importance and priority of weight reduction on the new vehicle with the fuel efficiency simulation, the team wanted to use the fuel efficiency model to do a final determination on the total impact of a chassis material change in the new vehicle. Taking into account no chassis design changes besides the materials of the members and the material weights found in Figure 10, the following Figure 13 reveals the expected absolute mileage increase of a new vehicle built out of 0.75-inch chrome moly, aluminum, wrapped carbon fiber, and stainless steel tubing. As expected, because the wrapped carbon fiber tubing would create the lightest weight new chassis, a new carbon fiber chassis was found to result in the biggest mileage increase as opposed to other materials. By reducing the weight of the current chassis by almost 60%, we could expect a fuel efficiency increase of more than 25%, purely driven by material changes. However, as carbon fiber was a foreign material to all team members and faculty advisors, it is important to note that the simulation served as theoretical evidence for a new chassis design. The next steps of figuring out carbon fiber structural properties, proper connection techniques, and its responses to different race-time stimuli would be extremely important.</p>
+<p><strong>SAP Model Analysis and Chassis Shape Analysis</strong><img src="media/image10.png" style="width:4.13559in;height:2.31085in"></p>
+<p>The loading that we used for our SAP model was a 200 lb driver sitting at the ideal location within the chassis. The “X” cross along the bottom indicates where the driver is seated. The load was simulated to be applied as 100 lbs on each member at the point that they crossed. The wheels’ attachment points are modeled as fixed supports with internal moment resistance. This assumption helps avoid static indeterminacy in the structure and is fairly accurate to the anticipated construction of the chassis with plate attachment points for suspension and wheels.<img src="media/image43.png" style="width:4.13559in;height:3.05122in"></p>
+<p>The maximum forces occurred close to the wheels, with a maximum tensile force of 90 lbs for the member extending from the bottom to the back wheel region and a maximum compressive force of 105 lbs for the member connecting from the top of the chassis down to the front wheel. All of these forces are mirrored on both sides.</p>
+<p>Maximum moments occur at the wheels and the center of gravity of the driver. The maximum positive moment that must be resisted is approximately 500 lb-in and the maximum negative moment is approximately 600 lb-in. Many of the vertically oriented members experience lower moments in comparison to the horizontal members.<img src="media/image16.png" style="width:4.33296in;height:2.20468in"></p>
+<p>The primary area of concern for displacement is the driver's compartment. This compartment may be required to have tubes stacked vertically on each other to adjust the moment of inertia of the members taking the load and thus decrease displacement. The value of the displacement was not considered relevant, as the material being used can only be modeled using the modulus of elasticity in a metal form.</p>
+<p>Given our SAP simulation values, all of our testing will have safety factors of a minimum 3 times the loading case. Therefore, we will only use joinery solutions that are able to withstand approximately 300 lbs in tension and compression along with joinery that can withstand moment forces of approximately 1800 lbs-in.</p>
+<p><strong>Comparisons of Carbon Fiber Configurations in Tension</strong></p>
+<p><img src="media/image46.png" style="width:7.16199in;height:2.49391in"></p>
+<p><img src="media/image9.png" style="width:7.09896in;height:2.47196in"></p>
+<p>At first glance, these load profiles may look strange to those who are familiar with stress/strain theory. Typically, the initial loading of a member results in a small toe region before moving into a straight elastic region, eventually starting to decrease in slope until it turns over and breaks. In our case, our holding method was crushing sloppy aluminum welds before it was able to properly transfer the forces to the test cylinder, hence why there is a similar hill at the start of all of the aluminum insert tests before the load profile looks typical. For this reason, we will assume that the linear region following the end of a hill and a turn back up is the elastic region for our epoxy. Overall, the ultimate load of the aluminum insert almost quadrupled the ultimate load of the 3D collar when isolating for epoxy bonds. The wrapped carbon fiber performed slightly better than pultruded, but had a similar magnitude of ultimate load when isolating the joinery method.</p>
+<p><img src="media/image17.png" style="width:7.46886in;height:2.58965in"></p>
+<p>For the 3D-printed collar with drilled holes and an M3 bolt running through it, we were able to survive the epoxy loss of strength and begin to load directly on the aluminum bolt once the epoxy let go. The sharp drops in the profile for the test on the right show points where the epoxy lets go, and then it proceeds to load directly onto the bolt itself. The somewhat flat behavior is due to mild crushing or internal shear of the carbon fiber tube, something that was also found to occur in a cylinder compression test. Below is an image of the shear region caused by the bolt. <img src="media/image29.png" style="width:2.60542in;height:2.70313in"></p>
+<p>This damage occurred at forces significantly greater than what the member will typically experience and resulted in a relatively small shear damage region (approximately 1-2 mm). We do not believe that this failure mode is threatening at reasonable load cases, but there should be an awareness of this phenomenon when using the 3D printed collars and the wrapped carbon fiber tube. This phenomenon will result in a larger displacement and compounding damage of the member over time, so the 3D-printed members may need to be replaced at some point in their lifespan. However, the cost and weight benefits outweigh the potential drawbacks in the long term.</p>
+<p><img src="media/image15.png" style="width:6.31771in;height:3.59132in"></p>
+<p>According to 3M performance sheets [14], the epoxy on our aluminum inserts was working within the estimated range for aluminum if we used a conservative estimate for the interaction area. Regardless, the length of interaction is also present in the area calculation, so any adjustment to the estimate would result in the same result. For our 3D prints, our performance was fairly similar to that of ABS. One thing that may be considered is an increased or more generous amount of epoxy applied, as this would only increase the range of displacement and thus the ultimate strength.</p>
+<p><strong>3-Point Beam Bending Results</strong> <img src="media/image50.png" style="width:4.15698in;height:2.58135in"></p>
+<p>Overall, the moment capacity tests proved the fragile nature of the 3D prints when loaded along the print layer. Additionally, the possibility of using a pultruded tube for the chassis was completely ruled out.</p>
+<p>The performance of the system of the aluminum insert and the wrapped carbon fiber was a staggering result. As the wall thickness of the large and small wrapped carbon fiber is only approximately .068” and .050” respectively, we observed large magnitudes of forces that were able to be supported before the aluminum was able to break through the side of the carbon fiber.</p>
+<p><img src="media/image11.png" style="width:5.63021in;height:3.42434in"></p>
+<p>Further evaluation was done in a joint effort with students in ENGR 014 to determine if the inner diameter of the aluminum inserts may be removed and to what extent to ensure that weight, strength, and safety are optimized in the key parts of our chassis. The study involved removing inner diameters of .325”, .45”, and .5” with the same span of loading and comparing them to the performance of a full aluminum insert. The maximum loadings of all inserts were above 1000 lbs, maintaining a large amount of buffer from the minimum moment load of 1800 lb-in and confirming that we can remove aluminum from the center of the inserts without compromising performance significantly. The conclusions and results from the experiments with one of the ENGR 014 students, Noah Edgar, can be found in Appendix E.</p>
+<p><strong>Chassis Joint Member Cost Analysis</strong></p>
+<p>Although the tensile and compressive properties of the aluminum inserts gave the team high confidence in their structural capabilities, the fabrication of a new chassis still requires analysis of the weight reduction effectiveness and subsequently the fuel efficiency gains from the different types of joint connectors. Table 7 reveals the weight effects of various combinations of carbon fiber members and the connection types.</p>
+<p><img src="media/image42.png" style="width:5.9503in;height:4.14063in"></p>
+<p>Notably, as expected, the 3D printed collar connectors are more than double the weight reduction effectiveness of the aluminum inserts for every combination of the prints and carbon fiber type. Furthermore, the following Table 8 displays the potential mileage gain for the combinations of different connection types. We noted that the potential fuel efficiency gains from the 3D printed connectors more than any aluminum insert counterpart quadrupled. Thus, the 3D printed collars should not be ruled out as a connection method as they are heavily beneficial towards the design goal of reducing weight and increasing the fuel efficiency of the overall vehicle. Even when considering the cost per pound saved and cost per mileage gained, two key metrics for the cost-effectiveness of the new vehicle, the 3D prints heavily outperformed the aluminum inserts. This led us to believe that a hybrid connection method would be the best line of action to pursue. We could take advantage of the structural strengths of the aluminum inserts and the weight reduction of the 3D-printed units. <img src="media/image48.png" style="width:2.70313in;height:2.6205in"></p>
+<p>Due to the heavy nature of using solid aluminum inserts, this weight reduction analysis and the resulting cost per pound saved analysis provided an incentive to pursue further experiments with an iteration of the aluminum insert with hollow centers along the length of the tube. This new iteration of the aluminum insert design can be seen in Figure 22.</p>
+<p><img src="media/image14.png" style="width:5.7106in;height:3.96775in"></p>
+<p><strong>Rear Suspension Forces and Design</strong><img src="media/image35.png" style="width:2.77083in;height:2.13506in"></p>
+<p>The primary design of a single-wheel lever suspension system consists of a few key connection points: a hinge off of the chassis, the connection of a spring to the arm and the chassis, and a connection of the wheel or wheel axle to the suspension. Measurements were gathered on the existing chassis and motor to ensure the suspension would work on the existing chassis and axle. Chrome moly weldable inserts and steel spherical rod ends were purchased to provide a pivot point where bolted onto the chassis in an aluminum holder. These rod ends are extremely smooth and provide flexibility in the attachment alignment.</p>
+<p>In the process of fabrication, there was a realization that the bolt for the suspension would not be able to be fed into the eye of the suspension in its current triangular shape. Additionally, the angles of coping for triangular shapes were extremely difficult to get to proper dimensions. There was a mid-fabrication audible to have a ladder support structure, adding only the weight of another 5” large diameter chrome moly tube. This change gives us the flexibility to use multiple springs on the lever arm while improving the design's maintenance and flexibility. Additionally, the attachment brackets intended to connect the rod end eyes of the suspension to the chassis were intended to be welded aluminum plates, but the large filler rod and the difficult heat behavior of small aluminum pieces proved to make the task impossibly difficult. J. Johnson was incremental in helping CNC the parts out of aluminum blocks to provide the design specifications without needing to weld.<img src="media/image26.png" style="width:2.261in;height:2.94009in"></p>
+<p>The existing 450 lb/in spring that was used in the current suspension is slightly too small for competition use. The current resting conditions for the chassis result in a large displacement of the spring, and the addition of a sitting driver causes the suspension to make contact with the chassis. Either adding another 450 lb/in spring to work in parallel or getting a stiffer spring may fix this issue. The future vehicle should attempt to provide a ladder attachment point on the top to match the design of the suspension.</p>
+<p><strong>Hydraulic Braking Installation</strong> <img src="media/image37.png" style="width:3.19271in;height:4.95752in"></p>
+<p>The hydraulic disc brake system was explored in the latter half of the project to provide documentation for future hydraulic brake installations. As laid out in the methods section for the setup of the brake installation and the necessary parts, the brakes were attached to the rear suspension system using a 3D printed attachment that nested the chydraulic brake calipers. As the disc could be easily mounted onto the rear electric motor wheel, the calipers were able to be mounted with an extremely tight tolerance. The final installation of the piece can be seen in Figure 24. Although quantitative response times were not collected to compare with the mechanical rim brakes, we noted that the current vehicle skidded less upon actioning the lever. Furthermore, future implementation of the hydraulic brakes should ensure that the hydraulic hosing is longer than the purchased 3 feet of housing as the team ran into difficulty during the installation due to its short nature. Nonetheless, the hydraulic brake system was quite easy to install, and we recommend further research to quantitatively assess the brakes while finding proper tires to put new disc brakes onto.</p>
+<p><strong>Conclusion &amp; Future Considerations</strong></p>
+<p>For the last eight months, the team was able to realize massive strides of progress in the effort to revitalize the Shell Eco-Marathon HFCV. Although the original aspirations of competing in the 2024 Shell Eco-Marathon were cut short in the early stages of the project due to the realization of the monumental amount of work needed, we were able to sift through past reports, begin research on foreign-to-Swarthmore topics like carbon fiber joinery, design new mechanical systems for the chassis, brakes, and suspension, and provide a strong playbook that outlines numerous interdisciplinary mini-projects. We also want to acknowledge the immense design project that the Shell Eco-Marathon is, and we have outlined in the following paragraphs our design struggles and our recommendations to circumvent those design struggles.</p>
+<p>Our final chassis system design is intended to use a combination of both 3D printed and aluminum joinery. The chassis is sectioned in two primary planes or rectangles stacked on each other to form a similar tub to the original design, with the aluminum insert design acting as a strong backbone in tension, compression, and moment resistance. The vertical and diagonal frames can be connected using 3D-printed collars and aluminum or steel bolts to connect and reinforce the relationship between the two planes. Given that the 3D print was able to resist well beyond the minimum design load, we are confident that the 3D prints will be able to reliably resist any compressive or tensile load that it may face. The combination of the two joinery strategies allows the user to get in and out of the vehicle without concern while still prioritizing the safety and weight of the vehicle.</p>
+<p>There are also multiple projects we believe should be progressing simultaneously to the chassis fabrication, albeit at a lower priority. Nonetheless, these systems are still integral to the vehicle’s efficiency and overall ability to pass the Eco-Marathon technical inspections. The highest priority after the chassis fabrication and front suspension changes is undoubtedly the inclusion of pedal brakes and a new steering system. Although progress was made in both systems through our work with the hydraulic brake trials on the current vehicle and the installation of a new steering column that barely passes the Shell Eco-Marathon rules on turning radius, both explorations in this E90 are rudimentary and far from the competition ready versions we envision in 1-2 years. The hydraulic braking system will need to be installed on the front wheels which require us to replace the drum brakes and the front trike tires completely, and because we need to have the front brakes readily accessible by a foot pedal, there will be necessary research on bleeding hydraulic brakes and how to action them with a pressure pedal. We envision that the research, design of the brake pedal, and implementation of the brakes onto new front wheels could be an entire side project that a student could take on. Additionally, the current steering column hosts an array of issues that can endanger the driveability of the HFCV. Because of its rigid design structure using two tie rods attached to the suspension kingpin attachments, any attempt to steer the vehicle while moving results in heavy vibrations throughout the vehicle. The steering column and handle essentially drag the wheels in a direction that makes the steering bumpy and unresponsive. A future project could focus on researching and designing a tire-knuckle system for the new front wheels, and both the braking team and steering team could work jointly on building a new tire hub system for the new vehicle.</p>
+<p>As we ran short on time, we were unable to redesign the front suspension for the vehicle. We believe that using the same principles from the current suspension design, commonly known as a wishbone suspension, we should be able to recreate the same system but lighter in chrome moly tubing or, at minimum, aluminum plating. Given that the front wheels also need hydraulic brakes, a full rehaul of the wheel and brake system must be considered as part of that design and thus the current design must be at least modified to meet competition standards. To fully consider and successfully design a solution would likely require a large amount of labor and trial and error to ensure that the next solution only improves and does not detract from overall performance. This would make a great E90 for anyone interested in suspension or braking design and response.</p>
+<p>Secondary to the mechanical systems of the car are the cowl and aerodynamic projects. Since the nature of the Shell-Eco Marathon competition is an efficiency project, the aerodynamic design of a cowl, floor, and external features is an integral nature of keeping the Swarthmore vehicle competitive. Although our project did not have time to explore the aerodynamics of the vehicle, we were able to gather information on the aerodynamic designs of other competition vehicles which could inform this project. As a big portion of the current project focuses on how to use carbon fiber members to fabricate the chassis, we would recommend the pursuit of a carbon fiber sheeted cowl. This cowl would likely be in the shape of an inverse airfoil to create downforce on the floor of the vehicle and allow us to deftly cut through the airflow in front of the vehicle. The aerodynamic project could also focus on working with the chassis fabrication team to decrease the frontal area and method for how the driver should be sitting as most competition vehicles now feature a reclined seating arrangement similar to Formula 1 race cars. As the floor design can also impact how the car grips the track and we are given strict guidelines on the dimension of the vehicle’s clearance from the ground, it could also be interesting for the aerodynamics team to work with the chassis fabrication team on the best designs for the floor.</p>
+<p>Finally, the safety and electrical systems are projects that we believe should be explored later in the vehicle development process. Besides more mechanical fabrications such as the roll cage, floor, crumple zone, and mandatory firewall, the electrical system requirements such as the emergency shutdown switch, hydrogen regulator, horn, and startup system are currently satisfied by the current electrical design of the vehicle. Key upgrades for the electrical system include a cleanup of the electrical system through rewiring, an addition of a supercapacitor to provide the necessary energy to jumpstart the vehicle when necessary, and a revamp of those ignition and safety buttons near the driver. Otherwise, the 2019 Horizon H-1000 Fuel Cell was still serviceable, and the electrical system worked mostly as intended. However, a side project that may be interesting for the electrical team during the beginning of the design of the new vehicle could be the redesign of the circuitry and the fuel-cell-hydrogen-tank rear area. We have sketched out a potential redesign in Appendix C.</p>
+<p>Ultimately, multiple possible projects can assist in making a new HFCV competition ready for the Shell Eco-Marathon, and although we have not highlighted all the design constraints that must be considered for the final vehicle, we have been able to chip away the information and research barrier that can hinder future teams from pursuing these projects. The full set of design constraints and additional minor rules can be found in Appendix D.</p>
+<p><strong>Acknowledgments</strong></p>
+<p>There are too many people to thank for their contribution and support. Whether you supported us through the construction of our experiments, brainstorming the new designs for the joint connectors and rear suspension, or hearing us discuss for hours why the fuel cell might not be working, we genuinely appreciate your thoughtfulness and assistance.</p>
+<p>Namely, we would love to thank the Engineering faculty and staff members who went above and beyond to ensure that we had the adequate resources and knowledge to tackle such an immense project. Our advisor, Professor Carr Everbach, was a champion of the project, and he gave us so many resources and ideas every week that we do not think the project would have turned out as well without him. J. Johnson had to endure the worst of it: hearing us throw out the most outrageous fabrication ideas in the beginning stages of the project, teaching us how to properly use a plethora of machine shop equipment, and pulling through for us and going the extra distance throughout the entire suspension and the joint connectors fabrication process. Truly, J does not deserve enough praise for all he does for everyone in the engineering department. Cassy Burnett was amazing for helping us get materials in such a timely fashion and sorting through shipping woes, and we wish her well in her retirement.</p>
+<p>Finally, we would love to thank Jano Vasquez-Jaffe who kept the project alive until both of us joined the project for our E90. He is truly passionate about the hydrogen fuel cell project, and we know that his curiosity and love for automobiles will engage new students in the competition for years to come. The project is in good hands with him and Professor Everbach at the helm. To all our friends and family as well, the journey to complete this project has been long, but it has been one of the most enriching engineering challenges both of us have had the opportunity to work on.</p>
+<p>Good luck to all future members of the Eco-Marathon team in making your dreams and ours a reality! Thank you all for your support!</p>
+<p><strong>Appendix</strong></p>
+<p><strong>Appendix A</strong></p>
+<p>Technical Drawings for Aluminum Inserts and 3D Printed Collars</p>
+<p><img src="media/image12.png" style="width:7in;height:2.43056in"></p>
+<p><strong>Notes:</strong> Base materials will consist of 1” wide and ¼” aluminum bars and 1” diameter aluminum rod. The length of the plate is not fixed and holes will vary depending on the connection intended (suspension vs.&nbsp;carbon fiber). Ensure to leave a minimum of ½” between edges of holes and the weld point to ease the pressure of clean welds with aluminum. The ends of aluminum inserts may also have center drilled holes with threading to allow Ts along the bottom of the chassis. In the event of corners, the weld points will be preferred to be on the narrow edges of the plate. The long sides on the plate should be always vertically oriented with the length of the plate running parallel to the side struts. At corners or major joints, this plate may have an L shape to allow the parallel orientation to remain consistent.</p>
+<p><img src="media/image4.png" style="width:6.17188in;height:2.64934in"></p>
+<p><strong>Notes:</strong> 3D-printed collars should have tab endings that are long enough to allow for rotation when attached to the plate. The intended interaction region is still 2”. The preferred print orientation is from the tab end to the tube rather than tube end to tab. The holes in the 3D print is intended to be an aluminum M3 bolt and nut and the larger connection point is intended to be a ⅜” bolt (terminating in a threaded aluminum insert on the bottom rail, serving likely only as a connection point on the top rail).</p>
+<p><strong>Appendix B</strong></p>
+<p>SAP Chassis Design + Specs</p>
+<p><img src="media/image8.png" style="width:7in;height:2.76389in"></p>
+<p>Center of joint distances with minimized chassis design. Cross members are intended to connect the two identical vertical trusses (not intended to flare out). Layout of the members should mimic the design of the SAP truss. The area directly under the driver’s center of gravity should have an additional support bar crossing the chassis. The smaller circle towards the rear of the vehicle is intended to be a cross member to support the suspension.</p>
+<p><strong>Appendix C</strong></p>
+<p>Compact Design of Fuel Cell &amp; Tank Area</p>
+<p><img src="media/image38.jpg" style="width:3.33854in;height:4.44387in"></p>
+<p>Above is a rough drawing of a more compact design for the back of the vehicle given the change in the drive wheel. The orientation of the fuel cell and mounting components below the suspension attachment (bold dots) can help decrease the chassis footprint and thus wasted space. The hydrogen canister is intended to be vertical instead of its current horizontal orientation. The drawing assumes that a 20” width of the vehicle is maintained for the future chassis. The side profile of this design is already accounted for in the revised chassis design.</p>
+<p><strong>Appendix D</strong></p>
+<p>Shell Eco-Marathon Technical Inspection Review [19]</p>
+<p><strong><u>Braking</u></strong></p>
+<p>- Vehicles must have two hydraulic braking systems, one per axle.</p>
+<p>- Front brake(s) must have a single foot-operated pedal controlling the front wheel(s).</p>
+<p>- Rear brake(s) must have a single lever action attached to the steering wheel or a single pedal.</p>
+<p>- Each brake system must keep the vehicle immobile on a 20% incline during inspection.</p>
+<p><strong><u>Turning Radius</u></strong></p>
+<p>- The external wheel of the vehicle must be able to follow a 90° arc of an 8 m radius in both directions.</p>
+<p>- The steering system must prevent any contact between tire and the body or chassis.</p>
+<p><strong><u>Dimensions</u></strong></p>
+<p>- Maximum vehicle height: Less than 1000 mm.</p>
+<p>- Minimum vehicle track width: At least 500 mm.</p>
+<p>- Maximum height divided by track width ratio: Less than 1.25.</p>
+<p>- Minimum wheelbase: At least 1000 mm.</p>
+<p>- Maximum total vehicle width: Not exceed 1300 mm.</p>
+<p>- Maximum total length: Not exceed 3500 mm.</p>
+<p>- Maximum vehicle weight (without the Driver): 140 kg.</p>
+<p><strong><u>Hydrogen Fuel Cell Vehicle</u></strong></p>
+<p><strong>- Fuel System</strong></p>
+<blockquote class="blockquote">
+<p>- Participants must provide a description and process flow diagram of the fuel supply system.</p>
+<p>- Fuel system must be easily accessible for inspection and measurements.</p>
+<p>- Fuel cell must run independently.</p>
+<p>- Hydrogen system design specifications.</p>
+</blockquote>
+<p><strong>- Hydrogen Cylinders</strong></p>
+<blockquote class="blockquote">
+<p>- Use of supplied hydrogen cylinders only.</p>
+<p>- Cylinder specifications for each region: Exchange cylinder ~ 152 bar 5.3” x 17.1” (135 mm x 434 mm), 8.6 lbs. (3.9 kg) Aluminum Cylinder ~ 68 bar 2.5” x 9.5” (63 mm x 241 mm)</p>
+</blockquote>
+<p><strong>- Ventilation</strong></p>
+<blockquote class="blockquote">
+<p>- Vehicle body must allow for specific ventilation points in the fuel cell and driver compartments.</p>
+<p>- Orifice size requirements: providing an orifice with a minimum opening of 500 mm². Another 500 mm² opening must be provided at the highest point of the driver compartment.</p>
+</blockquote>
+<p><strong>- Hydrogen Detector &amp; Emergency Shutdown</strong></p>
+<blockquote class="blockquote">
+<p>- Installation and specifications for hydrogen sensor: This hydrogen sensor must drive the emergency shutdown valve and relay mentioned below. The trip level of the hydrogen sensor must be tuned to 25% of the LEL (Lower Explosive Limit) of hydrogen, i.e.&nbsp;1% of hydrogen in air.</p>
+<p>- Operation and activation requirements for emergency shutdown valve and relay.</p>
+<p>- Testing protocols during inspections and runs: A test will be carried out during the technical inspection. For commercial Fuel Cells with integrated H2 detector it is still required to fit a H2 sensor as described above.</p>
+</blockquote>
+<p><strong>- Vehicle Design</strong></p>
+<p>- Vehicle bodies must not include any external appendages that might be dangerous to participants;</p>
+<p>this includes pointed parts of the vehicle body. Sharp points must have a radius of 50 mm or greater</p>
+<p>or be covered with foam or a deformable material.</p>
+<p>- All vehicles must have a solid floor and frame that prevent any part of the driver’s body from</p>
+<blockquote class="blockquote">
+<p>contacting the ground.</p>
+<p>- Prototype vehicles must have three or four running wheels that are in constant contact with</p>
+<p>the road.</p>
+</blockquote>
+<p><strong>Appendix E</strong></p>
+<p>E14 Report Results and Discussion (Noah Edgar ’25)</p>
+<p><img src="media/image13.jpg" style="width:3.23726in;height:4.18229in"><img src="media/image7.jpg" style="width:3.34375in;height:4.3341in"><img src="media/image2.jpg" style="width:3.34896in;height:4.34336in"><img src="media/image3.jpg" style="width:3.34818in;height:4.32516in"><img src="media/image5.jpg" style="width:3.19997in;height:4.15104in"><img src="media/image6.jpg" style="width:3.25154in;height:4.22396in"></p>
+<p><img src="media/image18.jpg" style="width:3.14314in;height:4.07813in"><img src="media/image1.jpg" style="width:3.22396in;height:4.17356in"></p>
+<p><strong>Resources</strong></p>
+<ol type="1">
+<li><p>“About Shell Eco-marathon.” <em>Shell Eco-marathon</em>, https://www.shellecomarathon.com/about.html. Accessed 15 December 2023.</p></li>
+<li><p>Constant, Charlie. “Suspension design: definitions and effects on vehicle behavior – Car Engineer.” <em>Car Engineer</em>, https://www.car-engineer.com/suspension-design-definitions-and-effects-on-vehicle-behavior/. Accessed 15 December 2023.</p></li>
+<li><p>Dille, Ian, and Step Guide. “How Your Hydraulic Disc Brakes Work | Bicycling.” <em>Bicycling Magazine</em>, 30 April 2010, https://www.bicycling.com/repair/a20019608/how-your-hydraulic-disc-brakes-work/. Accessed 15 December 2023.</p></li>
+<li><p>Di Paolo, M. “Hydrogen: What's the Attraction?” <em>EE Times Asia</em>, 16 March 2020, https://www.eetasia.com/hydrogen-whats-the-attraction/. Accessed 15 December 2023.</p></li>
+<li><p>Fulcher, Jonathan. “How do hydrogen fuel cells produce electricity?” <em>Lexology</em>, 23 July 2019, https://www.lexology.com/library/detail.aspx?g=af37fe74-4987-4116-a861-8d2ebc210138. Accessed 15 December 2023.</p></li>
+<li><p>“H-1000 XP Fuel Cell Stack.” <em>Horizon Educational</em>, https://www.horizoneducational.com/h-1000-xp-fuel-cell-stack/p1407. Accessed 15 December 2023.</p></li>
+<li><p>“Heavy-duty vehicles an ideal entry into hydrogen fuel cell use | ORNL.” <em>Oak Ridge National Laboratory</em>, 23 April 2021, https://www.ornl.gov/news/heavy-duty-vehicles-ideal-entry-hydrogen-fuel-cell-use. Accessed 15 December 2023.</p></li>
+<li><p>“How does a hydrogen vehicle work?” <em>Renault Group</em>, https://www.renaultgroup.com/en/news-on-air/news/how-does-a-hydrogen-vehicle-work/. Accessed 15 December 2023.</p></li>
+<li><p>“Hydraulic Braking | Definition, Components, Applications | by Vehicle Parts Supplier.” <em>Medium</em>, 12 February 2023, https://medium.com/<span class="citation" data-cites="andrew_85986/hydraulic-braking-definition-components-applications-cc96c500aaae">@andrew_85986/hydraulic-braking-definition-components-applications-cc96c500aaae</span>. Accessed 15 December 2023.</p></li>
+<li><p>“Hydrogen's Role in Transportation.” <em>Department of Energy</em>, 25 February 2022, https://www.energy.gov/eere/vehicles/articles/hydrogens-role-transportation. Accessed 15 December 2023.</p></li>
+<li><p>Mees, Huibert. “Our Suspension Engineer Explains Why This One Suspension Design Parameter Has Such A Huge Effect On Ride, Handling, And Body Roll.” <em>The Autopian</em>, 3 March 2023, https://www.theautopian.com/our-suspension-engineer-explains-why-this-one-suspension-design-parameter-has-such-a-huge-effect-on-ride-handling-and-body-roll/. Accessed 15 December 2023.</p></li>
+<li><p>Mercer, Liam. “How do hydraulic brakes work? | off-road.cc.” <em>off.road.cc</em>, 18 October 2023, https://off.road.cc/content/feature/how-do-hydraulic-brakes-work-13655. Accessed 15 December 2023.</p></li>
+<li><p>Muir, Alex. “How the braking system works.” <em>How a Car Works</em>, https://www.howacarworks.com/basics/how-the-braking-system-works. Accessed 15 December 2023.</p></li>
+<li><p>“Technical Data Sheet.” 3M, https://multimedia.3m.com/mws/media/2365743O/3M-Scotch-Weld-Epoxy-Adhesive-DP420-Black.pdf?pif=000004?locale=en-US. Accessed 9 May 2024.</p></li>
+<li><p>Ritchie, Hannah. “Cars, planes, trains: where do CO2 emissions from transport come from?” <em>Our World in Data</em>, 6 October 2020, https://ourworldindata.org/co2-emissions-from-transport. Accessed 15 December 2023.</p></li>
+<li><p>“Why Study Fuel Cells.” <em>Department of Energy</em>,</p></li>
+<li><p>“Horizon XP PEM Fuel Cell – 500W |,” <em>Horizon Fuel Cell</em>. Available: https://www.fuelcellearth.com/fuel-cell-products/horizon-xp-500w-pem-fuel-cell/. [Accessed: May 10, 2024]</p></li>
+<li><p>Office of Energy Efficiency &amp; Renewable Energy, “Fuel Cells,” <em>Energy.gov</em>. Available: https://www.energy.gov/eere/fuelcells/fuel-cells</p></li>
+<li><p>“Shell Eco-marathon Global Rules &amp; Regulations | Shell Eco-marathon,” <em>www.shellecomarathon.com</em>. Available: https://www.shellecomarathon.com/about/global-rules.html</p></li>
+<li><p>“Disc Brake vs Rim Brake: Is There A Clear Winner?,” <em>Disc Brake vs Rim Brake: Is There A Clear Winner?</em> Available: https://www.lightbicycle.com/newsletter/Disc-brake-vs-rim-brake--is-there-a-clear-winner-.html</p></li>
+<li><p>C. H. | T. Writer, “Disc brakes vs.&nbsp;rim brakes: Everything you need to know,” <em>Cyclist</em>, Nov.&nbsp;17, 2022. Available: https://www.cyclist.co.uk/buying-guides/disc-brakes-vs-rim-brakes-everything-you-need-to-know</p></li>
+</ol>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

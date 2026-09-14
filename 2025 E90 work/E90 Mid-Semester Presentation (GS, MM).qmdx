@@ -1,0 +1,219 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# E90 Project: Hydrogen Fuel Cell Vehicle
+
+# Gabriel Salas, Michael Moran
+
+# Table of Contents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Purpose and Background
+
+Goals and Current Work
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%290.png)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%291.png)
+
+:::
+
+::: {.column width="50%"}
+
+Requirements and Constraints
+
+Next Steps
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%292.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%293.jpg)
+
+:::
+
+::::
+
+# PURPOSE
+
+The goal is to continue the work of past senior classes as well as research done by underclassmen\.
+
+Deep interest in motosport\, vehicle development\, and the search for alternative fuel sources
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%294.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%295.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%296.jpg)
+
+# REQUIREMENTS & CONSTRAINTS
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::
+
+::: {.column width="50%"}
+
+:::
+
+::::
+
+# CURRENT WORK
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%297.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+Suspension
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%298.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%299.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2910.png)
+
+:::
+
+::::
+
+# CURRENT WORK (cont.)
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2911.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+Brakes
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2912.png)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2913.jpg)
+
+:::
+
+::::
+
+# CURRENT WORK (cont.)
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2914.png)
+
+:::
+
+::: {.column width="33%"}
+
+Steering: Rack \+ pinion
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2915.png)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2916.png)
+
+__Rack \+ pinion support __  __inspiration__  __: __  _[Link\_Image](https://www.renouffitnessequipment.com.au/product/functional-trainer-smith-machine-3/)_  _ _
+
+:::
+
+::::
+
+# CURRENT WORK (cont.)
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2917.png)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2918.png)
+
+:::
+
+::: {.column width="33%"}
+
+Steering Wheel: Quick Release
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2919.png)
+
+:::
+
+::::
+
+# NEXT STEPS
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+Finish brake system
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2920.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2921.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2922.jpg)
+
+Finish Suspencion
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2923.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2924.jpg)
+
+![](img%5CE90%20Mid-Semester%20Presentation%20%28GS%2C%20MM%2925.jpg)
+
+Fit Rack & Pinion System \+ Steering Wheel
+
+Modify Power into Pedal
+
+:::
+
+::::
+
+# Questions?
+
+Thank You
+

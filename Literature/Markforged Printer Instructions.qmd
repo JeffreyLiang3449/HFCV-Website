@@ -1,0 +1,24 @@
+‭Steps to use markforged‬
+
+    ‭1.‬ ‭Export from fusion360 what you want to be printed in an‬‭STL file‬
+                       ‭a.‬ ‭Email it to yourself‬
+     ‭2.‬ ‭Login to makerspace desktop computer‬
+      ‭3.‬ ‭Use an online program called eiger.io‬
+                        ‭a.‬ ‭Ask Josh to login if not already logged in‬
+       ‭4.‬ ‭Import into eiger.io the stl file‬
+        ‭5.‬ ‭Position object by clicking on it‬
+                         ‭a.‬ ‭It helps to have threads on z axis‬
+         ‭6.‬ ‭Material is onyx‬
+                          ‭a.‬ ‭No reinforcement necessary unless object is a wonky shape‬
+          ‭7.‬ ‭Export Build‬
+           ‭8.‬ ‭Put that file onto flash drive‬
+            ‭9.‬ ‭Stick flash drive into printer‬
+             ‭10.‬‭Hit print from storage‬
+              ‭11.‬‭Make sure it runs a purge line (if necessary)‬
+               ‭12.‬‭Make sure print first layer correctly‬
+                           ‭a.‬ ‭Filament is expensive, do not want to waste‬
+
+‭Other Notes‬
+    ‭1.‬ ‭Run out? Ask Josh to order‬
+     ‭2.‬ ‭Replace Filament/Service printer follow instructions on printer itself‬
+

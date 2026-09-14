@@ -1,0 +1,21 @@
+**Pressure: 6.5-8.0 psi**
+
+**1A. Slide hydrogen tank into in car container**
+
+**1B. Screw into regulator, might need to fiddle with alignment should be very easy to screw in, left handed nut, tighten with wrench but don't over-tighten. Insert the tip all the way into the tank knob before tightening the screw, to avoid unnecessary leaks.**
+
+**2. Using the regulator: loose regulator, valve is closed, and if the regulator is tight, the valve is open for hydrogen to flow through the tube.**
+
+**0-4000psi gauge is hydrogen gas flowing into regulator should be around 1500**
+
+**0-30psi gauge is hydrogen gas flowing out of regulator should be around 16-18**
+
+**3. Turn the knob on the battery to set the voltage to 12 V, then connect the red and the ground wires to the specific wires( make sure that wires do not touch each other/metal surfaces) which are connected to the overall car circuits. After the connections, turn on the dc amps button, which indicates that power is now running through the circuits.**
+
+**3B. Turn on H2 power and output power (flick switch up) on control panel to begin flow of hydrogen and start fuel cell and motor**
+
+**4. After turning on the emergency switch, we also need to press the re-set button which enables in turning on the entire circuit systems in the car, (i.e: opening the hydrogen valves, and power-flow to circuits)**
+
+**-before hitting reset button, turn the closed emergency button to reopen,**
+
+**-After the reset button is pressed while the switch is turned on, pressing the reset button again will have no effect towards the power flow in the system.**

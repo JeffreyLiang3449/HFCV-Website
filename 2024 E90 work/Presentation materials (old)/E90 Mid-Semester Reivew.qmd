@@ -1,0 +1,552 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# Hydrogen 
+Car    
+Renewal
+
+# Justin Chai and Ben Horvat
+Advisor: Prof. Everbach
+Swarthmore College E90
+Spring 2024
+
+![](img%5CE90%20Mid-Semester%20Reivew0.png)
+
+::: {.notes}
+
+JC add advisor
+
+:::
+
+# 06
+
+# 05
+
+# 03
+
+# 04
+
+# 02
+
+# 01
+
+# Presentation Outline
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Shell Eco-Marathon/ Previous Projects
+
+# Progress
+
+:::
+
+::: {.column width="33%"}
+
+# Struggles
+
+# Existing Conditions/ Motivation
+
+:::
+
+::: {.column width="33%"}
+
+# Relevant Theory
+
+# Future Plans
+
+:::
+
+::::
+
+::: {.notes}
+
+JC
+Shell and existing -> 2 minutes each
+Relevant theory and progress -> ~3 mins each
+Struggles and future plan-> ~1 min each
+
+
+:::
+
+# Shell Eco-Marathon
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew1.png)
+
+# Worldwide Engineering Competition for Energy Efficiency and Low Carbon Transportation Solutions! 
+NA: Indianapolis Motor Speedway
+Like the less fast innovation F1
+Multiple Categories: Prototype and Urban
+Different Powertrain Systems: Hydrogen, Combustion, Battery EVs
+
+![](img%5CE90%20Mid-Semester%20Reivew2.png)
+
+:::
+
+::::
+
+::: {.notes}
+
+JC:  What is the shell eco marathon(specifically for hydrogen fuel cell!) Motivation and cool opportunities
+Pedagogical benefits of the shell eco marathon ADD WAY MORE REASONS FOR THE INTERDISCIPLINARY NATURE OF THE PROJECT
+
+:::
+
+# Technical Inspections
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew3.png)
+
+:::
+
+::: {.column width="50%"}
+
+# BEFORE RACING, need to pass the 11 rounds of testing -> lots of design constraints:
+Turning radius
+Dimensions of car
+Hydrogen FC integration
+Braking tests at different intensity
+Safety/Visibility of driver
+
+:::
+
+::::
+
+::: {.notes}
+
+JC:  What is the shell eco marathon(specifically for hydrogen fuel cell!) Motivation and cool opportunities
+JUMP INTO HOW THE INTERDISCPLINARY ASPECTS
+
+:::
+
+# Focused Design Constraints
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# -
+
+# Size Regulation
+
+:::
+
+::: {.column width="33%"}
+
+# Front and back suspension
+All hydraulic brakes
+Firewall between driver and engine
+Proper electrical harnessing
+
+# Safety Regulation
+
+:::
+
+::: {.column width="33%"}
+
+# Performance Regulation
+
+# Turning Radius of 
+Passing __ degree brake test
+
+:::
+
+::::
+
+::: {.notes}
+
+JC-> Design constraints listed in our proposal and things we are most concerned by 
+
+:::
+
+# Prior Vehicles and Past Troubles
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew4.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew5.jpg)
+
+_2018 Front Suspension_
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew6.png)
+
+<span style="color:#CCCCCC">2015 Competition Team</span>
+
+![](img%5CE90%20Mid-Semester%20Reivew7.png)
+
+<span style="color:#CCCCCC">2012 \- Original Chassis Construction</span>
+
+:::
+
+::::
+
+::: {.notes}
+
+BH -> i’ll add pics if needed (by sunday/monday)
+
+:::
+
+# Motivations for an Overhaul
+
+![](img%5CE90%20Mid-Semester%20Reivew8.jpg)
+
+| Outdated Chassis Model | Current chassis was made in ‘13 <br />No aerodynamic considerations<br />New size requirements |
+| :-: | :-: |
+| Hydraulic Brakes | Hydraulic disk-pad brakes are standardized and required  |
+| Outdated Materials | Aluminum chassis adds unnecessary weight and is restricting performance |
+| New front and rear suspension  | Front suspension is hefty and complicates steering<br />No rear suspension system |
+| Steering and Driver Safety Systems | Steering columns need to be redesigned for turning radius requirements<br />Safety electronics need an update |
+| Fuel Cell Woes | Current FC is inconsistent and needs to be assessed for further use |
+
+![](img%5CE90%20Mid-Semester%20Reivew9.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew10.jpg)
+
+::: {.notes}
+
+BH-> Ben will probably mention a bunch of stuff concerning the problems with the old car -> this is to connect the new design constraints, the trends for redesigns of the vehicles, and parts of the old car that needed to be rebuilt
+-> ALSO ADD Motivations for learning how to design a vehicle, 3D printing + machining, how to design for energy efficiency -> where the world is going sustainability wise
+
+:::
+
+# 01
+
+# Main Goals:
+How do we get more efficient?
+
+![](img%5CE90%20Mid-Semester%20Reivew11.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew12.jpg)
+
+_Work cut out for us?_
+
+![](img%5CE90%20Mid-Semester%20Reivew13.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew14.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew15.png)
+
+::: {.notes}
+
+-> speaking JC
+
+:::
+
+# Fuel Cell Renewal & Feasibility Assessment
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Current FC woes
+
+# H2 gas moves along a membrane where it merges with O2 gas to make water and electricity
+
+An electric motor powers the vehicle -> 0 emission kinematic propulsion!
+
+# FC was bought in ‘19 and has had multiple start-up issues
+
+Possible need for FC rehydration & system renewals
+
+No benchmarking of potential power
+
+# How does a HFCV work?
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew16.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew17.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew18.png)
+
+:::
+
+::::
+
+::: {.notes}
+
+JC [how a hydrogen fuel cell works + necessary checks/troubleshooting with the fuel cell engine works]
+
+TALK MORE ABT THE SUSTAINABILITY ASPECTS AND ELECTRONICS 
+
+:::
+
+# Fuel Efficiency is King!
+
+# Shell Eco-Marathon measures the amount of hydrogen used to drive 3.9kms in less than 35 mins.
+
+# Weight kills efficiency
+
+# Our fuel efficiency model estimates ~3-4 MPGe gained per pound reduced.
+
+# 240+ MPG Gained
+
+# A potential >20% fuel efficiency increase by swapping to lighter material!
+
+::: {.notes}
+
+JC [how fuel efficiency is calculated for the competition and how the model works + future plans for complications if needed] -> would be a good place to link the fuel efficiency calculations to the material changes/joint change [maybe next slide in next iteration]
+
+:::
+
+# Suspension
+
+# CF Tube Δ
+
+# Material Impacts
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew19.png)
+
+:::
+
+::: {.column width="33%"}
+
+_Overall Weight \(Including Driver\):_  __ __
+
+_243 ➔ 166 lbs \(31% Decrease\)_
+
+_Fuel Efficiency:_  __ __
+
+_1288➔ 1598MPGe \(24% Increase\)_
+
+_Overall Weight:_  __ __
+
+_25 ➔ ~12 lbs \(With Added Back\)_
+
+:::
+
+::::
+
+::: {.notes}
+
+BH
+
+:::
+
+# 2:
+
+# New Chassis & Materials Research
+
+![](img%5CE90%20Mid-Semester%20Reivew20.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew21.png)
+
+::: {.notes}
+
+BH - Insert SAP model
+
+
+:::
+
+# Connection Methods: Carbon Fiber Tubes
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Benefits:
+Reliable material strength 
+Machining Constraints
+
+Drawbacks:
+Heavier
+Welding is difficult
+
+
+Potential Additional Strength:
+Cable/String through rod
+
+# Aluminum Inserts
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew22.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew23.png)
+
+![](img%5CE90%20Mid-Semester%20Reivew24.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew25.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+# 3D Printed Collars
+
+# Benefits:
+Lightweight and strong
+Flexible in design
+
+Drawbacks:
+Layer Shear Failure
+Misprints
+
+
+Potential Additional Strength:
+Screw Connections
+
+:::
+
+::::
+
+::: {.notes}
+
+BH
+
+:::
+
+# Tension Tests
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew26.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew27.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew28.png)
+
+:::
+
+::::
+
+::: {.notes}
+
+BH - 2 versions of carbon fiber - similar results with just epoxy. More confidence in the wrapped CF with how it is made. Approximately 400 lbs to rip out metal insert, initially 100-200 for plastic -> at least 400 lbs with hardware. Sloppy weld
+
+:::
+
+# Tension Test Results + Cost Analysis
+
+_Maximum Simulated Loads \(200 lb Driver\): 300 lbs \(T\) & 540 lbs _  _\(C\)_
+
+_Design Goals: 1000 lbs \(T\) & 2000 lbs _  _\(C\)_
+
+|  | SW (.5” D) | LW (.75” D) | Average (Wrapped) |
+| :-: | :-: | :-: | :-: |
+| Maximum (lbs) | 561.1629 | 596.35785 | 578.760375 |
+| Modulus (lbs/in) | 9425 | 9297.626316 | 9361.313158 |
+| Est. Displacement before Fail | 0.05 | 0.055 | 0.055 |
+
+::: {.notes}
+
+TALK ABOUT WHAT WE THINK THIS MEANS FOR MATERIALS CHOICES (what we’d recommend) + what future tests may reveal
+
+Test results -> BH , Cost stuff -> BH
+
+:::
+
+# Failures so far
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew29.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew30.jpg)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CE90%20Mid-Semester%20Reivew31.jpg)
+
+![](img%5CE90%20Mid-Semester%20Reivew32.jpg)
+
+:::
+
+::::
+
+::: {.notes}
+
+JC -> pictures of failed prints, failures from the fuel cell troubleshoots, testing moments
+
+:::
+
+# Timeline and Next Steps
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+_Conduct joint compression test/ 2nd round of material iterations_
+
+:::
+
+::: {.column width="33%"}
+
+_CAD design for back and front suspension of current vehicle_
+
+_Fabricate suspensions from Chrome Moly tube_
+
+_Installation \+ _  _Adjustments_  _ to Previous Vehicle_
+
+_Practice Presentations \+ Final Report_
+
+:::
+
+::: {.column width="33%"}
+
+_Final Joinery Designs_
+
+:::
+
+::::
+
+::: {.notes}
+
+BH
+
+:::
+
+# Thanks!
+
+# Do you have any questions?
+
+_Please keep this slide for attribution_
+

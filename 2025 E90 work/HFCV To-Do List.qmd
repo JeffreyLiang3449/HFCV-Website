@@ -1,0 +1,31 @@
+Documents highlight necessary things/goals to do for the 2025 E90 project. This is an ongoing document, feel free to add or cross out things.
+
+This is based on notes given by Ben's and Justin's report from 2024 and also Nora's work from the 2024 summer.
+
+Overall Vehicle
+
+- Reconstruct chassis using carbon fiber and 3D printed joints
+
+- Improve the wiring of the vehicle
+
+Main Components
+
+- Integrate new design for steering (given by Nora)
+
+  - Fit back breaking to new steering wheel or re-design braking system
+
+- Fit new front wheels with the hydraulic braking system
+
+- Integrate new front wheel suspension system
+
+- Develop pedal system for hydraulic breaking
+
+- Develop new front crumple component
+
+- Integrate control panel (either in steering wheel or beside driver, somewhere accessible)
+
+- Develop new horn system
+
+- Develop new carbon fiber vehicle cowl
+
+- Re-design roll cage (if time permits)

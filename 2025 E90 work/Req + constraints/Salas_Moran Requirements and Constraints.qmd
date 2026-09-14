@@ -1,0 +1,81 @@
+[[Gabriel Salas]{.underline}](mailto:gsalas1@swarthmore.edu)
+
+[[Michael Moran Bojorquez]{.underline}](mailto:mmoranb1@swarthmore.edu)
+
+Advisor: [[Carr Everbach]{.underline}](mailto:ceverba1@swarthmore.edu)
+
+November 01, 2024
+
+**Requirements and Constraints: Hydrogen Car**
+
+**Constraints:**
+
+- Final design, assembly, and tests must be done by the end of April 2025
+
+- The vehicle must be Hydrogen powered
+
+- Vehicle must weigh less than 300 lbs
+
+- Must fit a driver of 5'5"" or shorter
+
+- Must be able to support an individual of 130 lbs or less
+
+- Vehicle must have a horn
+
+**Requirements for Success of project:**
+
+- Vehicle must be able to complete a lap around singer
+
+- Suspension, steering wheel, new frame, must be attached to the vehicle
+
+- Meet safety requirements for the Shell competition standards
+
+- Wheels must be able to turn 90 degrees with an 8 meter radius in left/right directions.
+
+- If the vehicle goes over a bump suspension integrity should hold the frame in place without "smashing" the vehicle down.
+
+- Both rear and front brakes must work
+
+**Plan Evaluation of Prototypes:**
+
+The goal is for the vehicle to be able to complete a lap around the outside of Singer hall. To determine if this was accomplished, multiple test runs will be conducted noting whether the vehicle completed the run or if it failed and at what point failed. The vehicle should have at least a 90% success rate. During these test runs, the vehicle will be carefully observed so that the bottom does not touch the floor anytime throughout the run. This will be the test for whether the suspension was successful or not. The steering of the vehicle will also be tested. Using the halls of Singer it will be noted whether the vehicle is able to complete a turn, its speed, and its turning ratio. This goal will be considered a success if the vehicle is able to turn within the 10m radius outlined in the competition regulations below. Finally, the vehicle should be comfortable to drive. This is tougher to quantify, but the goal is for the vehicle to be more comfortable than last year\'s version of it. To determine if this goal is accomplished we will ask the test drivers from last year to once again drive the vehicle and provide feedback on what they think improved.
+
+*Summary / Overview:*
+
+- Run multiple trial laps around Singer
+
+  - See if vehicle is able to complete the lap without damage
+
+  - Make necessary adjustments
+
+  - Bumps around the path surrounding Singer will allow for testing suspension
+
+    - If the bottom of the car touches the floor the suspension fails the test
+
+- Test rigidity of suspension and wheels
+
+  - Apply decent force to make sure neither part wiggles too much or detaches from frame
+
+- Software simulations to test frame chassis force(s) distribution
+
+- Build a design with a goal in mind, assemble it, and check if it works
+
+  - Minimum of 3 designs before choosing final product
+
+  - Each design must address a different target/issue
+
+  - Try to aim for simple design that meets requirements
+
+- Communicate with J from the machine shop to get advice given his knowledge on ATV vehicle assembly.
+
+- Steering wheel must be able to attach to suspension, frame, and wheels
+
+  - Comfortability of use is a must given the limited space available to the driver.
+
+  - Different heights for the steering wheel. Can it be adjusted as needed?
+
+**Professional Standards to Meet:**
+
+- Shell Eco Marathon regulations for design, safety, and overall Rules.
+
+  - [[Shell-eco-marathon-2024-official-rules-chapter-i-updated.pdf]{.underline}](https://www.shellecomarathon.com/about/global-rules/_jcr_content/root/main/section/simple_copy_copy_143664536/link_list/links/item0.stream/1693543757317/892943cb7be32f26491deba487a52ccfb145bf81/shell-eco-marathon-2024-official-rules-chapter-i-updated.pdf)

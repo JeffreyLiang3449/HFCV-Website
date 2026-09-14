@@ -1,0 +1,13 @@
+**[Ackermann Steering Model]{.underline}**
+
+**Variables:**
+
+- **L,** Wheelbase (The distance between the front and rear axle centers) \[meter\]
+
+- **R,** Turning radius to the midpoint of the rear axle \[Meter\]
+
+- $\delta$ **-** Steering angle of both wheels equally, only assuming inner wheel since both wheels will turn the same amount (there is no need for a differential).
+
+$\tan\delta\  = \ L/R\  = \ L\lbrack m\rbrack/6\lbrack m\rbrack$
+
+$\delta = tan^{- 1}\left( \frac{L}{R} \right)*\frac{180}{\pi}$

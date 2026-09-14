@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>prototype-rules---hydrogen-carr – My Website</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-d28d2a7313a3a3900bfc4b9b4bee8c45.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">My Website</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2024 E90 work</li><li class="breadcrumb-item"><a href="../../2024 E90 work/Fall _23 Prework/E90 Project Proposal (Hydrogen Carr)_.html">Fall 23 Prework</a></li><li class="breadcrumb-item"><a href="../../2024 E90 work/Fall _23 Prework/Prototype Rules - Hydrogen Carr.html">Prototype Rules Hydrogen Carr</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
+ <span class="menu-text">2024 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
+ <span class="menu-text">Chassis Model</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Chassis Model/3D collar Large Wrapped with clevis Drawing v2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">3D collar Large Wrapped with clevis Drawing v2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Chassis Model/CAR DIMS.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">CAR DIMS</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Chassis Model/Chassis Drawn Design(1).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Drawn Design(1)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Chassis Model/Chassis Drawn Design.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Drawn Design</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true">
+ <span class="menu-text">Fall 23 Prework</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth2 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Fall _23 Prework/E90 Project Proposal (Hydrogen Carr)_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Project Proposal (Hydrogen Carr)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Fall _23 Prework/E90TopicMemo_Chai_Horvat.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90TopicMemo Chai Horvat</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Fall _23 Prework/Prototype Rules - Hydrogen Carr.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Prototype Rules Hydrogen Carr</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
+ <span class="menu-text">First Tension Test (3 8)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/First Tension Test (3-8)/Tension test notes_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tension test notes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false">
+ <span class="menu-text">Presentation materials (old)</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Presentation materials (old)/E90 Mid-Semester Reivew.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Mid Semester Reivew</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Presentation materials (old)/Final Presentation Outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation Outline</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Presentation materials (old)/Mid Semester Review Presentation Outline.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mid Semester Review Presentation Outline</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/Ben &amp; Justin E90 Time Log (Spring _24).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Ben &amp; Justin E90 Time Log (Spring  24)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/E90 Final Report Chai Horvat 2024_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Final Report Chai Horvat 2024</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 E90 work/E90 HFCV Final Presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 HFCV Final Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true">
+ <span class="menu-text">2024 Summer Research</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-6" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-6" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 Summer Research/Chassis Sketches.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Chassis Sketches</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 Summer Research/HFCV SummerPresentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 Summer Research/Summer 24 HFCV Final Report_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer 24 HFCV Final Report</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2024 Summer Research/Summer Notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer Notes</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true">
+ <span class="menu-text">2025 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-7" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-7" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false">
+ <span class="menu-text">Calculations turning</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-8" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-8" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Calculations_ turning/Turning Rad.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Turning Rad</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false">
+ <span class="menu-text">Designs</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-9" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-9" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false">
+ <span class="menu-text">Brake</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-10" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-10" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Designs/Brake/Brake Stand Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Brake Stand Drawing v1</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Designs/Brake/FINAL PEDAL DRAWING v3.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">FINAL PEDAL DRAWING v3</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Designs/Brake/Pedal Stand Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Pedal Stand Drawing v1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false">
+ <span class="menu-text">Suspension</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-11" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-11" class="collapse list-unstyled sidebar-section depth3 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Designs/Suspension/Suspension Plate Drawing v1.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Suspension Plate Drawing v1</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false">
+ <span class="menu-text">Proposal</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-12" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-12" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Proposal/2025 Final Proposal -- Moran, Salas.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2025 Final Proposal Moran, Salas</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Proposal/Project Proposal Memo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Project Proposal Memo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Proposal/Salas.Moran.Draft_Project_Proposal.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Salas.Moran.Draft Project Proposal</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false">
+ <span class="menu-text">Req + constraints</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-13" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-13" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Req + constraints/Salas_Moran Requirements and Constraints.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Salas Moran Requirements and Constraints</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/E90 Mid-Semester Presentation (GS, MM).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">E90 Mid Semester Presentation (GS, MM)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/Final Presentation Draft.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Final Presentation Draft</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/HFCV 2025 Final Report (E90).html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV 2025 Final Report (E90)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 E90 work/HFCV To-Do List.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV To Do List</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true">
+ <span class="menu-text">2025 Summer Research</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-14" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-14" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/HFCV Notes Nora.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Notes Nora</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/HFCV Summer 2025 Sigma Xi Abstract.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Summer 2025 Sigma Xi Abstract</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/HFCV SummerPresentation_Jun25.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation Jun25</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/Linkage Fabrication Procedure - Shiley.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Linkage Fabrication Procedure Shiley</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/Matthew Shiley HFCV Summer 2025 Plan &amp; Notes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Matthew Shiley HFCV Summer 2025 Plan &amp; Notes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2025 Summer Research/Summer25_HFCV_FinalReport_Jiang.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Summer25 HFCV FinalReport Jiang</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true">
+ <span class="menu-text">2026 E90 work</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-15" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-15" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 E90 work/JanoKimaruE90_Report.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">JanoKimaruE90 Report</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 E90 work/Mid-Semester Presentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Mid Semester Presentation</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true">
+ <span class="menu-text">2026 Shell Eco Marathon</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-16" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-16" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/2026 Shell Eco Marathon Debrief Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">2026 Shell Eco Marathon Debrief Document</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/Fall 25 Budget HFCV.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Fall 25 Budget HFCV</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFCV Recruiting Round 2.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Recruiting Round 2</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFCV Running Report Document.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Running Report Document</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFCV_ Freshman Interviews.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Freshman Interviews</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFCV_ Instuctions for 11_5_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Instuctions for 11 5</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFVC Indiana Logistics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFVC Indiana Logistics</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../2026 Shell Eco Marathon/HFVC Update Document_.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFVC Update Document</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true">
+ <span class="menu-text">Chassis</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-17" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-17" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false">
+ <span class="menu-text">Drawings</span></a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-18" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-18" class="collapse list-unstyled sidebar-section depth2 ">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Chassis/Drawings/Carbon Fiber Sheet Dimensions and Quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Carbon Fiber Sheet Dimensions and Quantities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Chassis/Drawings/Parts Implementation Drawing ROUGH.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Parts Implementation Drawing ROUGH</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Chassis/Drawings/Rear Connector Dimensions and Quantities.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Rear Connector Dimensions and Quantities</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Chassis/Drawings/Windshield Design ROUGH.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Windshield Design ROUGH</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true">
+ <span class="menu-text">Editable Documents</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-19" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-19" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Editable Documents/HFCV ManufacturingNotes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV ManufacturingNotes</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Editable Documents/HFCV PrelimInfo.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV PrelimInfo</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Editable Documents/HFCV_Goals and Expectations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV Goals and Expectations</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true">
+ <span class="menu-text">Fuel Cell Procedures</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-20" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-20" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Fuel Cell Procedures/Running Procedure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Running Procedure</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Fuel Cell Procedures/Safety.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Safety</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true">
+ <span class="menu-text">Literature</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-21" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-21" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/Copy of HFCV ManufacturingNotes 8_8.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Copy of HFCV ManufacturingNotes 8 8</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/HFCV PrelimInfo 9_16.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV PrelimInfo 9 16</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/HFCV SummerPresentation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HFCV SummerPresentation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon Fiber.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon Fiber</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/Markforged Printer Instructions.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Markforged Printer Instructions</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Literature/New Drawing and Manufacturing progress.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">New Drawing and Manufacturing progress</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true">
+ <span class="menu-text">Safety</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-22" role="navigation" aria-expanded="true" aria-label="Toggle section">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-22" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../../Safety/Hydrogen_Fuel_Cell_Safety_Procedure.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Hydrogen Fuel Cell Safety Procedure</span></a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">2024 E90 work</li><li class="breadcrumb-item"><a href="../../2024 E90 work/Fall _23 Prework/E90 Project Proposal (Hydrogen Carr)_.html">Fall 23 Prework</a></li><li class="breadcrumb-item"><a href="../../2024 E90 work/Fall _23 Prework/Prototype Rules - Hydrogen Carr.html">Prototype Rules Hydrogen Carr</a></li></ol></nav></header>
+
+
+
+
+<p><strong>Key Things We need to add/test:</strong></p>
+<ul>
+<li><p>Mechanicals</p>
+<ul>
+<li><p>Monocoque (advantage: crumple design) or chassis</p></li>
+<li><p>Turn Radius Test and Adjustment (currently in compliance)</p>
+<ul>
+<li>Might want to improve current tie rod system</li>
+</ul></li>
+<li><p>Dimensions of current vehicle <strong>(Sticking with current design)</strong></p></li>
+<li><p>Hydraulic braking system (need full outfit - possibly bike parts if routing is feasible</p>
+<ul>
+<li>Potential frame modifications for hydraulic design</li>
+</ul></li>
+<li><p>Single wheel suspension (thinking telescopic fork - think motorcycle suspension)</p></li>
+</ul></li>
+<li><p>Safety systems</p>
+<ul>
+<li><p>Horn test</p></li>
+<li><p>Safety belt</p></li>
+<li><p>Roll bar</p></li>
+<li><p>Bulkhead for division of energy and driver systems</p></li>
+</ul></li>
+<li><p>Competition Documentation</p>
+<ul>
+<li><p>Energy supply and propulsion system block diagram</p>
+<ul>
+<li>H2: Fuel cell, cylinder, solenoid valve, pressure regulator, flow meter, motor controller, motor, supercapacitor, vehicle cut-off mechanism</li>
+</ul></li>
+<li><p>Electrical Schematic</p></li>
+<li><p>Battery/BMS (If a Lithium-based accessory battery is included in the vehicle)</p></li>
+<li><p>Brake Documentation</p>
+<ul>
+<li>Brake Documentation: provide manufacturer’s documentation at the lowest level of purchased components. See Articles 43 and 51.</li>
+</ul></li>
+<li><p>Energy Supply and Propulsion System Diagram</p></li>
+<li><p>Fuel Cell</p></li>
+</ul></li>
+</ul>
+<p>Sources:</p>
+<p>Steering systems - <a href="https://link.springer.com/content/pdf/10.1007/978-3-662-60835-7_3.pdf"><u>Steering (springer.com)</u></a></p>
+<p>Goals: New body fuel cell vehicle running(even if crudely) by end of spring semester</p>
+<ul>
+<li><p>New Chassis</p></li>
+<li><p>Suspension + wheels</p></li>
+<li><p>Brakes</p></li>
+<li><p>Crude turning</p></li>
+<li><p>Electrical+Fuel Cell</p></li>
+</ul>
+<p>Design Considerations + Constraints - Body:</p>
+<p>Option for taller driver -&gt; Biomechanics for 6ft person + weight of 250+ minimum</p>
+<p>Design for weight as well</p>
+<p>All height/length/width specs met</p>
+<p>Round tubing design preferred</p>
+<p>10 cm Crumple Zone</p>
+<p>Wiring and Hydraulic considered and space efficient</p>
+<p>Center of gravity consistently low enough to avoid roll</p>
+<p>Considerations for wheels + suspension:</p>
+<p>Ideal system for speed</p>
+<p><del>Current timelines/time estimation:</del></p>
+<p><del>Body-&gt;1 month for execution</del></p>
+<p><del>Brakes -&gt; 1 month for execution</del></p>
+<p><del>Tuning -&gt; 2 weeks</del></p>
+<p><del>Safety -&gt; 1 month for execution</del></p>
+<p><del>Brakes/Suspension/Body/Safety/Tuning</del></p>
+<p>Article 16: Radio Communication The use of hand-held communications is forbidden in the vehicle. However, the use of a “hands-free” kit is allowed if both hands of the driver remain on the steering system</p>
+<p>Article 17: Overtaking a) Drivers are required to give clear passage for other vehicles wishing to overtake. b) Drivers in overtaking vehicles must sound their horn and pass with caution. The Driver of the overtaking vehicle is responsible for the safety of the manoeuvre. c) Drivers of the vehicles being overtaken must use their mirrors and must not change course suddenly. d) On the track, overtaking is authorised on both the right and the left, provided the above-mentioned safety rules are followed.</p>
+<p>Article 20: Driver Weight a) <strong>The minimum Driver Weight is: Prototype vehicles – 50.0 kg</strong></p>
+<p>The Driver Weight is defined as the weight of the person driving the vehicle including full driving gear and communication devices. If the Driver Weight does not meet the minimum weight requirement ballast needs to be fitted to the vehicle. This ballast must be provided by the Team, in form of weightlifting discs or rectangular metal plates. No other form of ballast is permitted. The ballast must be effectively secured to the vehicle to ensure Driver safety in the event of collision or roll-over. For Urban Concept vehicles the ballast must be outside the driver compartment. A seal will be installed around the ballast by a technical inspector and must remain in place during the event. If the seal has been tampered with or removed the vehicle will no longer be valid to compete. The ballast must be in a single pack. c) If a Team has two Drivers and one or both Drivers are underweight, the ballast weight will be based on the lightest driver.</p>
+<p>Article 21: Helmets a) For practice and competition, Drivers must wear full-face or three-quarter helmets suitable for motorsport activities. Drivers in the Prototype category must use the three-quarter helmet variety. Helmet certification labels must be clearly readable. Helmets worn by all Drivers will be subject to inspection. Helmets should not have any indentations or cracks and should be in proper working condition as intended by the helmet manufacturer. b) All helmets must be affixed with a face shield (or visor). The face shield (or visor) must cover from the top of the face down to below the driver’s nose. Tinted face shields or sunglasses to be worn under the face shield are permitted. The helmets must correctly fit the Driver and be secured by a chin strap. Visors should be free from major scratches and have clear visibility.</p>
+<p>Article 22: Driver Clothing a) All Drivers must wear a one-piece racing suit as the outermost layer of clothing, and the racing suit must be classified as Flame Retardant Clothing (FRC) according to a recognised standard. Drivers are not allowed to wear synthetic clothing underneath the race suit because synthetic material may melt if exposed to flames. Cotton shirt and underwear are recommended. b) Socks (made from cotton or FRC material) and shoes are required. c) Fire retardant gloves are required and must completely cover all fingers. d) If Drivers wear balaclavas, they are required to be made from FRC material. e) No bare skin should be visible when the Driver is wearing the racing suit, gloves, socks and shoes.</p>
+<p>Article 23: Driver Comfort Please note that in the event of hot weather conditions, high temperatures may affect Driver comfort and potentially cause heat stress. a) It is recommended to properly ventilate the inside of the vehicle to provide cooling to the Driver. b) It is recommended to provide sufficient drinking liquids to the driver for the duration of an attempt. <strong>If fluid containers are provided to the driver(s), these containers must be hands-free. Camel-back style or bottles secured inside the driver’s compartment with flexible feed straw are recommended.</strong> c) It is recommended to equip the vehicle with an <strong>effective shield from the sun</strong>. d) For driver comfort, Teams can install fans or air-cooling type systems that are not included in the electrical measurement of the vehicle. Any fans or air-cooling systems must be self-powered by internal batteries. See Article 57i.</p>
+<p>Article 24: Equipment and Materials Teams are required to provide and use at the event: a) Leather, canvas or other cut resistant gloves for general work, including movement of vehicle b) Chemical resistant gloves for fuel or motor oil handling c) Safety glasses for all Participants d) Hearing protection for all Participants e) Duct tape to secure cords or cables lying on the pit floor f) Lift stands or appropriate raised platform for vehicle tuning and repairs g) Tools and materials h) Effective equipment suitable to mitigate and/or control Lithium-based battery fires must be used during battery charging. The equipment must prevent or contain the spread of fire or battery event during charging. Equipment that may be used includes: i. A battery charging bag that is designed specifically for containment of a Lithium battery fire, or A fireproof blanket that can be placed over AND under the lithium battery being charged. The blanket must be big enough to fully cover and contain any potential battery fire.</p>
+<p>) Electrical safety i. All electrical equipment used must be properly fused. ii. Electrical cables must be in good condition and appropriate for the equipment it is intended for. iii. Teams are only allowed to use the supplied single multi-plug strip with internal overcurrent protection. No further multi-plug strips or other adaptors may be used.</p>
+<p>Article 25: Vehicle Design a) During vehicle design, construction and competition planning, participating Teams must pay attention to all aspects of safety, including the safety of the driver, participants, volunteers and spectators. i. Prototype vehicles must have three or four running wheels that are in constant contact with the road. ii. All vehicles must have a minimum crumple zone of 100 mm between the front of the vehicle body and the driver’s feet</p>
+<p>Aerodynamic appendages, which adjust or are prone to changing shape due to wind, are not allowed. c) Vehicle bodies must not include any external appendages that might be dangerous to participants; this includes pointed parts of the vehicle body. Sharp points must have a radius of 50 mm or greater or be covered with foam or a deformable material. d) Vehicle body panels and windows must be rigid and may not change shape due to wind. e) The vehicle interior must not contain any objects that might injure the Driver in the event of a collision. Windows must not shatter into sharp shards. Protective film covering the windows is allowed but must not distort the driver’s visibility. f) The energy compartment (engine/motor/transmission/battery, etc.) should be easy to access for a quick inspection. g) All parts of the drive train, including fuel tank, hydrogen system components, etc. must be within the confines of the body cover. h) All objects in the vehicle must be securely mounted. Bungee cords or other elastic materials are not permitted for securing heavy objects. i) All vehicles must have a solid floor and frame that prevent any part of the driver’s body from contacting the ground. j) All vehicles must be fully covered. Open top vehicles are not allowed. Vehicles that look like bicycles, tricycles or wheelchairs are not acceptable. k) The Organisers will provide all Urban Concept vehicles and selected Prototypes with a telemetry System and require them to install it in their vehicle for competition monitoring and result calculation (see Section 5). l) The use of asbestos and asbestos-containing materials is forbidden</p>
+<p>Article 26: Chassis/Monocoque Solidity a) Teams must ensure that the vehicle chassis or monocoque will safely protect the driver’s body, including crumple space in the event of a front, side, or rollover collision. A monocoque is a construction that supports structural load by using an object's external skin as opposed to using a frame. b) The vehicle chassis must be equipped with an effective roll bar that extends 50 mm around the driver’s helmet when seated in normal driving position with the safety belts fastened. If this position impairs the driver visibility it will be deemed that the roll bar is not adequate. The effectiveness of the roll bar and driver’s visibility will be validated simultaneously, i.e.&nbsp;the driver must not be in such position that he or she must raise their head or torso above the roll bar to pass the visibility test</p>
+<p><strong>c) The roll bar must extend in width beyond the driver’s shoulders whe</strong>n seated in normal driving position with the safety belts fastened. Teams may use a tubular or panel roll bar. If a tubular roll bar is used, it must be metal. A panel roll bar is the rigid partition separating the cockpit from the energy compartment, and it must be integrated into the vehicle chassis or monocoque. d) The roll bar must be able to withstand a static load of 700 N applied in a vertical, horizontal, and/or perpendicular direction, without deforming in any direction. e) If the vehicle must be lifted at a specific place on its body, it should be clearly marked with a rectangular box stating, “LIFT HERE”.</p>
+<p><strong>Article 27: Propulsion and Energy Storage System Isolation a</strong>) A rigid Bulkhead must safely isolate and seal the vehicle’s propulsion and energy storage systems from the driver’s compartment. A bulkhead is an upright partition separating the driver’s compartment from the energy compartment. This means engines, fuel cells, fuel tanks, batteries (propulsion or accessary), hydrogen cylinders, supercapacitors, etc. must be placed outside the driver’s compartment behind the bulkhead. The purpose of this bulkhead is that in the event of a fuel leak, fire or battery release incident, it prevents liquids and/or flames from reaching the driver. Avoid having any gaps or holes between the body and the bulkhead. It is recommended to seal gaps with materials such as metal/aluminium sheeting or aluminium tape. b) The bulkhead must be able to protect the driver from an open flame in the energy compartment. c) The bulkhead must prevent manual access to the energy compartment by the Driver. d) If holes are made in the bulkhead to pass through wires or cables it is essential that the wires and cables are protected by a grommet or similar protective material to prevent chafing or damage. All gaps and holes must be filled.</p>
+<p>Article 28: Visibility a) The Driver must have access to a direct arc of visibility ahead and to 90° on each side of the longitudinal axis of the vehicle. The Driver’s field of vision must be achieved without aid of any optical or electronic devices. Movement of the Driver’s head within the confines of the vehicle body to achieve a complete arc of vision is allowed, but the driver’s helmet must always be 50 mm below the roll bar. The side windows tinting must be light enough to allow the driver to be seen from outside the vehicle. b) The vehicle must be equipped with a rear-view mirror on each side of the vehicle, each with a minimum surface area of 2500 mm² (e.g.&nbsp;50 mm x 50 mm). An electronic device may not replace a rear-view mirror</p>
+<p><strong>Article 29: Safety Belts Roll Bar &amp; Safety Belts a</strong>) The Driver’s seat must be fitted with an effective safety harness with at least five mounting points to maintain the Driver securely in his/her seat. The five independent belts must be firmly attached to the vehicle’s main structure and be fitted into a single buckle, specifically designed for this purpose. b) The safety harness must prevent any upward or forward motion of the Driver’s torso. Any slack in the harness must be adjusted by using the seat belt length adjuster. The adjustor must be located as close as possible to the connection point. The crotch strap mounting point must be underneath the body, and the topmost straps must be mounted below the top of the Driver’s shoulder. c) The safety harness must always be worn sufficiently tight and fastened to prevent the Driver from having free movement when the vehicle is in motion. d) Each safety harness mounting point must be able to withstand a 200 N force in any direction. e) The Urban Concept vehicle safety harness must be specifically manufactured for motorsport use (e.g.&nbsp;certified or compliant with FIA standards).</p>
+<p>Article 30: Vehicle Access a) It is imperative for Drivers, fully harnessed, to be able to vacate their vehicles at any time without assistance in less than 10 seconds. For Urban Concept vehicles, this is applicable for both doors. b) Prototype vehicles must be equipped with a sufficiently large opening for the cockpit. The driving position must be designed so that emergency services can easily extract the Driver from his/her vehicle, if necessary. c) The driver compartment must have a single opening mechanism per door, which must be easily and intuitively operable from both inside and outside the vehicle. The method of opening from the outside must be clearly marked by a red arrow and must not require any tools. d) It is forbidden to use adhesive tape to close the Driver’s opening from the outside.</p>
+<p><strong>Article 31: Horn a) Each vehicle must be equipped with an electrically powered horn typically used in current automobiles. Bike or cycling horns are no longer permitted. b) The horn must be mounted at the front of the vehicle without obstruction. c) The horn must emit sound greater than 85 dBA when measured 4 meters in front of the operating vehicle. The horn must produce a continuous single tone sound when activated -- chirping or sirenlike tones are not permitted. d) The horn must be powered by the vehicle battery. The power consumed by the horn does not need to be measured by the Joulemeter (See Article 56:d)v).</strong></p>
+<p>Article 34: Clutch and Transmission a) All vehicle propulsion must be achieved only through the friction between the wheels and the road. b) All vehicles with internal combustion engines must be equipped with a clutch system. c) For centrifugal/automatic clutches the starter motor speed must always be below the engagement speed of the clutch. d) Only Urban Concept Internal Combustion Engine vehicles are required to have idling capabilities. This means the vehicle must be able to remain stationary while the engine is running. e) For manual clutches the starter motor must not be operable with the clutch engaged. An interlock is required to facilitate this functionality. f) Please refer to Article 64:b) regarding starter motor requirements. g) Guards for transmission chains and/or belts are mandatory. This is required to protect driver or technician when working on the car in the event of the chain or belt breaking. It must be made of metal or composite material rigid enough to withstand a break.</p>
+<p>Article 35: Exhaust System a) The exhaust gases must be evacuated outside the vehicle body. b) Exhaust pipes must not extend beyond the rear or the side of the vehicle body. c) Exhaust pipes must be solid with no signs of fatigue or leaks. d) Exhaust pipes must be appropriate for high temperatures</p>
+<p><strong>Article 39: Dimensions a) The vehicle maximum height must be less than 1000 mm. b) The vehicle track width must be at least 500 mm, measured between the midpoints where the tyres of the outermost wheels touch the ground c) The ratio of height divided by track width must be less than 1.25. d) The vehicle wheelbase must be at least 1000 mm. e) The maximum total vehicle width must not exceed 1300 mm. f) The maximum total length must not exceed 3500 mm. g) The maximum vehicle weight, without the Driver is 140 kg. h) None of the body dimensions above must be achieved by design singularities such as ‘stuck-on’ appendages or cut-outs.</strong></p>
+<p>a) All types of tyres and wheels are allowed. b) Any type of wheel rim may be used. Rims must be compatible with the dimensions of the selected tyres to satisfy safety standards. Bicycle wheels are not generally designed to support substantial lateral cornering forces, such as may be found in Shell Eco-marathon vehicles at certain speeds. The wheel axles must be designed for cantilever loads (like in wheelchairs) rather than for load distributed equally on both sides (like in bicycles). c) Wheels located inside the vehicle body must be isolated from the Driver by a bulkhead and must not touch the chassis or body. d) Any handling or manipulation of wheels by the Driver is forbidden from the moment the vehicle is at the starting line until it crosses the finish line. e) All installations must be carried out in a way that there is no likelihood the wheels will touch other parts of the vehicle (i.e.&nbsp;cables, wires, hoses, and energy compartment components like batteries, etc.). These must be safely mounted/secured so that they cannot interfere with the turning wheel during driving and cause accidents.</p>
+<p><strong>Article 42: Turning Radius and Steering</strong> a) Only front wheel steering is permitted. If the Organisers are not satisfied with the effectiveness and/or control of a vehicles steering system, this vehicle will be removed from the competition. b) The turning radius must be 8 m or less. The turning radius is the distance between the centre of the circle and the external wheel of the vehicle. The external wheel of the vehicle must be able to follow a 90° arc of 8 m radius in both directions. The steering system must be designed to prevent any contact between tyre and body or chassis. c) Electrically operated indirect steering systems are permitted providing they are operated by a steering wheel or similar (rotary potentiometer), joystick operation is not permitted. If electronic steering systems are used, in the event of system failure, the vehicle must be equipped with manual steering override. d) The Organisers reserve the right to set up a vehicle handling course to verify the following when the vehicle is in motion: driver skills, turning radius and steering precision. For example, the Organisers will verify that steering is precise, with no play</p>
+<p><strong>Article 43: Braking Braking a) Vehicles must have two hydraulic braking systems, one per axle. Brakes that act on the tyres a</strong>re not permitted. i. The front brake(s) must have a single foot operated pedal controlling front wheel(s). ii. The rear brake(s) must have a single lever action attached to the steering wheel or a single pedal. iii. For each axle, a maximum of two master cylinders is allowed, but they must act on single hydraulic circuit to ensure a proper balance between right and left wheel. One master cylinder per wheel is not allowed. iv. It must be possible to activate the two brake systems at the same time without taking either hand off the steering system. b) The effectiveness of the braking systems will be tested during vehicle inspection. During the Technical Inspection, the whole brake system must be visible. The vehicle will be placed on a 20 percent incline with the driver inside. Each brake system will be activated separately, and each individual brake system must keep the vehicle immobile. c) During practice or competition runs, the brakes must be protected against any adjustments made by the driver. The effectiveness of the protection will be evaluated during technical inspection and rechecked before entering the track. In addition, vehicles will be checked at the start and/or finish area. Any system that has been compromised will invalidate that run and a penalty may be issued by the Organisers.</p>
+<p><strong>Article 65: Hydrogen Fuel Cell Vehicles:</strong></p>
+<ol type="1">
+<li><p>a) Fuel system</p>
+<ol type="a">
+<li><p>i. Participants must provide a description and a process flow diagram of the fuel supply system.</p></li>
+<li><p>ii. The fuel system must be easily accessible for inspection and measurements.</p></li>
+<li><p>iii. The fuel cell must run by itself. The electricity needed for temperature regulation, fan, compressor, electronic management system for the fuel cell and the electric motor must be supplied by the fuel cell and not by the accessory battery.</p></li>
+<li><p>iv. The hydrogen system must be designed as follows: H2 cylinder Pressure gauge Pressure regulator directly attached to the cylinder Pressure gauge Emergency shutdown valve directly attached to the outlet of the pressure regulator Flow meter Fuel Cell (note: pressure gauges may be an integral part of the regulator)</p></li>
+<li><p>v. The flow meter must be fixed at the inlet of the fuel cell. Both must be at the same pressure.</p></li>
+</ol></li>
+<li><p>b) Hydrogen cylinders</p>
+<ol type="a">
+<li><p>i. Fuel cell-powered vehicle must use a compressed hydrogen cylinder, referred to hereafter as a cylinder, as provided by the Organisers during the entire event. Only one cylinder may be fitted to a vehicle.</p></li>
+<li><p>ii. Teams must not bring their own hydrogen cylinders or cartridges. Cartridges and other means of hydrogen storage are not permitted.</p></li>
+<li><p>iii. The following cylinders will be provided by the Organisers: Europe and Africa: B1 cylinder, 1 litre of hydrogen at 200 bar (100 mm x 350 mm) 2.57 kg and B04 cylinder, 0.4 litres of hydrogen at 200 bar (60 mm/320 mm) 1.4 kg Americas: Exchange cylinder ~ 152 bar 5.3” x 17.1” (135 mm x 434 mm), 8.6 lbs. (3.9 kg) Aluminium Cylinder ~ 68 bar 2.5” x 9.5” (63 mm x 241 mm) Asia Pacific and Middle East: Catalina MD cylinder, 2.9 litres of hydrogen @139 bar (111 mm x 424 mm), 2.4 kg</p></li>
+<li><p>iv. Only one hydrogen cylinder will be supplied at a time. A new cylinder will be provided in exchange for an empty one. All cylinders will be labelled with a specific number to ensure traceability. Cylinders must be returned to the Organisers before paddock closure. No cylinder shall remain in the pit area after paddock closure. It is recommended that a single team member, who has hydrogen experience, be identified as the person to be responsible for handling the hydrogen cylinders.</p></li>
+<li><p>v. All cylinders must be installed on the vehicle under the supervision of the Technical Team. Participants are not allowed to keep any cylinders in their possession overnight. The cylinders must be stored in a location designated by the Organisers suitable for hydrogen storage in the paddock. Upon arrival at the circuit, Team Managers must contact the Technical Team, who will organise all relevant logistics. A suitable location would include proper ventilation, distance away from any possible ignition sources, secured to avoid accidental damage.</p></li>
+<li><p>vi. The cylinder must be installed securely in the vehicle to minimise movement and stress on pipework when the vehicle is moving.</p></li>
+<li><p>vii. When the cylinder is not installed in the vehicle, a blind cap shall be installed on the cylinder outlet.</p></li>
+</ol></li>
+<li><p>c) Ventilation The vehicle body must allow for ventilation at the highest point of the fuel cell compartment, providing an orifice with a minimum opening of 500 mm². Another 500 mm² opening must be provided at the highest point of the driver compartment.</p></li>
+<li><p>d) Hydrogen detector</p>
+<ol type="a">
+<li><p>i. A hydrogen sensor must be installed in the fuel cell compartment, near the main ventilation orifice mentioned above. This hydrogen sensor must drive the emergency shutdown valve and relay mentioned below. The trip level of the hydrogen sensor must be tuned to 25% of the LEL (Lower Explosive Limit) of hydrogen, i.e.&nbsp;1% of hydrogen in air. A test will be carried out during the technical inspection. For commercial Fuel Cells with integrated H2 detector it is still required to fit a H2 sensor as described above.</p></li>
+<li><p>ii. The reset of the hydrogen detector, i.e., the hydrogen sensor and its electronics, must be done manually via a switch located in the fuel cell compartment. This switch must not be accessible by the Driver from the cockpit.</p></li>
+</ol></li>
+<li><p>e) Emergency shutdown valve and relay</p>
+<ol type="a">
+<li><p>i. The hydrogen supply circuit must be equipped with a solenoid emergency shutdown valve. This valve must be normally closed in the absence of electricity. ii. The power supply to the motor must be automatically cut off at the same time as the above emergency shutdown valve is activated. This is to be achieved by a suitable fail-safe relay.</p></li>
+<li><p>iii. The operation of the emergency shutdown must provide a physical removal of power to the emergency stop circuit. The use of a power controller or other logic systems to drive the emergency stop circuit is not permitted. The emergency stop circuit must be designed as failsafe. A fail-safe design makes the emergency shutdown system as tolerant as possible to likely wiring or component failures. The most common type of wiring and component failure is an “open” circuit, or broken connection. Therefore, a fail-safe design should default to its safest mode of operation in the case of an open circuit.</p></li>
+<li><p>iv. This valve and relay must be activated by any one of the following three scenarios: 1. Through hydrogen detection as explained above 2. Through the emergency push-button located on the outside of the vehicle. The emergency shutdown sticker provided by the Organisers must be positioned on the vehicle body to clearly indicate the place of this emergency push-button. (See Article 37:f). 3. Through another emergency push-button, accessible by the Driver in driving position</p></li>
+<li><p>v. In case of activation by one of these three scenarios, the valve and relay must act simultaneously.</p></li>
+<li><p>vi. These three scenarios will be tested during Technical Inspection and before each attempt.</p></li>
+</ol></li>
+<li><p>f) Pipes and connections of the hydrogen circuit</p>
+<ol type="a">
+<li><p>i. In all cases, piping and connectors of the hydrogen circuit must be designed for hydrogen use. The Team Manager must be able to present during the technical inspection the technical data sheets from the manufacturer of these piping and connectors to show that they are suitable for hydrogen use. The use of PTFE pipes is recommended. PU tubing should not be used as this tends to leak. Leak checks on all hydrogen piping and connectors will be performed in Technical Inspection.</p></li>
+<li><p>ii. If the pressure in the hydrogen circuit is higher than 1.5 bar absolute (= 0.5 bar above atmospheric pressure) piping must be made of steel and connectors must be screw/compression type.</p></li>
+<li><p>iii. If the pressure in the hydrogen circuit is lower than 1.5 bar absolute (= 0.5 bar above atmospheric pressure) flexible piping and unscrewed connectors are accepted.</p></li>
+<li><p>iv. No use of Teflon tape on the connections of the flowmeter. Teflon tape is only permitted upstream of the flowmeter if the connection to the regulator requires it for hydrogen sealing. In any case, Participants are responsible for damage to the flowmeter due to wrong connections.</p></li>
+<li><p>v. H2 piping and equipment must be protected from overpressure at 90% or lower of their maximum pressure rating. Documentation of the pressure settings of the relief valve must be provided, including internal relief valves built into regulators. In case of the use of pressure relief valves, they must be vented outside through the top, side, or back section of the vehicle. The exhaust tubing must be well secured to the vehicle. g) Purge pipe If a purge pipe is needed, its end must be located outside the vehicle.</p></li>
+</ol></li>
+<li><p>h) Measurements and Equivalencies</p>
+<ol type="a">
+<li><p>i. The consumption of hydrogen is measured by an embedded flow meter. The flow meter will be checked/calibrated by the Organisers before Technical Inspection.</p></li>
+<li><p>ii. The following calibrated flow meters are provided by the Organisers at the event: 1. For Prototype: Vögtlin Red-y compact series GCM-BIKA-BN00. 2. For Urban Concept: Vögtlin Red-y smart series Hi performance GSM-B9TA-BN00.</p></li>
+<li><p>iii. The volume of hydrogen consumed is posted in normal litres. The display of the flow meter must be easy to read from outside the vehicle when the vehicle body is closed. It must be inaccessible by the Driver in normal driving position.</p></li>
+<li><p>iv. The serial number on the hydrogen flow meter must not be covered or removed. i) Oxygen and air reserves Oxygen for the fuel cell’s operation must be from the surrounding air, not from oxygen tanks or compressed air reserves.</p></li>
+</ol></li>
+<li><p>j) Supercapacitors</p>
+<ol type="a">
+<li><p>i. If an embedded electric storage device is part of the powertrain, it must be of capacitor type, referred to hereafter as ‘Supercapacitor’. Other types of embedded electric storage device (Pb, NiMh, etc. batteries) are forbidden.</p></li>
+<li><p>ii. The state of charge of the Supercapacitor will be checked before and after each run by measuring the Supercapacitor voltage. Two measurement points (Supercapacitor voltage + and – a labelled “Supercapacitor voltage”) must be installed outside the vehicle to allow the voltage measurement on the starting line. For Urban Concept vehicles a joulemeter will be used to measure the Supercapacitor voltage. (See Article 56:d) iv)</p></li>
+<li><p>iii. The voltage registered after the run must be at least equal to the voltage registered before the run. In the event of the contrary, the Supercapacitor must be re-charged by running the fuel cell until their voltage is equal to the voltage registered before the run. The additional time required to recharge the Supercapacitor by running the fuel cell after the competition is added to the recorded time of the relevant run.</p></li>
+<li><p>iv. The maximum Supercapacitor voltage must not exceed that referenced in Article 57:a).</p></li>
+</ol></li>
+<li><p>k) Fuel cell starter battery</p>
+<ol type="a">
+<li><p>i. Accessory battery If the accessory battery can be electrically isolated from the fuel cell output, the accessory battery can be used to start the fuel cell. The battery is considered electrically isolated when energy from the accessory battery cannot contribute to vehicle propulsion.</p></li>
+<li><p>ii. External battery If the accessory battery cannot be isolated from the fuel cell output, an external battery must be used on the starting line to start the fuel cell system. 1. As soon as the vehicle starts to move, this battery must be unplugged. 2. Two connectors must be installed outside the vehicle to allow a quick connection and fuel cell system start on the starting line. These external connectors must be securely fastened to the vehicle.</p></li>
+<li><p>iii. As mentioned in Article 57:h)i, it is mandatory to power the hydrogen detector using the accessory battery when such battery is used. iv. Any battery must not be mounted directly adjacent to the hydrogen cylinder.</p></li>
+</ol></li>
+<li><p>l) Electrical circuit/Electronics</p>
+<ol type="a">
+<li><p>i. All wiring associated with the accessory battery circuit must be clearly distinguishable from the propulsion system by physical isolation or the use of different wire colours.</p></li>
+<li><p>ii. A fuse must be installed on the positive terminal of the fuel cell stack. Its melting current (expressed in Amps) must be less than the active area (expressed in square centimetres) of one cell of the stack. For instance, if the active surface of one cell of a 20-cell stack is 60 cm², the melting current of the fuse must not exceed 60 A.</p></li>
+<li><p>iii. If a Supercapacitor is used in the circuit, a fuse must be installed on the positive terminal of the Supercapacitor pack. The fuse rating must be less than or equal to the maximum usable power divided by the rated voltage. m) Other equipment Compressors, fans and coolers for the fuel cell system must be powered by the fuel cell or Supercapacitor, not by the accessory battery.</p></li>
+</ol></li>
+</ol>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

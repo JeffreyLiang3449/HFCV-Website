@@ -1,0 +1,23 @@
+Storing hydrogen in the hydrogen car: keep it in the storage, to prevent the tank from being tipped over.
+
+Avoid carrying a hydrogen cylinder by the knob.
+
+Make sure both hydrogen regulator (loosen screw valve is closed) and hydrogen tank (tighten knob) valves are closed before opening hydrogen valve
+
+-Hydrogen is extremely flammable, if there is a leak, immediately close hydrogen valve, cause could be the nipple for the regulator-tank connector is not oriented properly
+
+**safety using a power supply that plugs into the wall,**
+
+-Make sure no metal clamp is touching other metal,
+
+-connect power supply to wall
+
+-make sure it is on and voltage is correct (12v).
+
+-Then press out-on button so no voltage is flowing from power supply and then connect clamps to leads
+
+-make sure no metal in connection is touching other metal
+
+-safety switches, emergency shut off will cut all power, need to unlock the emergency and hit reset button to return power
+
+-emergency button can be hit to cut all hydrogen flow and power, located on the back right (same side as hydrogen tank)

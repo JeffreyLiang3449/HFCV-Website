@@ -1,0 +1,45 @@
+Engineering Design Proposal
+
+Engineering 90
+
+Michael Moran Bojorquez
+
+04 October 2024
+
+**Engineering Design E90 Proposal Title:** Hydrogen Fuel Car
+
+**Participants:** [[Michael Moran Bojorquez](mailto:mmoranb1@swarthmore.edu)[Gabriel Salas](mailto:gsalas1@swarthmore.edu)]{.underline}
+
+**Advisor:** Professor [[Carr Everbach]{.underline}](mailto:ceverba1@swarthmore.edu)
+
+**Problem being addressed:** The hydrogen fueled vehicle is not up to standard regarding the specifications of competition, does not meet safety requirements, and is very inefficient. This project aims to re-design and create the missing or necessary components of the vehicle to be able to compete in the Shell Eco-Marathon.
+
+**Background information:**
+
+The Safety concerns of the vehicle need to be addressed as well as the structural integrity. As of right now, the vehicle is too heavy and many numerous components require a complete redesign to meet safety guidelines and optimize performance. The overall objective of the competition, for which this is the goal, is to use the minimal amount of hydrogen fuel while completing at least three laps around the track. Although the current vehicle is operational and has a well enough structure to support a driver, significant modifications are necessary to enhance safety, efficiency, and compliance with competition standards. In reducing the vehicle\'s weight the overall aim is to improve its speed, fuel efficiency, and overall safety.
+
+**Solution:**
+
+The plan as of right now (discussed over a small conversation) is to first focus on the vehicle\'s overall frame to establish a reliable chassis. From that point forward, we plan to focus on more individual tasks that are specific to what we want to work on. For instance, These tasks include redesigning mechanical components, such as the suspension and driving mechanism which are essential for the vehicle\'s redesign. These smaller components require a new design that will be proficient, light, and meet safety requirements.
+
+- To complete this project, the first necessity is to obtain the necessary skills in 3D design, machining, and welding. This can be done concurrently while working on the project.
+
+- Familiarize and understand the rules and regulations for the Shell Eco-Marathon
+
+- Familiarize with the work already done on the HFCV (previous E90 as well as contributions by under classmates)
+
+- Make preliminary sketches and designs for every new change or component
+
+  - Work with sketches made for the chassis (done by Nora Jiang)
+
+  - Help in the construction of the new chassis
+
+- Obtain feedback on preliminary designs and implement the feedback
+
+- Construct components and test if they fit the standards for competition
+
+- Implement the new components
+
+- Test overall vehicle
+
+  - Throughout the project, assess the feasibility of the competition. If possible, work towards the completion of the vehicle. If not, work on next steps and preparation to make work easier for the next student(s).

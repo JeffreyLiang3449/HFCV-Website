@@ -1,0 +1,118 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# Shell Eco-Marathon
+
+# Jano Vasquez-Jaffe & Kimaru Boruett
+
+# Shell Eco-Marathon
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+* <span style="color:#EDC932"> _Worldwide Engineering Competition_ </span>  <span style="color:#FFFFFF"> </span>
+  * <span style="color:#FFFFFF">WAY less fast and money intensive version of Formula 1</span>
+* <span style="color:#EDC932"> _Multiple Categories_ </span>  <span style="color:#EDC932"> __:__ </span>  <span style="color:#FFFFFF"> Prototype and Urban</span>
+* <span style="color:#EDC932"> __Different Powertrain Systems: Hydrogen__ </span>  <span style="color:#FFFFFF">\, ICE\-Hybrids\, & Battery EVs </span>
+
+![](img%5CMid-Semester%20Presentation0.png)
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CMid-Semester%20Presentation1.png)
+
+![](img%5CMid-Semester%20Presentation2.png)
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+::: {.notes}
+
+JC
+Motivations for the Project
+What is the shell eco-marathon
+International competition where students can pool their knowledge and build what they believe is the best or to the limits of their abilities (so much both of us did not know coming into the project)
+Efficiency, sustainability, and engineering competition 
+
+
+
+:::
+
+# Prior Vehicles
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CMid-Semester%20Presentation3.jpg)
+
+![](img%5CMid-Semester%20Presentation4.jpg)
+
+_2018 Front Suspension_
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CMid-Semester%20Presentation5.png)
+
+<span style="color:#CCCCCC">2015 Competition Team</span>
+
+![](img%5CMid-Semester%20Presentation6.png)
+
+<span style="color:#CCCCCC">2012 \- Original Chassis Construction</span>
+
+:::
+
+::::
+
+::: {.notes}
+
+BH 
+
+:::
+
+# Past 3 Years
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img%5CMid-Semester%20Presentation7.jpg)
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CMid-Semester%20Presentation8.jpg)
+
+:::
+
+::::
+
+::: {.notes}
+
+Tension tests + pressure testsMaximum Simulated Moment (200 lb Driver): 600 lb-in 
+Design Goal: 1800 lb-in (C)
+
+
+:::
+

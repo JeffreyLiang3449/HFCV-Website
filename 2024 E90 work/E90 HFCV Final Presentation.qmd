@@ -1,0 +1,40 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# Hydrogen 
+Vehicle   
+Revitalization
+
+# Justin Chai and Ben Horvat
+Advisor: Prof. Everbach
+Swarthmore College E90
+Spring 2024
+
+![](img%5CE90%20HFCV%20Final%20Presentation0.png)
+
+::: {.notes}
+
+JC add advisor
+
+:::
+
+# That Thing In the Highbay?
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+![](img%5CE90%20HFCV%20Final%20Presentation1.jpg)
+
+![](img%5CE90%20HFCV%20Final%20Presentation2.jpg)
+

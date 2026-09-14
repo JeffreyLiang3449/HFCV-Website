@@ -1,0 +1,31 @@
+In order:
+
+Hypothesis so far: it\'s the epoxy and epoxy attachment that determines our strength of connection -\> maybe add hardware or grooves to 3d prints?
+
+Small wrapped:
+
+3D: epoxy broke at 210, no break on the carbon member or 3d print (can even reuse the carbon member) -\> note that it was a break of the epoxy and the member was still very tightly connected (had to twist and turn the member to get it out of the tension connection)
+
+Aluminum: the top lip epoxy is noticeably off (might have been pulling through the weld) after about 500 -\> much hard to twist and pull out and noticeably still held together due to grooves in the aluminum connection a
+
+Large pultruded:
+
+3D print:
+
+Ripped out really easily (no internal scoring meant that the epoxy did not have much to rip/grab onto) -\> didn\'t break member or 3d print
+
+Aluminium:
+
+The bottom weld needed to be gone through before we got to actual data for epoxy (post 300)
+
+Not necessarily broken, just the bond is beginning to break up (let go of pultruded large and pultruded in general)
+
+Large wrapped:
+
+3D print:
+
+Top part cleanly sheared off -\> not a problem with the epoxy at all (NEED TO FIX THE ANGLES OF THE DROP OFF)
+
+Aluminum:
+
+Popped at 560, same bottom shear issue where we have a region of getting through the weld area

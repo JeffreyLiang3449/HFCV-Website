@@ -1,0 +1,101 @@
+                                  4                                                                          3                                      2                                                                               1
+                                                                                                                                3
+                                                                                                                                4
+        Note: Remember that all the drill holes for the
+        screws should be made smaller than 0.138" (as that
+        is the size of the actual screw). This is to make sure
+D       we have enough material left to tap the holes for
+        the screws to hold on to. J knows what drill bit size
+                                                                                                                                                                                                                                                                      D
+        to use based on the screw size, so talk to him. The
+        exact positions of where the holes go are here.
+
+
+
+                                       33
+                                        4
+                                                                                                                                            3
+                                                              1
+                                 27
+                                  8
+                                                              4
+                7                                                                                                                                                                     2
+                8
+
+
+
+                                                                                                                                                                              1                                  1
+                                                                                                                                                                              4                                  4
+
+                                                                                                                                            3           Ø4mm
+                                                                                                                                                                                                                                    Note: For one of the
+                                                                                                                                                                                                                                    pieces the hole shuold be
+C                                                                                                                                               2                                                           13
+                                                                                                                                                                                                                                    4mm but for its pair the
+                                                                                                                                                                                                                                    drill hole should be
+                                                                                                                                                                                                                                                                      C
+                                                                                                                                                               5                                            16                      smaller as it needs to
+                                                                                                                                                               8                                                                    be tapped in order for
+                                                                                                                                                                                                                                1   the shoulder screw to
+                                                                                                                                                                                                                                4   attach.
+                                                                                                                                        6                                    3
+                                                                                                                                                                            16                              Ø.138
+                                                                                                    53
+                                                                                                     4                                                                                 9
+                                                                                                                                                                                      16
+                                                                                                                                                                                           3
+                                                                                                                                                    1                                      4
+
+
+    8
+                                                                                                1
+                                                                                                                                                                                                      1
+                                                                                               74
+                                                                                                                                                                                  3                                     1
+                                                                                                                                                                                  8                                     4
+
+                                                                                                                                                             1
+                                                                                                                                                            Ø2
+
+B                                                                                          1
+                                                                                          42
+                                                                                                         3                                                                                                                                                            B
+                                                                                                                                                                                                                 1
+                                                                                                                                                                    5
+                                                                                                                                                                    8
+                                                                                                                                                                                                                                1
+                                                                                                                                                                                                                                4
+                                                                                     13
+                                                                                      4                                                                                      3                              Ø.138
+                                                                            1.2875                                                                                          16
+                                                                       .9125                                                                                                           9
+                                                                   9                                                                                                                  16
+                                                                  16
+                                                                                                                                                                                           3
+                                                                                                                                                                                           4
+            5                                             3
+            8                                            16                                                      1
+                                                                                                                 4
+                .9
+                                                                                                                            3                                                                  PROJECT
+                    1.35                                                                                                    8
+                                                                                                                                1
+                                                                                                                                                                                               E90 HFCV
+                           2.4                                                                                                  4                                                              TITLE
+                                                                                                                                        1
+
+A                            2.85                                                                                       1
+                                                                                                                        4
+                                                                                                                                        4
+                                                                                                                                                                                               FINAL PEDAL                                                            A
+                                   1
+                                  38                                                                         1                                                                                 Aluminum Pedal
+                                                                                                             4
+                                                                                                                                    1               APPROVED                                   SIZE       CODE         DWG NO                                   REV
+                                                                                                                     Ø.138
+                                                                                                                                    8               CHECKED                                     C
+                                                                                                                                                    DRAWN          Gabriel Salas       6/4/2025 SCALE 2:1            WEIGHT                 SHEET 1/1
+
+
+                                  4                                                                          3                                      2                                                                               1
+

@@ -1,0 +1,238 @@
+Shell Eco-Marathon Hydrogen Vehicle Revitalization Effort
+
+ENGR 090 Proposal to Investigate Vehicle Redesign
+
+Justin Chai '24 & Benjamin Horvat '24\
+Advised By: Professor Carr Everbach
+
+Swarthmore College, Department of Engineering, December 2023
+
+**Project** **Overview**
+
+This E90 project is focused on designing and fabricating components for a new hydrogen-powered vehicle aiming for participation in the Shell Eco-Marathon. By completing this project, we aim to gain experience in the design of vehicles and vehicle systems with energy-efficiency-focused design. More specifically, we hope to gain experience in materials testing, suspension mechanics, and renewable energy system implementation with the vision of a revamped hydrogen fuel cell vehicle. We hope that our work attracts more participants to the competition team and paves the way for more successful competition participation in 2025.
+
+**Introduction**
+
+[The advent of climate change pressures innovators to explore alternative energy methods beyond the realm of conventional renewable sources. As the world grapples with the urgent need to curtail global carbon emissions, transportation becomes a focal point, demanding innovative approaches to increase EV battery efficiency and disrupt industry reliance on natural gas and petroleum. This transportation imperative is emphasized by the transportation sector's substantial emission contribution]{.mark}, accounting for approximately one-fifth of global carbon dioxide emissions and over a quarter of annual GHG emissions in the United States. \[10\]
+
+[Hydrogen vehicles powered by fuel cells offer a promising avenue for revolutionizing industrial transit systems and commercial vehicles alike. The transition to hydrogen technology holds particular importance for heavy-duty applications, such as freight trains, cargo ships, or cranes, and the importance of this transition is fortified by the recognition that heavy-duty vehicles, although constituting a small fraction of the global vehicle fleet, contribute significantly to greenhouse gas emissions---]{.mark}23% in the case of the US. \[7\]\[14\] [Moreover, the continued adoption of hydrogen as a fuel could make impressive strides in transportation due to hydrogen's energy density and versatility, surpassing that of traditional lithium batteries or diesel fuel. This specific characteristic is especially critical for long-haul transportation, where the high energy demands and weight considerations pose significant implementation challenges for alternative energy]{.mark} [options. \[15\]]{.mark}
+
+[Taking into account the growing investment in hydrogen and the goals of a successful E90 design project, a notable initiative is the]{.mark} [Shell]{.mark} [Eco-Marathon, which has been challenging students worldwide to design energy-efficient vehicles since 1985. \[1\] The competition's mission not only seeks to provide students with hands-on project experience in mechanical implementations of energy systems but also contributes to the broader narrative of sustainable transportation. For this engineering design project, the team will focus on re-developing a Prototype-class hydrogen fuel cell vehicle (HFCV) aligned with the stringent rules of the Shell Eco-Marathon. In past years' E90 projects, the HFCV teams have modified versions of the vehicle to barely pass the Shell Eco-Marathon's strict testing standards. However, after reading reflections and speaking with faculty, the current team decided that it would be best to rebuild the HFCV from the ground up, hoping that this redevelopment would provide a new foundation for future iterations of the vehicle. Moving forward, the proposal will detail the technical background of HFCVs, including the physics of the fuel cell stack, hydraulic braking mechanisms, chassis design, and suspension mechanics. The proposal will also detail the timeline, budget, qualifications, and milestones the team hopes to achieve by the end of the project. The team is looking forward to completing an operational framed HFCV by May, and they hope to gain the necessary technical expertise to lay the foundation for future Swarthmore Eco-Marathon teams. The team is looking forward to completing the planning, design, and implementation of several systems and subassemblies that lay the foundation for future Swarthmore Eco-Marathon teams.]{.mark}
+
+**Technical Discussion**
+
+Swarthmore College has participated in the Shell Eco-Marathon in multiple years past. With the rules of the competition constantly evolving to improve safety and overall performance, our current design has reached the end of its competitive lifespan. Needed modifications of the existing design include back suspension, hydraulic brakes, crumple zones, and hands-free systems. Given the number of changes needed to qualify for competition on a base that has already been modified multiple times and failed to qualify the last two times prior, the team is moving forward with a new design from scratch in hopes of more successful participation in years to come. In the following paragraphs, the mechanics of key components of the HFCV will be discussed alongside their implications on the design process.
+
+**How Does a Hydrogen Fuel Cell Work:**
+
+Understanding the mechanics of a hydrogen fuel cell vehicle provides insights into its potential as a sustainable transportation solution. At the heart of this technology lies the Proton Exchange Membrane Fuel Cell (PEMFC), a pivotal component in converting hydrogen into electricity. As pressurized hydrogen enters the anode side of the fuel cell, it undergoes a catalytic process, splitting into H+ ions and electrons (e-). Simultaneously, pressurized oxygen on the cathode side splits into oxygen atoms, each carrying a strong negative charge. The electrons released at the anode side travel through an external circuit, generating an electric current that powers various components, ultimately returning to the cathode side. \[5\] The hydrogen ions move through an electrolyte membrane, designed to permit only positively charged ions to pass. On the cathode side, the oxygen atoms attract the H+ ions, forming water (H2O) as a byproduct of the reaction.![](media/image3.png){width="2.9839555993000877in" height="2.165252624671916in"}![](media/image1.png){width="4.030395888013998in" height="2.373585958005249in"}
+
+To harness the electricity produced, individual fuel cells are combined into a stack, connected by bipolar plates. This stack is the power source for the electric motor of the vehicle. The fuel cell stack sends electricity to the motor, allowing it to turn the wheels and propel the vehicle forward. \[8\] This implementation showcases the versatility of hydrogen fuel cell technology in delivering power for practical transportation needs. See figure 2 for a diagram on how a fuel cell vehicle's systems typically interact with each other to propel it forward. \[4\] The pros of hydrogen fuel cell vehicles are noteworthy. Beyond offering emission-free driving and quick refueling, these vehicles provide an extended range compared to some battery-powered counterparts. However, challenges persist, such as the limited hydrogen fueling infrastructure, higher production costs, and energy-intensive hydrogen production methods.
+
+**Physics of Fuel-Efficient Design:**
+
+The Shell Eco-Marathon presents a unique racing challenge that diverges from typical racing ideology: how can we create the most fuel-efficient vehicle while maintaining a high level of safety? Despite this challenge being the antithesis of a timed race, we can rely on designs and research on modern race cars to inform the design decisions we make. One of the most tried-and-true ways to increase fuel efficiency is by reducing weight. Modern-day race cars are composed mainly of carbon fiber substitute systems with the intention of making the overall car as lightweight as possible. While these systems may not be as cost-effective in our case, we may still consider our own versions or the implication of certain driving systems in weight where necessary as we strive to be near minimum weight in race conditions. In addition, modern aerodynamic research has completely shifted the expectation of drag on race vehicles. provide some sort of baseline aerodynamic body design that can be worked on in the year following. Likely, the body design itself can be its own year of exploration, so we must ensure that the frame remains flexible while meeting safety requirements.
+
+As our focus will be primarily on suspension and brake design in supplement to the chassis, it is critical that we put in the necessary effort to get both systems right. Suspension systems play a role in both the stability and the energy return when the vehicle faces uneven conditions. Minimizing flex and fatigue in material that makes up the chassis will help receive more out of the suspension system and allow it to act more ideally. When designing a successful suspension and steering system, the vehicle must be able to respond to impulses and adapt for handling, but also not deaden the reaction of the vehicle so much that there are large amounts of energy loss in the process. With competition rules now requiring suspension on the rear wheel, we have the opportunity to design the full system to our liking. We may opt to use the suspension system from the existing vehicle or find prepackaged systems meant for bicycles/trikes given the similarity to our design. Regardless of methods, the interaction between the suspension system and the steering system must be considered to ensure safety and high performance. \[11\]
+
+![](media/image2.png){width="5.510416666666667in" height="1.820239501312336in"}
+
+Our current design provides a great baseline design to move off of and improve. The single-wheel drive back with the chambered wheels provides an excellent efficiency-centric design. We plan to keep the general wheelbase design but make any necessary adjustments for newer developments. Potential changes include: location of the design's center of gravity, camber of front wheels, framing bracing design for load paths, and widths of the chassis body. Research will be done during the design phase to help inform most of the changes, and research of best methods for hydraulic brakes and suspension will be continually researched before they are eventually implemented. \[3\]
+
+Despite this car being primarily for the Shell Eco-Marathon, we want to also explore biomechanical design to make the previous car flexible enough to take on large passengers. This decision is rooted in trying to make the car more interactive and exciting to a rising generation of Swarthmore Engineers. The current car is designed specifically for someone who is lightweight and approximately 5'2", and having a specific driver constraint creates a need for someone who fits the strict constraints for any potential testing or tuning. By adjusting the base frame to support larger individuals as well, we hope to allow a greater number of people to ride in the vehicle and get excited about hydrogen cars. This does not mean that we are conceding with trying to place first in the competition; we anticipate that the new competitive race body will likely have the same driver limitations. By making the previous car flexible with who drives it, we hope a foot-in-the-door effect will take place and invigorate more Swatties to want to take part in this project in the years to come.
+
+**Hydraulic Brakes 101:**
+
+As stated in the Shell Eco-Marathon rules, the HFCV must have two hydraulic brakes acting on the two axles of the vehicle. This is to increase overall safety while providing a modern update on the reliability and future-proofness of competition-grade vehicles. A hydraulic disc brake system operates on the principle of converting mechanical force into hydraulic pressure to achieve efficient and reliable braking. The system is composed of key components such as the master cylinder, brake calipers, brake pads, brake rotors, and hoses/lines. \[13\] When the brake pedal is pressed, the master cylinder, acting as the heart of the system, initiates hydraulic pressure by compressing brake fluid. This pressurized fluid is then transmitted through hoses and lines to the brake calipers, which house pistons. In the case of disc brakes, the calipers contain pistons that exert pressure on brake pads, causing them to clamp onto the brake rotor. This clamping generates friction, slowing or stopping the rotation of the wheel. There are different types of hydraulic brakes, with disc brakes being a common and efficient choice. \[12\] Disc brakes, such as the one described above, have a rotor attached to the wheel, and calipers with pistons that press against the rotor when hydraulic pressure is applied. They are known for their superior stopping power and effective heat dissipation. Another type is the drum brake, where hydraulic pressure is applied to wheel cylinders that push brake shoes against the inside of a drum. While less common in modern vehicles, drum brakes are still used in specific applications. ![](media/image4.png){width="2.9843755468066493in" height="2.1582764654418196in"}
+
+Hydraulic brake systems are widely adopted in mountain bikes and cars due to their numerous advantages. \[3\] In mountain biking, where precise and powerful braking is crucial, hydraulic disc brakes offer superior stopping power, allowing riders to navigate steep and challenging terrains with confidence. The ability to modulate the braking force with minimal effort is particularly advantageous. In cars, hydraulic brake systems provide efficient and reliable braking, contributing to safety and stability. The even distribution of weight among all tires, quick adjustments during emergencies, and the minimal effort required on the brake pedal enhance overall driving safety. See Figure 4 of the schematic of a disk brake system acting on a standard automobile. \[9\] The reliability, superior performance, and adaptability of hydraulic brake systems make them a standard choice for both mountain bikes and cars, ensuring effective control and increased safety on the road or trail. Although the implementation and installation of these hydraulic brakes will require the team to spend more time considering the interaction of the brake's components with the HFCV's chassis and wheel systems, the hydraulic brakes are a necessary component to enter the competition and to successfully race the vehicle safely and efficiently.
+
+**Project** **Plan**
+
+***Objective:*** Before E90 final presentations, the team plans to deliver design recommendations for a new hydrogen fuel cell vehicle that satisfies the mechanical constraints set by the 2024 Shell Eco-Marathon rules alongside efficiency and performance comparisons with the current vehicle. The design recommendations will allow future team members to iterate on fabrication and calculations at a faster rate and provide a foundational approach for any future design considerations imposed by changes to the Shell Eco-Marathon Prototype-vehicle rules.
+
+Primary design considerations that we hope to resolve include wheelbase and wheel chamber, chassis material and attachments, suspension and hydraulic brake interaction, and interaction of suspension subassemblies with future chassis. We also hope to gather information on existing conditions on the previous vehicle such as current weight and fuel cell performance. Finally, we will likely provide basic human constraints within the vehicle wheelbase to help inform aerodynamic research during the summer of 2024.
+
+***Main Design Constraints:*** Below, the major design constraints of the design project are listed. These constraints range from resource constraints to physical rules and standards set by the Shell Eco-Marathon for a Prototype-class hydrogen fuel cell vehicle.
+
+- ***Timeline***: The E90 design project's semester-long timeline acts as the project's biggest constraint. As a result of the time constraints in conjunction with the team's machine shop experience and ability, the scope of the project was narrowed down to specific mechanical foundations for the hydrogen vehicle. This was decided to make sure that proper attention could be given to the new chassis, brakes, and suspension systems.
+
+- ***Hydrogen*** ***Fuel Cell Stack***: The current hydrogen fuel cell stack is a 2019 model of Horizon's H-1000 Fuel Cell stack. \[6\] As this fuel cell was purchased with the intention to be an integral part of Swarthmore's next iteration of the Shell Eco-Marathon HFCV, the fuel cell will likely not be replaced and will be a constraint on the potential power and energy that will power the vehicle.
+
+- ***Dimensional Constraints***: There are strict dimension requirements for the Eco-Marathon Prototype-class vehicle. The vehicle's maximum height must be less than 1m, and its track width (measured from the midpoints of one tire to the opposite) must be a minimum of 0.5m. The wheelbase(length between a tire on one side to the tire in front/behind it) must be at least 1m. The ratio of the height and track width must be less than 1.25, and the vehicle's width must not exceed 1.3m. The maximum vehicle length should not exceed 3.5m; furthermore, the dimensions cannot be achieved by appendages or singularities attached to the main chassis of the vehicle.
+
+- ***Safety Constraints***: Safety constraints include a 10cm crumple zone at the front of the vehicle, an adequate bulkhead/firewall to separate the driver and electronic systems, and a roll bar that extends at least 50 mm around the driver's helmet when seated. The roll bar must also extend in width beyond the driver's shoulder and withstand a load of 700N. These safety requirements will mostly be used in design recommendations for future teams.
+
+- ***Steering Constraints***: As specified by the Shell Eco-Marathon rulebook for Prototype-class vehicles, the HFCV must have front-wheel steering only. The turning radius must be 8 meters or less, and the external wheels of the vehicle must be able to follow a 90° arc of 8 meters in both left and right directions.
+
+- ***Braking Constraints***: The HFCV must have two hydraulic braking systems, one per axle, and no brakes acting on the tires directly are permitted. Furthermore, the front brake(s) must be operated by a single foot pedal accessed by the driver, and the rear brake(s) must have a single lever action attached to the front brake pedal or the steering handles.
+
+- ***Weight Constraints***: The maximum weight of the vehicle without the driver is 140kg.
+
+- ***Project Budget Constraints***: The maximum budget afforded to engineering seniors for this E90 project is \$800 which limits the amount of materials testing and iteration that may occur throughout the project.
+
+***Project*** ***Timeline:***
+
++:----------------------+:------------------------------------------------+:----------------------+:----------------------+
+|                       | **Summary**                                     | **Start Date**        | **End Date**          |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| **PHASE ONE**         | **Evaluation of Existing Systems**              | PRESENT               | February 2nd, 2024    |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| **PHASE TWO**         | **Materials Testing**                           | February 5th, 2024    | March 1st, 2024       |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| **PHASE THREE**       | **Suspension and Wheels Optimization + Design** | February 5th, 2024    | March 8th, 2024       |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| *Midpoint Check: Materials Selected and Suspension Drafted by Spring Break*                                             |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| **PHASE FOUR**        | **New Back Suspension**                         | March 18th, 2024      | April 26th, 2024      |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+| **PHASE FIVE**        | **Upgrades to Existing HFCV**                   | April 29th, 2024      | END                   |
++-----------------------+-------------------------------------------------+-----------------------+-----------------------+
+
+*\*\*Key dates for the Spring Semester include:\*\**
+
+*\*\*Spring Break March 8-18, Classes End May 3, Final Report due May 10, and Commencement on May 26\*\**
+
+[[Link to Task Specific Gantt Chart]{.underline}](https://docs.google.com/spreadsheets/d/1oK3nJL2laM1l-1gSaQ68HuegUR9cjQp2MY5OLmCIM50/edit?usp=sharing)
+
+The link above will be continuously updated as we progress through this project and get a clearer vision of reasonable timelines, likely following Phase One.
+
+***Planned Outputs:** (Reference Timeline)*
+
+- Current Design Evaluation (Phase 1)
+
+- Chassis Material, Attachment Design (Phase 2)
+
+- New Back Suspension Design (Phase 3) and Fabrication/Installation (Phase 4)
+
+- New Suspension Balancing (Phase 5)
+
+- Functional Fuel Cell Driven System on Existing Car (Phase 5)
+
+***Measures of*** ***Success:*** Listed below are the reasonable milestones and stretch goals that the team plans to use to assess the success of the HFCV.
+
+- Reasonable goals:
+
+  - Fully evaluate current hydrogen fuel cell stack capabilities and ascertain viability and parameters by connecting with small electrical circuits and old model's safety systems
+
+  - Assess differences, costs/benefits, and strengths of carbon fiber and aluminum in order to holistically recommend materials for different components of new chassis and wheelbase
+
+  - Design a new detachable suspension system for the rear wheel of the old model and test the old model's improved weight distribution while driving on Singer Hall's parking lot
+
+  - Fabricate and design wheel hub to house hydraulic braking systems and new suspension systems (should be able to detail the system's interactions)
+
+  - Minimum of 3 work days every full school week and weekly meetings. Update the Gantt chart every week before the weekly meeting
+
+- Stretch goals:
+
+  - Modify the old hydrogen fuel cell vehicle with new back suspension and clean up safety+electrical systems to have an adequate and accessible testing platform for future teams
+
+    - A 5'8" person weighing more than 150 lbs should be able to sit and drive the modified vehicle
+
+**Project Qualifications**
+
+**Benjamin Horvat:**
+
+*Relevant Coursework*: ENGR006, ENGR012, ENGR060, ENGR065, ENGR068
+
+*Relevant Experiences*:
+
+Ben has primarily focused his engineering electives on structural engineering with a mix of other disciplines. While working in the automotive space is relatively unfamiliar, Ben's summer internships have helped expose him to best practices in both fabrication and project management and helped motivate him to pursue this project. During the summer of 2022, Ben worked at a general contractor firm as an estimator in a small-scale construction wing where he also gained experience as a designer and scheduler. One project that involved constraint-oriented design was a competitive bid for the design, estimation, and scheduling of a kayak facility to be floating on the Allegheny River in Pittsburgh, PA. Through this project, Ben had a successful experience in an unfamiliar building space, learning the importance of cost engineering and going the extra mile in planning or design to stand out from the rest. Toward the end of his time working there, Ben was exposed to a startup in the energy space that was looking to pursue pricing for infrastructure to help establish commercial hydrogen fuel infrastructure on the West Coast or DMV regions. This introduction to the forward thinking and potential future of the commercial hydrogen fuel industry helps motivate him to put his own efforts toward this E90 project. For the summer of 2023, Ben worked as a Manufacturing Engineering Intern at Carnegie Robotics where he primarily focused on electronic manufacturing processes. Within that company, he gained experience in Solidworks, tooling design, and optimal Loctite utilization, getting exposure to both successful and unsuccessful relationships between mechanical designers and fabricators. Through his experience there, he has recognized the criticality of construction-conscious design, rapid prototyping, and failure analysis in high-performing products.
+
+*Goals*: Develop Solidworks design for technical drawings of work. Learn suspension theory and use energy-efficiency best practices for design. Apply structural knowledge on materials testing and design, and execute metal fabrication.
+
+**Justin Chai:**
+
+*Relevant Coursework*: ENGR006, ENGR012, ENGR086, ENGR093, MATH054, MATH056, UNSW Structural Health Monitoring, UNSW Engineering Operations and Control. UNSW Design & Applications of Materials in Science & Engineering
+
+*Relevant Experiences*:
+
+Justin has focused his engineering electives, either during his time at UNSW Sydney or doing a directed reading with Professor Everbach, on energy systems and the implementation of alternative energy methods in different mechanical systems. He has spent time working on EV vehicle-to-grid charging models during his REU at the University of Michigan-Dearborn and an externship at Turo alongside Swarthmore alumni, Nida Osei, focusing on EV policy and charging infrastructure research. As a result, Justin has been able to spend a considerable amount of time during his undergraduate degree working on the decarbonization transition in transportation systems, giving him ample experience to think about the effects and implications of the Shell Eco-Marathon hydrogen fuel cell vehicle. Furthermore, Justin completed a detailed evaluation of the DCC and geothermal exchange plant construction and design process as a final project in collaboration with Professor Everbach and Susan Smythe. This experience gave him the opportunity to understand the project management, budgeting, and strict guidelines that go into a complex engineering project, and though the hydrogen fuel cell vehicle is not at the same scale as the DCC, the experience should provide frameworks on how to plan out the project.
+
+*Goals:* Build the necessary technical knowledge to do design calculations for a chassis and braking system while also understanding the electrical wiring and systems that connect the mechanical portions to the hydrogen fuel cell stack.
+
+**Relevant Conversations and Considerations:**
+
+As a result of the scale of this project and the desire to eventually race this hydrogen fuel cell vehicle in a proper Shell Eco-Marathon race, the additional support from underclassmen team members and past iterations of the project are important considerations for the success of the project. Alongside J. Johnson in the engineering machine shop, the hydrogen fuel cell vehicle team also includes Alexander Vasquez-Jaffe, class of 2026, who has previously reworked the 2018 iteration of the vehicle. He has been able to tinker with the previous iteration and is incredibly knowledgeable on how the vehicular systems work, including the hydrogen fuel cell stack and its circuitry. His support and our collaboration with him allowed us to focus on the mechanical portions of the project while maintaining a brisk timeline for implementing those mechanical pieces with the hydrogen fuel cell circuitry. Moreover, the project has benefited greatly from previous E90 reports on past versions of the vehicle, and the past reports have informed our team on key considerations and problem areas that have hindered a more successful competition-ready vehicle. Moving into the project, the team has been able to map out our potential resources and the necessary training time to achieve the goal of rebuilding a foundation for future Shell Eco-Marathon vehicles.
+
+**Project Costs and Budget**
+
+We anticipate that we will be purchasing parts or materials in waves as we go throughout this project. There is currently a high amount of uncertainty regarding specific systems or materials.
+
++:----------------------------------------------------+:-----------------+:-----------------+:---------------------------------------------------------------------------------------+
+| Item                                                | Qty              | Price            | Notes                                                                                  |
++-----------------------------------------------------+------------------+------------------+----------------------------------------------------------------------------------------+
+| Misc Material Testing                               |                  | \$200            | Material for UTM testing. fatigue, shear, stress/strain testing.                       |
+|                                                     |                  |                  |                                                                                        |
+| (Aluminum + Carbon Fiber/ Various Shapes and Sizes) |                  |                  | Testing effects of machining in materials and possible solutions for frame attachment. |
++-----------------------------------------------------+------------------+------------------+----------------------------------------------------------------------------------------+
+| Suspension Systems                                  | 1 back, 2 front  | \$300            | 1 back necessary, may be able to salvage/modify current front                          |
++-----------------------------------------------------+------------------+------------------+----------------------------------------------------------------------------------------+
+| Hydraulic Brakes                                    | 2 systems        | \$250            | Hand brake for front, foot pedal for back                                              |
++-----------------------------------------------------+------------------+------------------+----------------------------------------------------------------------------------------+
+| Misc Parts/Fittings                                 |                  | \$50             |                                                                                        |
++-----------------------------------------------------+------------------+------------------+----------------------------------------------------------------------------------------+
+| TOTAL                                               | \$800                                                                                                                        |
++-----------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+
+
+**Resources**
+
+1.  "About Shell Eco-marathon." *Shell Eco-marathon*,
+
+> https://www.shellecomarathon.com/about.html. Accessed 15 December 2023.
+
+2.  Constant, Charlie. "Suspension design: definitions and effects on vehicle behavior -- Car
+
+> Engineer." *Car Engineer*, https://www.car-engineer.com/suspension-design-definitions-and-effects-on-vehicle-behavior/. Accessed 15 December 2023.
+
+3.  Dille, Ian, and Step Guide. "How Your Hydraulic Disc Brakes Work \| Bicycling."
+
+> *Bicycling Magazine*, 30 April 2010, https://www.bicycling.com/repair/a20019608/how-your-hydraulic-disc-brakes-work/. Accessed 15 December 2023.
+
+4.  Di Paolo, M. "Hydrogen: What\'s the Attraction?" *EE Times Asia*, 16 March 2020,
+
+> https://www.eetasia.com/hydrogen-whats-the-attraction/. Accessed 15 December 2023.
+
+5.  Fulcher, Jonathan. "How do hydrogen fuel cells produce electricity?" *Lexology*, 23 July
+
+> 2019, https://www.lexology.com/library/detail.aspx?g=af37fe74-4987-4116-a861-8d2ebc210138. Accessed 15 December 2023.
+
+6.  "H-1000 XP Fuel Cell Stack." *Horizon Educational*,
+
+> https://www.horizoneducational.com/h-1000-xp-fuel-cell-stack/p1407. Accessed 15 December 2023.
+
+7.  "Heavy-duty vehicles an ideal entry into hydrogen fuel cell use \| ORNL." *Oak Ridge*
+
+> *National Laboratory*, 23 April 2021, https://www.ornl.gov/news/heavy-duty-vehicles-ideal-entry-hydrogen-fuel-cell-use. Accessed 15 December 2023.
+
+8.  "How does a hydrogen vehicle work?" *Renault Group*,
+
+> https://www.renaultgroup.com/en/news-on-air/news/how-does-a-hydrogen-vehicle-work/. Accessed 15 December 2023.
+
+9.  "Hydraulic Braking \| Definition, Components, Applications \| by Vehicle Parts Supplier."
+
+> *Medium*, 12 February 2023, https://medium.com/@andrew_85986/hydraulic-braking-definition-components-applications-cc96c500aaae. Accessed 15 December 2023.
+
+10. "Hydrogen\'s Role in Transportation." *Department of Energy*, 25 February 2022,
+
+> https://www.energy.gov/eere/vehicles/articles/hydrogens-role-transportation. Accessed 15 December 2023.
+
+11. Mees, Huibert. "Our Suspension Engineer Explains Why This One Suspension Design
+
+> Parameter Has Such A Huge Effect On Ride, Handling, And Body Roll." *The Autopian*, 3 March 2023, https://www.theautopian.com/our-suspension-engineer-explains-why-this-one-suspension-design-parameter-has-such-a-huge-effect-on-ride-handling-and-body-roll/. Accessed 15 December 2023.
+
+12. Mercer, Liam. "How do hydraulic brakes work? \| off-road.cc." *off.road.cc*, 18 October
+
+> 2023, https://off.road.cc/content/feature/how-do-hydraulic-brakes-work-13655. Accessed 15 December 2023.
+
+13. Muir, Alex. "How the braking system works." *How a Car Works*,
+
+> https://www.howacarworks.com/basics/how-the-braking-system-works. Accessed 15 December 2023.
+
+14. Ritchie, Hannah. "Cars, planes, trains: where do CO2 emissions from transport come
+
+> from?" *Our World in Data*, 6 October 2020, https://ourworldindata.org/co2-emissions-from-transport. Accessed 15 December 2023.
+
+15. "Why Study Fuel Cells." *Department of Energy*,
+
+> https://www.energy.gov/eere/fuelcells/fuel-cells. Accessed 15 December 2023.

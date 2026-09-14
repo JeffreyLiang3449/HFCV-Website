@@ -1,0 +1,207 @@
+# Plan
+
+  ---------------
+   **June 2025**
+      Sunday
+         1
+         8
+        15
+        22
+        29
+  ---------------
+
+   **July 2025**
+  ---------------
+      Sunday
+         6
+        13
+        20
+        27
+
+  -----------------
+   **August 2025**
+       Sunday
+          3
+         10
+         17
+         24
+         31
+  -----------------
+
+# Notes
+
+## Week 1: 6/23-6/26
+
+### Mon 6/23
+
+- Met with Prof. Everbach to check in, layout direction for project.
+
+- Checked in with J
+
+  - J gone on wed 6/25
+
+  - Need to familiarize myself with the lathe here
+
+  - Plan on machining linkages tue 6/24 and thu 6/26
+
+- Hope to finish linkages by next week so I can start assembly of the front frame
+
+- Need more bolts
+
+![](media/image4.jpg){width="6.5in" height="4.875in"}
+
+- Getting this three-member joint to lay flat seems like may be an issue. I should make sure everything is in line before I start making more linkages.
+
+  - Nora informed me that washers were used before, but I think it would be good to have a design that doesn't need them.
+
+- I decided to make a model of the front section in Fusion to help me to figure out how to alter the linkage:
+
+![](media/image1.png){width="3.0in" height="3.585in"}
+
+- This was a good exercise as it was my first time modeling with multiple components. I will ask Nora if turning this into a full model of the car is of interest. If so, I may work on this when I don't have mechanical work to do.
+
+- Instead of altering the 3D printed part, I filed down a side of the linkage so that the whole joint lies flat:
+
+![](media/image7.jpg){width="4.0in" height="3.0030774278215224in"}
+
+- Need for front:
+
+  - 18 end members
+
+  - 2 two-sided members (or three if the off-center hole is a problem)
+
+<!-- -->
+
+- Need for back:
+
+### Tue 6/24
+
+- Spent the day machining stopper linkages in the shop.
+
+  - For the first couple hours, I familiarized myself with the lathe and other tools
+
+- I managed to make 7, 9 more to go.
+
+<!-- -->
+
+- I went up to SH124 to assemble as much of the chassis as I could:
+
+![](media/image6.jpg){width="6.5in" height="4.875in"}
+
+### Wed 6/25
+
+- Machined more stopper linkages in the shop. Managed to make five more.
+
+  - Discovered that the threads needed to be tapped deeper, and the ½" relief at the top had to be bored out from ⅜" to 25/64". This way, the tap was able to make it through.
+
+- Attended pizza lunch & talk.
+
+- Assembled more of the chassis with new linkages; screws still not going in far enough after tapping deeper. Not sure why.
+
+### Thu 6/26
+
+- I decided to take a break from machining linkages because it was getting very tiresome.
+
+- I re-assembled part of the chassis with the new linkages:
+
+<!-- -->
+
+- For the rest of the day, I continued to work on the Fusion model of the car. There were several hiccups that I still haven't found solutions to.
+
+![](media/image3.png){width="5.588542213473316in" height="3.9854188538932633in"}
+
+###  
+
+## Week 2: 6/30-7/3
+
+### Mon 6/30
+
+Made significant progress with the 3D model of the car and verifying how many of each type of linkage I need to make.
+
+![](media/image2.png){width="5.0in" height="3.7307688101487315in"}
+
+### 
+
+## Week 3: 7/9-7/11
+
+### Wed 7/9
+
+Still need to make:
+
+- 12 x Stoppers
+
+- 3 x suspension stoppers
+
+- 3 x 1" single
+
+- 6 x 1.5" single
+
+- 2 x 1.5" single offset
+
+- 2 x 1.75" single
+
+- 7 x 2" double
+
+- 2 x 2.3" single
+
+- 2 x 2.3" single offset
+
+- 1 x 2.3" double(side)
+
+- 4 x 2.6" single
+
+### Fri 7/11
+
+Still need:
+
+- 2 x stoppers
+
+- 7 x suspension stoppers
+
+- 3 x 1" single
+
+- 2 x 1.5" single offset
+
+- 2 x 1.75" single
+
+- 7 x 2" double
+
+- 2 x 2.3" single
+
+- 2 x 2.3" single offset
+
+- 1 x 2.3" double(side)
+
+- 4 x 2.6" single
+
+- 1 x 2.8" double (center)
+
+- 1 x 2.8" double (side)
+
+Finished lathing almost all linkages. Still need:
+
+- 2 x 2.3" single
+
+- 2 x 2.3" single offset
+
+- 1 x 2.3" double(side)
+
+- 4 x 2.6" single
+
+- 1 x 2.8" double (center)
+
+- 1 x 2.8" double (side)
+
+![](media/image5.jpg){width="6.5in" height="4.875in"}
+
+4 x no relief
+
+4 x ¼" relief
+
+2 x ½" relief
+
+4 x 1.5" single
+
+1 x 1.5" offset
+
+1 x suspension stopper

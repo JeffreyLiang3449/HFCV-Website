@@ -1,0 +1,866 @@
+**Accomplishments/Timeline/Goal:**
+
+1.  **By Spring Break and [week after spring break: Should have all the tension tests for carbon fiber member connectors (welded aluminum connectors vs 3D printed Markforged units) -\> have all the systems and materials in place for pressing on the gas to finish up materials testing]{.mark}**
+
+    a.  [found out we need to do 100% infill for print going forward but can just point this out for future tests and caveat our results (No time left to reprint and retest but ok)]{.mark}
+
+    b.  [Figured out how to machine and set up test units for the carbon fiber rods for UTM compression and tension testing]{.mark}
+
+    c.  [Finish SAP model -\>]{.mark} Use this information for mock chassis side strut, new suspension system (box fab from plates or tube redesign of front suspension)
+
+    d.  [figured out all connector printing steps through the Carbon fiber Markforged printer at the Makerspace]{.mark}
+
+        i.  [have account here:]{.mark} [[Mnguyen9@swarthmore.edu]{.underline}](mailto:Mnguyen9@swarthmore.edu) ;
+
+            1.  MAKERspace_1
+
+    e.  Goals: Evaluate strength/weight, strength/cost, weight/cost of specific carbon fiber fixtures, time/effort, difficulty in learning how to handle, how unnecessary it is
+
+2.  **Post Spring break and Mid-semester check-in week: Wrapping up all Materials Testing and finishing analysis of chassis and materials best practices for next years team in the presentation:**
+
+    a.  We want to finish all materials testing by finishing up the compression collars by Thursday and be rdy for compression on Friday we get back
+
+    b.  Should be able to give proper recommendations on steps and best practices we found for materials for the chassis design for the presentation (including comparison of methods, qualitative (time spent and effort) vs the quantitative(cheaper and stronger) analysis
+
+3.  **Through end of semester (april project):** Revamp of front suspension + Design of back suspension for chassis attachment. Will this risk bump steering? -\> essentially remodeling the old vehicle for display
+
+    a.  Primary design, extend underneath chassis and have jointed arm that suspension spring on arm.
+
+        i.  Find spring constant/simulation of responses of the new suspension system and how it improves overall performance of vehicle
+
+    b.  Qualitative test and comparing old efficiency and responses of the old chassis/suspension systems with new proof of concept designs (and new ideas like extensions to driver seat)
+
+    c.  Troubleshoot the fuel cell and clean up the vehicle (including measurements of the efficiency of old fuel cell and getting the flow meter) -\> **hope to get it running and road testing by the draft period and into the presentation** **time**
+
+**Ultimate** **goal for E90 Design: The goal is to** begin the design process of the reconstruction of the Shell Eco-Marathon hydrogen fuel cell vehicle. This includes a reimagining of the materials and methods used to construct the chassis, building out calculation models to understand how design decisions(such as weight or material changes) affect the overall efficiency of the vehicle(and road responses), and providing proof of concept vehicle elements like the suspension and wheel hub connectors through a revamp of the old vehicle.
+
+**Note:** Other than exploring a system to change out the spring/shocks of the suspension system, none of the elements built in this E90 will actually be used for the actual Shell Eco-Mararthon final vehicle. (We will recommend a procedure for beginning the construction and final design of the vehicle though, alongside all the necessary resources to follow the best practices we have found along the way)
+
+Note: The Old UTM was used for all of the material testing!
+
+Possible source [[On bending stiffness of composite tubes - ScienceDirect]{.underline}](https://www.sciencedirect.com/science/article/abs/pii/S026382231100081X)
+
+**Important Calcs/Spreadsheets:**
+
+Turning radius=Wheelbase/tan(SteeringAngle)
+
+[[E90 Calc Excel.xlsx]{.underline}](https://docs.google.com/spreadsheets/d/1oDsp-psOOPxFztT0m_s0BGsOZ6cLbMTP/edit?usp=sharing&ouid=107328547311186324308&rtpof=true&sd=true)
+
+**Final Conclusions:**
+
+- **Best practices for predicting efficiency:**
+
+- **Materials & Best practices for chassis redesign:**
+
+- **Chassis Design Recommendation + Aerodynamic thoughts:**
+
+- **Hydrogen Fuel Cell Viability:**
+
+  - **What is current performance:**
+
+- **Design and Implementation of Rear Suspension:**
+
+- **Hydraulic Braking System Installation:**
+
+- **Front Suspension**
+
+- **New Wheels and Steering Column**
+
+- **What needs to be bought or looked into**
+
+**[Notes]{.underline}**:
+
+Week 7: **(all tension tests are finishing up)**
+
+Week 8: Compressive Testing on Side of Joint Completed + Potential tensile retests of 3D printed connectors (with hardware in it) + Presentation Video on Friday/Thursday -\> **Thursday midday for all units(3D and welded) to be printed (start printing by saturday)**
+
+Week 9:Epoxy and finish new tensile/compression + back suspension design deadline (SOFT) (PRESENTATION WEEK)
+
+Week 10: Start on front suspension rehaul \[GAVE UP ON THIS\]
+
+Week 11: Start on back suspension fabrication
+
+Week 12: Finish back suspension / joinery design (MAKE BIG LIST OF THINGS of potential E90 + recommendation lists for future) + Install hydraulic brakes
+
+**YOU ARE HERE -\>** Week 13: Draft Report due EOW
+
+Week 14: Practice Presentations + finishing front suspension
+
+Week 15: Project Presentations + Final Report due later
+
+E14 Statement:
+
+The Shell Eco-Marathon is an international contest in which teams compete with different fuel systems to see who can make the most fuel efficient vehicle. For the next generation of Swarthmore's competition vehicle, there is an anticipated use of wrapped carbon fiber tubes to construct the chassis. To join these tubes together, a combination of 3D printed tube holders and aluminum insert backbones will be used to support loads of up to 200 lbs of tension and compression within members. The easiest way to make a vehicle more efficient is to reduce weight, so we are looking to shave off weight wherever safe and possible.
+
+The goal of this lab is to estimate the approximate modulus of elasticity of the combined system of the wrapped carbon fiber with the aluminum running on the inside to reinforce the joint, and to compare the modulus of elasticity of the beam to the individual elements. This will help inform if more weight can be reduced for these joints, and, if so, how much.
+
+You will be provided with 6 separate test configurations to perform a 3 point bending test in the Universal Testing Machine (UTM): 12" of unaltered wrapped carbon fiber tube, 12" of unaltered aluminum rod, 2x6" members of wrapped carbon fiber tube with full thickness aluminum inside, 2x6" members of wrapped carbon fiber tube with the .25" diameter of aluminum drilled out, 2x6" members of wrapped carbon fiber tube with the .375" diameter of aluminum drilled out, 2x6" members of wrapped carbon fiber tube with the .5" diameter of aluminum drilled out.
+
+Displacement=PL\^3/(48EI)
+
+P=Load,L=Length of full member, E=Modulus of Elasticity, I=Moment of Inertia
+
+I=(½)M(R1\^2+R2\^2)
+
+![](media/image4.png){width="4.817708880139983in" height="2.933860454943132in"}
+
+Materials: [[8974K12]{.mark}](https://www.mcmaster.com/8974K12)
+
+- [**[[WCT .750\" x 60\" Wrapped Carbon Tube - Goodwinds.com]{.underline}]{.mark}**](https://goodwinds.com/product/wct-750-x-60-wrapped-carbon-tube/)
+
+**Wk 12:\
+1) backbone of chassis built with aluminum inserts that include modular connector flats at the end of the insert where the CF tube stops**
+
+**2) all vertical pieces and lower load bearing members use 3D print collars with modular connector flats at the end of the tube\'s connections (similar to tension unit)**
+
+**3) All pieces of the chassis are connected by these modular connector flats that are held together by screws including the aluminum inserts and collars**
+
+**Wk 11:**
+
+Friday meeting:
+
+- List of important results:[: Current fuel cell vehicle benchmarking (outside and inside speed test), Cost Analysis, Fuel Cell Model Predictions, Tension Graphs and Chart of Max Compression tests, SAP MODEL, suspension response, braking response of hydraulic brakes]{.mark}
+
+- [Talk about the]{.mark} [structure]{.mark} [of the e90 presentation and how we should]{.mark} [present]{.mark}
+
+  - [Extension is quickly go over the format of the final paper]{.mark}
+
+  - [45 minutes for the presentation (25 mins, 20 min questions) -\> use break for demo]{.mark}
+
+- [E14 lab help: Should me and ben be helping more?]{.mark}
+
+  - [Would you like the students to build the test samples themselves from our instructions/learnings?]{.mark}
+
+    - [Give instructions to them to make them and have them do it]{.mark}
+
+  - [Should we be meeting with them or can we just give more specific instructions on what to do/increase scope of the project?]{.mark}
+
+    - [Will need to meet with them and tell them about the project and what we need from]{.mark} [them]{.mark}
+
+**Overall:**
+
+- Working on E90 theory + confirm the final version of introduction
+
+- Start assigning bits to work on
+
+- Waiting for hydraulic brakes
+
+- Touch up on fuel cell calculations model
+
+- Getting back suspension fabricated and progress started
+
+- Thinking up how to attach calipers to suspension
+
+- More outside testing for braking and speed -\> FINISHED ON WEDNESDAY
+
+**Thursday:**
+
+- Fuel Cell model relook/update -\> update all our numbers and estimates
+
+- E90 theory spruce up + intro finalize?
+
+- Begin formatting the different sections in Methods/Results
+
+- Assigning portions of the report to work on/begin dropping graphs?
+
+- Write carr agenda
+
+**Week 10:**
+
+**To do justin:**
+
+- **Look at front wheels/trike wheels and figure out dimensions/method to attach a front suspension and hydraulic brakes on the front wheels -\> kingpin attachment**
+
+- **Orders:**
+
+  - [**[https://www.amazon.com/gp/product/B007Q4N2LC/ref=twister_dp_update?ie=UTF8&redirect=true&th=1&psc=1]{.underline}**](https://www.amazon.com/gp/product/B007Q4N2LC/ref=twister_dp_update?ie=UTF8&redirect=true&th=1&psc=1)
+
+  - [**[https://www.amazon.com/BR-MT200-Shimano-Complete-Brakes-ASSEMBELED/dp/B07JGCBVF3/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=trailfeatures0e-20&linkId=011b87187858bd8e40c59f13ded3a3c5&language=en_US]{.underline}**](https://www.amazon.com/BR-MT200-Shimano-Complete-Brakes-ASSEMBELED/dp/B07JGCBVF3/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=trailfeatures0e-20&linkId=011b87187858bd8e40c59f13ded3a3c5&language=en_US)
+
+  - **[[QA1, Male Plain, 3/8 in Bore Dia, Spherical Rod End - 20F981\|CMR6 - Grainger]{.underline}](https://www.grainger.com/product/QA1-Spherical-Rod-End-Male-Plain-20F981) PLEASE SELECT RIGHT HAND x2**
+
+  - **[[3/8-24 RH Tube End - 3/4in x .058in-MEZRE1012B (sandparts.com)]{.underline}](https://www.sandparts.com/38-24-RH-Tube-End--34in-x-058in_p_199504.html) x2**
+
+  - **McMaster Carr**
+
+    - **[93275A033 x 2]{.mark}**
+
+    - **[94166A140]{.mark}**
+
+    - **[92620A546]{.mark}**
+
+    - **[96144A223]{.mark}**
+
+**[E14:]{.mark}**
+
+- **[8974K13 (2 or 3 ft)]{.mark}**
+
+- [**[[WCT .750\" x 60\" Wrapped Carbon Tube - Goodwinds.com]{.underline}]{.mark}**](https://goodwinds.com/product/wct-750-x-60-wrapped-carbon-tube/)
+
+- Steps to ensure continuity:
+
+  - Gather potential students for next semester's team - talk to them about vehicle + introduce to Carr
+
+  - E90 Potential Project List
+
+    - Front suspension + steering
+
+    - Chassis fabrication (more budget restricting)
+
+      - Floor needs to be considered too
+
+    - Shell + Aerodynamic Design for carbon fiber tube system
+
+    - Safety Systems
+
+  - New Team Roles:
+
+    - Electrical/Fuel Cell (Energy + Electrical)
+
+      - Potential investment in flow meter
+
+    - Front Suspension/Steering Optimization (Mech focused)
+
+      - Front Braking systems - Pedal braking
+
+    - Chassis Project + Component Planning (Execution/Planning)
+
+    - Shell Project (Aerodynamics)
+
+    - 
+
+  - Make technical drawings for all manufactured parts + chassis in Autodesk (Ben- when machine shop isn't open)
+
+- **Thursday:**
+
+  - Assessed the red flowmeter and
+
+> found that it\'s dead (battery wise) so will need to get one from shell next yr
+
+- Reassessed the Mid-semester review and added what needs to be edited/added for final presentations
+
+- Began structuring the final report
+
+- Final conclusions started (want to discuss with Carr and finalize some thoughts for next week)
+
+- 
+
+<!-- -->
+
+- **Wednesday**
+
+  - Order new brakes and installation (AND ALL THE OTHER ORDERS)
+
+    - [[Mechanical or Hydraulic disc brakes?]{.underline}](https://www.youtube.com/watch?v=FJe99BjV8bM&ab_channel=TrailFeatures) -\> Inform what improvements to brakes
+
+    - Have accessed that a new flowmeter is not necessary now and can likely be attained by competition organizers(SHELL PROVIDED) in the next year
+
+  - Document fuel cell benchmark
+
+    - Have just agreed that current speed data inside was not the best and used Kinova to map out the max speeds of the vehicle at the moment
+
+  - Document new tension/sompression data
+
+    - Have all max tension and compression data needed
+
+<!-- -->
+
+- Ben's To-Do List:
+
+  - Order .75" wrapped CF tube for E14 testing (Possibly steel/aluminum rod)
+
+## [**WCT750060**](https://goodwinds.com/product/wct-750-x-60-wrapped-carbon-tube/)
+
+- Actual dims: .872" OD, .755" ID
+
+- 1 inch diameter aluminum rod -\> Figure out cut length
+
+<!-- -->
+
+- Suspension Hardware
+
+- Inspiration: [[Amazon.com: SFriding +6\" Extended Rear Swing Arm for Yamaha Banshee 350 YFZ350 1987-2006, Replaces 3GG-22110-00-P0, 3GG-22110-00-35, 2GU-22110-00-UJ, Silver : Automotive]{.underline}](https://www.amazon.com/dp/B0C2V7C5JV/ref=sspa_dk_detail_5?pd_rd_i=B0C2V7C5JV&pd_rd_w=fHx8d&content-id=amzn1.sym.0d1092dc-81bb-493f-8769-d5c802257e94&pf_rd_p=0d1092dc-81bb-493f-8769-d5c802257e94&pf_rd_r=DJQXXJXZGK31YMGRCM3X&pd_rd_wg=fu7K6&pd_rd_r=8e662347-9615-47bd-94f6-d3e5c56d7cac&s=automotive&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWwy&th=1)
+
+  - Steel tube ends
+
+    - [[Chassis Tube Ends - Chromoly steel Tubing End Material - 0.75 Tubing Diameter (in.) - Free Shipping on Orders Over \$109 at Summit Racing]{.underline}](https://www.summitracing.com/search/part-type/chassis-tube-ends/tubing-end-material/chromoly-steel/tubing-diameter-in/0-75)
+
+    - [[5/16-24 RH Tube End - 3/4in x .058in-MEZRE1012A (sandparts.com)]{.underline}](https://www.sandparts.com/516-24-RH-Tube-End--34in-x-058in_p_199503.html) ORDER x2
+
+    - 
+
+  - Suspension Joinery
+
+    - Suspension passthrough =95505A601 (\$10) +92620A546 (\$10)
+
+  - Attachment to aluminum/CF chassis
+
+    - Plate + bolt design for current -\> design collar for new
+
+  - *Figure out wheel hub attachment*
+
+    - 3D print design -\> C hold like current
+
+<!-- -->
+
+- [[Justin Chai]{.underline}](mailto:jchai1@swarthmore.edu) Order hydraulic brake for back wheel - Rear hose model \~ 5' + line
+
+  - Need to size up brake disc - put approximate hardware diameter here:
+
+    - Bought 160mm disc rotors and brake system
+
+- Front hydraulics + front wheels need spec'ed if possible
+
+  - [[Amazon.com: HinLIaDa Front Suspension Shock Kit, Upper & Lower Swing Arm Suspension Shock Kit with Steering Strut Knuckle&Wheel Hub For DIY Buggy Electric ATV Quad Bike Buggy Go Kart Parts 340mm : Automotive]{.underline}](https://www.amazon.com/HinLIaDa-Suspension-Steering-Electric-340mm/dp/B0CL4FW3SM/ref=sr_1_13?crid=3D2C83TQQ3PXS&dib=eyJ2IjoiMSJ9.QzANtpInJ65QM8bWIhthjKF7beujHyXicpd90xlWjRLcfDbNSuvM12ihjEpnrGd1_bI-Svyqr-ED2Kpz55w1LfAEqM-WA1jn2eHpr2GM1ns7hVM8R2_9oB-Y_0_h2EEpcNnyEOgN9X7qzo6bSh1CpkVdmGdTdwTOGWZGMzFtyQwROW3V3oXtV-fbTxsaz49K7jZ1YvNpZKbmrQo1TAPUOK71qo3RZwn-Gtnv76HyHxsuKc-yCwA8rqQmp302DP_wM0spkVsTJ5HX6WIKfJRYi2vnVyP6MDsvExUlV4rOrMw.rTvSf7niAWPulOuNgkOrtH6xSVWLoiAA9gIfOvIk_ac&dib_tag=se&keywords=front+wheel+suspension+kit&qid=1711996570&s=automotive&sprefix=front+wheel+suspension+kit%2Cautomotive%2C66&sr=1-13) (Inspiration for tubing based design)
+
+**Wk 9:**
+
+Next Week:
+
+- Ben for next week: front and back suspension CAD finished + bearings/hardware decides
+
+- Justin for next week:
+
+  - Benchmarking fuel cell vehicle
+
+  - Ordering the new hydraulic brakes for current vehicle
+
+  - Plug in new tensile data into excel
+
+**Thursday**:
+
+- Practice e90 mid semester presentations
+
+- Benchmarking the fuel cell and efficiencies
+
+- Compression tests
+
+**Wednesday:**
+
+- Practice presentations (figuring out timing and getting comfortable with what we each want to say)
+
+- Get hardware solutions onto the prints
+
+- Tension unit testing
+
+  - Small wrapped (with screw) -\> glue takes the load first and then the screw takes hold-\> 3d print tension clamp broke meaning that the mechanical screw and carbon member are still likely able to take more tensile load than was recorded
+
+**Before Wed:**
+
+- Finish up the presentation/slides (know what you're gonna talk about)
+
+- Redo the tension prints for a large wrapped and maybe make an insert compression print for the large wrapped
+
+- We will epoxy everything and hardware the prints on Wednesday afternoon after doing presentation run-through
+
+- ![](media/image5.png){width="5.333333333333333in" height="1.9791666666666667in"}
+
+**Notes on Back Suspension Design:**
+
+- Back wheel to remain the same
+
+![](media/image7.png){width="6.5in" height="3.111111111111111in"}
+
+Max Loads
+
+**Wk 8:**
+
+- Research into hardware for 3D print application -\> thinking M4 screws with rounded phillips head (likely stainless) and possibly binding barrel
+
+- 3d print new tension units
+
+- 3d print Small wrapped straight compressive tests
+
+- 3d print tri joints and corner joints for compression
+
+- Stringking bolts would work perfectly for small and large wrapped - cheap option
+
+- **Wednesday:**
+
+  - Set the deadline and find people to come for mid semester presentation
+
+  - Start the mid semester review slides and start mapping out how itll look
+
+  - Get the analysis of what the aluminum inserts and failures of the 3D prints looked like for now
+
+  - Start on the tensile unit rebuild
+
+- **Push tension tests to Week 9: All versions can be done next week**
+
+- Order hardware for back suspension/ tensile on Friday.
+
+- **Push on testing for Tension (Wed. after 5)**
+
+- [[Technical Material Specifications - Goodwinds.com]{.underline}](https://goodwinds.com/composite-resources/technical-material-specifications/)
+
+- Quick Calcs for ordering of steel rod:
+
+  - E=
+
+**Wk 7:**
+
+- WE TESTING THE TENSION MEMBERS FRIDAY
+
+- Early week effort to weld/lathe all metal insert pieces + all tension 3D prints completed
+
+  - *Exception of small pultruded -\> issue for both 3D + Welding (possibly at later date - TBD)*
+
+- \*\*\*\*\*\* Tension Testing on Friday \*\*\*\*\*\*
+
+- Will do traverse loading upon return - waiting on prints (likely also Friday)
+
+- **Plan for Spring Break: \[TO THINK ABT\]**
+
+  - Back suspension joint design selected -\> order necessary hardware upon return
+
+  - Questions to consider:
+
+    - Front suspension revamp still happening?
+
+    - Fixture for the battery?
+
+    - Adjustment to the steering column/ Extension of current car chassis?
+
+- **Alternative Joint Methods? Fully fleshed out modular design if testing goes well**
+
+  - **3D printed + bolts??? -\> Secondary tension testing (if metal beats out epoxy + plastic**
+
+- Approximate length/impulse reaction to crash?
+
+  - Finish SAP model to have backing in reactions -\> off days from suspension
+
+- Cost sheet running and up to date
+
+  - Order Springs
+
+- Tensile/compression excel for comparisons
+
+  - Cost vs tension strength (minimum tensile strength: 1000 lbs comfortably -\> goal=2000)
+
+  - Cost vs compression strength
+
+  - (minimum compression strength:
+
+- Schematics for joinery/shear/tensile -\> for presentation
+
+- *IMPORTANT DEADLINE: Friday, March 29, 2024, 12:00 AM - Practice Pres. Video*
+
+**Wk 6:**
+
+- To do from Friday
+
+  - Finish up all tension 3d prints
+
+  - Print a new small pultruded
+
+  - Drill through all the 3d printed members
+
+  - steel thread all of the members
+
+  - Machine all the aluminum inserts
+
+  - Think abt an alternative tension member design to grip onto carbon fiber (hose pex shark bite)
+
+- Build all the tensile test members and test them
+
+  - Justin on 3D prints
+
+    - Going to make the tensile members with higher wall thickness( Snug fit)
+
+      - Fix small pultruded
+
+      - Big pultruded
+
+      - Small wrapped
+
+      - Big wrapped
+
+    - Shorten rectangle piece
+
+    - Round out the rectangle connector
+
+    - Holes for designs
+
+  - Ben on composites
+
+- Look at the quote
+
+- **Thursdays:**
+
+  - We are printing all the tensile members (small pultruded at least by now)
+
+  - Epoxy lining for the 3D-printed members and doing the
+
+  - Might have to delay testing but might be able to do compression member creation at the same time
+
+- **WEDNESDAY:**
+
+  - 6 inch member cutting
+
+  - Test out the epoxy (how it works and curing)
+
+  - Set times with J tmr to do inserts
+
+  - Look for respirator
+
+**[Wk 5]{.underline}**
+
+- CONFIRMED THE DATES for Testing: Afternoon of 3/1 or 2/29 (depending on how fast we can fabricate the tension members)
+
+  - [Tensile test: 4 composites with aluminum inserts,, 4 3-D printers collar tests for (8 collars) (MAKE IT FOR SMALL PULTRUDED FIRST)]{.mark}
+
+  - [Compressive test: 8 test units (12 inch members, 6 inch on two sides with joinery)]{.mark}
+
+    - -both sizes of aluminium inserts as joinery for Protruded big and small
+
+    - -3D printed
+
+- Finish the ghost chassis model
+
+  - Want to have conversation over connectors and what are updates on buckling
+
+- Wrap up the designs for the tension and compression tests (ABSOLUTELY FINISH IT)
+
+  - What does the compression test look like and what do we find out from it? How the chassis will respond to downard force?
+
+    - Compression test is described below. Traverse loading to figure out displacement. Measurements should be approx 12" tubes for loading. Testing displacement/shear capacity of the carbon fiber tubes currently.
+
+      - [[jchai1@swarthmore.edu]{.underline}](mailto:jchai1@swarthmore.edu)look to do a 3D printed collar
+
+    - Tensile test will be on 6 inch members. 2 inch inserts on both sides. We are not too concerned about the compressive loading of these members due to the short length. Goal is to figure out how strong the epoxy connection truly is. If the tensile test comes down to how strong the carbon fiber tube is, that is a very encouraging result.
+
+    - [[https://dragonplate.com/dragonplate-adhesive-selection-guide]{.underline}](https://dragonplate.com/dragonplate-adhesive-selection-guide)
+
+    - [[https://www.ellsworth.com/resources/insights/white-papers/fatigue-resistance-of-structural-adhesives/]{.underline}](https://www.ellsworth.com/resources/insights/white-papers/fatigue-resistance-of-structural-adhesives/)
+
+    - [[https://multimedia.3m.com/mws/media/1235389O/dp420-technical-data-sheet.pdf]{.underline}](https://multimedia.3m.com/mws/media/1235389O/dp420-technical-data-sheet.pdf)
+
+    - [[https://www.instron.com/en/testing-solutions/astm-standards/astm-d1002]{.underline}](https://www.instron.com/en/testing-solutions/astm-standards/astm-d1002)
+
+    - [[https://core.ac.uk/reader/288374460]{.underline}](https://core.ac.uk/reader/288374460)
+
+    - **3d print a straight to straight carbon fiber connecter**
+
+      - 
+
+  - What are we proving with this composite type (should we simplify or consider other tests that doesn't require this composite)
+
+    - We are figuring out limits of carbon fiber tubes and how they would interact with the plug system. Figuring out failure modes and approximate values they occur at so we can inform our safety factors. We can also do repetitive stress testing for the tensile members after the initial tensile.
+
+- **Figure out what's still with the fuel cell, have conversation with Jano about changing it out completely**
+
+  - Going to look for a more powerful power supply to continue troubleshooting, but do more diligence to find out what is wrong with it and whether it's worth it to buy a new one? -\> **Pros and cons to be** **done**
+
+- **Begin doing strength to cost, weight to cost, weight/cost of materials(composite), and pros to cons list for mid semester review**
+
+- Spring calculations (hold this until we know how the chassis looks/feels)
+
+  - Justin has the excel sheet finished
+
+- Suspension design, let's hold off until we finish up materials testing
+
+  - Note on back wheel -\> too large 20"\>18" max. Need to find another drive wheel in future.
+
+  - [[Bing Videos]{.underline}](https://www.bing.com/videos/riverview/relatedvideo?q=shock+vs+spring+suspension&mid=C378B26C8FE735F900E1C378B26C8FE735F900E1&FORM=VIRE)
+
+  - Current vehicle, dimension A: 7 inches
+
+    - Dimension B: 13 inches
+
+    - Spring angle: 90 degrees
+
+- Consider flow meter...?
+
+**[Wk 4:]{.underline}**
+
+- Got all the materials for materials testing (aluminum tubes, chrome-moly, and carbon fiber tubes)
+
+  - Start fabricating/planning how to create aluminum inserts
+
+  - Research the epoxies and how to design our tests?
+
+  - [[Weld Design Link]{.underline}](https://app.aws.org/technical/d3/D1.1_2000_Section2_Design.pdf)
+
+  - [[15.4.1. Buckling of Thin Cylindrical Shells - Abbott Aerospace UK Ltd]{.underline}](https://www.abbottaerospace.com/aa-sb-001/15-local-stability-isotropic-materials/15-4-buckling-specific-cases/15-4-1-buckling-of-thin-cylindrical-shells/)
+
+  - 
+
+- Jano fixed the fuel-cell and it still didn't run! (we don't know what the problem is, no error code)
+
+  - Maybe it's time to get the new fuel cell after all! ???
+
+  - Will delay flow meter purchase until decision for fuel cell is made
+
+  - **Decide by Thursday if we just replace old fuel cell!!!**
+
+- Look to buy springs next week! (Wk 5) (based on weighing materials)
+
+  - [[Spring Rate Calculator \| Wheel Rate Calculator \| Automotive \| Hyperco (hypercoils.com)]{.underline}](https://www.hypercoils.com/spring-rate-calculator)
+
+  - [[What Spring Rate Do I Need? \| Suspension Setup - YouTube]{.underline}](https://www.youtube.com/watch?v=MITt8zpQnFw&ab_channel=HighPerformanceAcademy)
+
+- ![](media/image6.png){width="4.646871172353456in" height="2.4427088801399823in"}
+
+  - Rough SAP2000 Model - with simulated 200 lb driver, max compression was approximately 2.7x the load and tension was 1.5x the load
+
+  - ![](media/image2.png){width="3.651042213473316in" height="1.5659678477690289in"}
+
+  - Minor decrease in max loads if point load is moved back
+
+  - ![](media/image1.png){width="3.526042213473316in" height="1.474834864391951in"}
+
+  - Middle of the road approach (Distributed along the member
+
+- Real measurements of Carbon+Aluminum Mats
+
+  - Small wrapped: .585" OD, .489" ID, .050" WT
+
+  - Large wrapped: .880" OD, .744" ID, .068" WT
+
+  - Small Pultruded: .503" OD, .404" ID, .045"-.0685" WT
+
+  - Large Pultruded:.755" OD, .523" ID, .092"-.123" WT
+
+  - Small Al Rod:.511" OD
+
+  - Large Al Rod:.756" OD
+
+- 
+
+**[WK 3:]{.underline}**
+
+**2/9 Update:**
+
+- Bought materials (updates on what things are coming)
+
+  - Ghost chassis and plan for building inserts, testing, and suspension
+
+- Excel update (how to get our final fuel efficiency updates)
+
+- Fuel cell update (it works!!)
+
+  - Data we're looking to get: flow rates coming out of tank and into the fuel cell and thermal efficiency of the fuel cell
+
+  - Trying to get it to be self-sufficient but wiring needs to be fixed, but with power supply, we can make sure motor runs soon!
+
+Thoughts:
+
+- (SOAPY WATER tests for leak)
+
+  - Can send a flow meter link to Carr for buying a new modern flow meter (compact for car)
+
+    - Get all the user manuals and the pins stuff
+
+- Look at buckling documents and how to account for buckling during a tension UTM test
+
+**2/7-8/2024:**
+
+- Goals:
+
+  - Figure out specs that make sense for epoxy, baking should likely be avoided if possible.
+
+  - Glass bead specs that make sense for an achievable level of accuracy.
+
+  - Possible initial investigation of materials upon delivery
+
+  - Figure out min side height for visibility and feasibility
+
+  - **Rough sketch of vehicle body and dimensions for competition grade**
+
+    - Key elements that will help our decisions
+
+      - Wheelbase
+
+      - Side Strut Height
+
+      - Approx driver COG
+
+      - Max spans of carbon fiber and rough total tubing and connector est.
+
+- DP420NS is likely the top candidate, both familiar with the product and no heat cure. 20 min working time will make things harder but not impossible to mix spacers. (Also research 2216NS)
+
+  - Need to outline best practices when doing this task.
+
+    - Example: [[US JAN VID 16 9 SAV P MAC CV SH PO VERBAL+MUSIC PROB MARTIN M 20 35 45sec PDP ALLSEGMENTS JJ24 HUEL (youtube.com)]{.underline}](https://www.youtube.com/watch?v=XXUCbbwryj0)
+
+  - Also need to get mixing nozzles and a dispenser
+
+    - [[Amazon.com : 3m dp420 epoxy]{.underline}](https://www.amazon.com/s?k=3m+dp420+epoxy&adgrpid=1345802794291614&hvadid=84112915586194&hvbmt=bb&hvdev=c&hvlocphy=94161&hvnetw=o&hvqmt=b&hvtargid=kwd-84113013797762%3Aloc-190&hydadcr=29333_14570810&tag=mh0b-20&ref=pd_sl_8iivr6arqf_b)
+
+    - [[Traktronix 3M EPX Scotch-Weld Style Applicator Gun 62-9170-9930-1 50ML ResinTech Epoxy - Amazon.com]{.underline}](https://www.amazon.com/Scotch-Weld-Style-Applicator-62-9170-9930-1-ResinTech/dp/B07GTQYVJH?asc_source=01HFY6QA7Q8N1TT2Z879WGSZ46&tag=snx79-20)
+
+    - [[Amazon.com: LANIAKEA 50 Pcs 3.5 Inch Epoxy Mixing Nozzle Tip for Adhesive Gun Applicator, 1:1 & 1:2 Static Mixer Plastic Resin Mixing Tip : Tools & Home Improvement]{.underline}](https://www.amazon.com/dp/B09DK1LMLS/ref=sspa_dk_detail_0?psc=1&pd_rd_i=B09DK1LMLS&pd_rd_w=1E7Cj&content-id=amzn1.sym.f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_p=f734d1a2-0bf9-4a26-ad34-2e1b969a5a75&pf_rd_r=1489NKWNVKKPQ6N82QKJ&pd_rd_wg=LUezy&pd_rd_r=179a9bc3-4b5c-4307-b594-b9534b00857e&s=industrial&sp_csd=d2lkZ2V0TmFtZT1zcF9kZXRhaWw)
+
+- Also can try one-part epoxy with heat to confirm that it is too difficult to use.
+
+- TESTING: Example of crude joint testing for moments
+
+  - [[Carbon fiber tube lashing+epoxy joint stress test (youtube.com)]{.underline}](https://www.youtube.com/watch?v=Yr0U1gSd9FQ&t=368s)
+
+  - ![](media/image8.png){width="4.770833333333333in" height="4.197916666666667in"}
+
+  - Joint design -\> leading method is currently smooth insert and epoxy. Can consider having male/female thread attachment plus loctite
+
+  - Can start a 3-D printed version of design to inform metal fab
+
+**CAR DESIGN CONSTRAINTS:**
+
+- [[http://tools.openlab.psu.edu/tools/proportionality_constants.htm]{.underline}](http://tools.openlab.psu.edu/tools/proportionality_constants.htm)
+
+- 
+
+<!-- -->
+
+- **Justin working on**: Reading/catching up on research but also doing spring suspension calculations -\> fuel efficiency calculations
+
+- Image of motorcycle suspension -\> how do we get something similar?
+
+- [[mass-flow-meter-installation-manual-5860i.pdf (brooksinstrument.com)]{.underline}](https://www.brooksinstrument.com/en/~/media/brooks/documentation/products/mass-flow-controllers/elastomer%20sealed/5800e-i/mass-flow-meter-installation-manual-5860i.pdf)
+
+> ![](media/image3.png){width="4.453125546806649in" height="2.96875in"}
+
+**[WK 2:]{.underline}**
+
+**1/31/2024:**
+
+- Goals for the week:
+
+  - Order the materials (aluminum, chrome moly, wrapped carbon fiber)
+
+  - Consider/design the two types of testing for the materials
+
+    - Rudimentary stacking weight contraption
+
+    - Actual truss design (how to load this specifically onto the UTM) -\> would love to have this ready by week 4?
+
+  - Begin reading on the hinged rear suspension may look like and do some CAD modeling...
+
+<!-- -->
+
+- Discussion of materials to test -\> feasibility of carbon fiber +system evaluation is primary focus
+
+  - Joint systems include: prefab joints (dragonplate), 3D printed, molded?
+
+  - FEA on joint methods in MATLAB? -\> lowers cost
+
+    - Should at least be used on suspension design
+
+Readings and sources -\> Brief summary of findings:
+
+**Carbon fiber tubing systems readings**
+
+Prefab CF Tube Connectors - \$10-30 per connector
+
+[[Carbon Fiber 0.5\" Pultruded Tube Molded Connectors \| Carbon Fiber Tubes \| Dragonplate \| DragonPlate]{.underline}](https://dragonplate.com/carbon-fiber-05-pultruded-tube-molded-connectors)
+
+[[Evaluating mechanical performance of GFRP pipes subjected to transverse loading - ScienceDirect]{.underline}](https://www.sciencedirect.com/science/article/abs/pii/S026382311830301X)
+
+[[(PDF) Evaluation of Bonding Gap Control Methods for an Epoxy Adhesive Joint of Carbon Fiber Tubes and Aluminum Alloy Inserts (researchgate.net)]{.underline}](https://www.researchgate.net/publication/350915173_Evaluation_of_Bonding_Gap_Control_Methods_for_an_Epoxy_Adhesive_Joint_of_Carbon_Fiber_Tubes_and_Aluminum_Alloy_Inserts)
+
+Example of tensile testing inserts -\> spacing important on bonding.
+
+[[joining-bonding-of-composite-parts-white-paper-en.pdf (3m.com)]{.underline}](https://multimedia.3m.com/mws/media/1198329O/joining-bonding-of-composite-parts-white-paper-en.pdf)
+
+How strong is scotch weld epoxy on carbon fiber? Strong enough to act as weld
+
+Tubing joint tests -\> other fields (pipeline testing)
+
+Necessary joints- multi T, T, 90/45 Corner, Straight?
+
+**Collapsible mechanism for chassis -\> Summer Research**
+
+**More modular design for new**
+
+**Aerodynamic sketch -\> idea with new design**
+
+**Kevlar/String plug connection, long slender column calcs**
+
+**Epoxy [DP420NS]{.mark}**
+
+[[[https://www.sciencedirect.com/science/article/abs/pii/S0266353822003505#:\~:text=Simultaneously%2C%20hollow%20glass%20bead%20(HGB,16%5D%2C%20%5B17%5D%5D.]{.underline}]{.mark}](https://www.sciencedirect.com/science/article/abs/pii/S0266353822003505#:~:text=Simultaneously%2C%20hollow%20glass%20bead%20(HGB,16%5D%2C%20%5B17%5D%5D.)
+
+**WK 2:**
+
+**2/2: Check-in With Carr**
+
+- We bought materials
+
+- Updates on how we are approaching testing and loading onto the UTM (tensile and compression testing)
+
+- Spring + weight/fuel efficiency research going on Justin's end
+
+- Solenoid issue with the Fuel cell! (the hydrogen pressure solenoid that controls the steady stream of hydrogen into the fuel cell is not getting any power) (hypothesizing that that's why we are also seeing hydrogen leakage in the pressure gauges)
+
+**2/1:**
+
+- Had a conversation with J concerning buying materials and what makes sense for testing (also talked about the metal insert joining system)
+
+- **Justin begin studying:** spring constant/vibration studies (figure out necessary constant strengths), figure out if we can 3D print joineries (makerspace people), weight impact on energy efficiency of vehicle (current vs hypothetical same design)
+
+- **Ben:** Sketches for UTM testing (compression and tension), back/front suspension, Joinery designs + sketches
+
+**FINAL CONCLUSIONS 1/31:**
+
+Going all in for Carbon Fiber - 3 types
+
+Order aluminum rod close to width spec -\> plans to lathe for inserts
+
+Try out 3D printed inserts
+
+[TESTING ORDER:]{.underline}
+
+1.  Tensile testing for inserts -\> different epoxies and 3D printed option?
+
+2.  Direct joint loading, UTM testing after epoxy selection
+
+3.  Long span loading, joints on ends (optional)
+
+Plan for Tomorrow:
+
+Order Epoxy and Carbon Fiber tube + Aluminum rod
+
+Aluminum or Chrome Moly Suspension? Order some tubing as well or figure out approx. spec
+
+Plate welded to inserts for suspension attachment?? Nut bolt attachment -\> high grade loctite on bolt.
+
+Necessary calcs -\> shear on plate and bolts likely will find that a broad range is okay with high safety factors. Check deflection?
+
+**[WK 1:]{.underline}**
+
+**1/25/2024:**
+
+- Discussion of goals and creation of current time log doc
+
+- Discussion with J concerning materials to test and how to test them
+
+- Writing/Finding materials to order and work on (doing budget and finding out which type of materials, parameters, etc. make the most sense with our constraints)
+
+**1/26/2024:**
+
+- Thoughts from Prof. Everbach
+
+  - Rear suspension + rear spring research \[Buy the rear springs early!!\] -\> so maybe week 2 or 3 do more research/CAD a basic rear swing suspension
+
+    - Prelim design, Weight balancing, spring values
+
+  - Keep materials testing modest
+
+    - Figure out hinges and how to load the 3D chassis joints by talking with Fiona
+
+    - Do the basic testing with plates originally but mainly spend time working with the carbon fiber tubes, so we understand how to do attachments with carbon fiber
+
+      - Pull test with two sides of joints (test of tension/joinery)
+
+      - Stress test with traverse loading (bottom strut)
+
+  - Talk with team about purchasing a new fuel cell and software
+
+    - Better to have a new working one than troubleshoot and not have one shipped to us for testing by summer!!
+
+    - Can troubleshoot and try to revive old fuel cell but for alternative uses
+
+  - UTM testing
+
+    - Seems to be software control issues causing positional drift in the UTM
+
+      - Can still do manual testing with UTM which is a big win!

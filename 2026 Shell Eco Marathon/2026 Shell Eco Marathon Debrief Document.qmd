@@ -1,0 +1,117 @@
+# Planned improvements to the car
+
+## Mechanical changes to car (by priority):
+
+- Modify steering and front brakes to reduce knocking
+
+  - Make sure the steering column is locked with C clips and cannot be accidentally disassembled
+
+- Remake suspension plates to remove camber from wheels
+
+  - Make sure the wheels are correctly pressurized
+
+  - Camber adjustability would be good
+
+- Move windshield hinge to front of windshield (makes entering/dismounting easier)
+
+  - Or a 4-bar linkage
+
+- Improve brake ergonomics
+
+  - Improve cable routing under the upper floor and also out the sides so that it doesn't pull on floor and side panels
+
+  - Bleed rear brakes
+
+  - Actual brake pedal
+
+- Remake front brake caliper mounts to fit
+
+  - Some level of adjustability would be good
+
+- Remove front and/or rear suspension to reduce weight (if rules permit)
+
+  - Redesign suspension with shorter, softer springs
+
+- **Standardize one or two screw sizes so we don't have to spend forever looking for the right bits**
+
+- Improve driver comfort (how?)
+
+  - Mount steering, pedals, harness, buttons, seat, etc. around the driver
+
+  - Better seat (hammock seat was pretty cool)
+
+- Removable side panels would be nice to make serviceability easier
+
+- Fix the floor
+
+- If necessary, improve airflow in fuel cell area with more strategic scoops/vent holes
+
+## Changes to electrical system (by priority):
+
+- Identify and fix cause of power shutoffby
+
+- Replace existing motor with more powerful motor
+
+- Better cable routing
+
+## Changes to fuel cell system (by priority):
+
+- Make the back panel that all the plumbing is mounted to easier to remove
+
+- Figure out the correct tank dimensions
+
+- Pay attention to conical vs cylindrical threading
+
+# Logistical changes for next year
+
+## Updated packing list
+
+- 3D printer and filament!
+
+## Stuff to buy
+
+New helmet
+
+New regulator
+
+L connectors for fuel cell
+
+Lower level gas can
+
+More drills
+
+Complete sets of tools
+
+More sharpie colors
+
+More wire
+
+More swagelock tube bending tools
+
+PTFE tubing
+
+The right brake fluid
+
+Rolling chassis table
+
+Tool chest/pack out
+
+New motor
+
+C clips
+
+Chairs
+
+## General Advice
+
+Label stuff
+
+Learn how to mount stuff on tubes
+
+Learn how to tolerance 3D prints
+
+Get sponsors
+
+Read the whole rule book
+
+Get more camping chairs

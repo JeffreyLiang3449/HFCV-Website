@@ -1,0 +1,211 @@
+# Aluminium Connectors
+
+### Lathe
+
+- Insert 1 in stock
+
+- Zero out lathe
+
+  - LENGTH AND DIAMETER
+
+- Turn the smaller wheel to **240˚**, and lathe to approx **2 in** (about 20 revolutions on dial)
+
+- Test fit
+
+  - It will probably not fit if you did it correctly
+
+- Turn wheel approx **5˚** and lathe again, test fit
+
+- If it fits great, if it doesn't turn wheel a little bit and repeat
+
+- Go to end of material, approx **0.3 in** (does not need to be precise), turn on lathe, then carve a small groove out by only turning the small wheel
+
+  - Only do so a couple degrees
+
+- Go about **0.2 in** above groove and cut another one
+
+- Get metal rasp and remove burrs on the lather
+
+  - Trust it\'s a lot easier now than after
+
+- Hollow out the middle using the drill on the lather
+
+  - Use the bit that's approx **0.39 in**
+
+  - Use the cinnamon gunk (not actual cinnamon just smells like it) here it makes the lather a lot happier
+
+- Carefully cut the lathed portion off leaving the corresponding amount of stock for application
+
+  - **1.300 in** for vertical members
+
+  - **2.300 in** for one ended horizontal members
+
+  - **4.400 in** for double ended horizontal members
+
+- For double ended members, repeat process on other side
+
+- WHEN REMOVING BE CAREFUL METAL IS HOT
+
+- The *connector* should look something like this: ![](media/image1.png){width="2.0104166666666665in" height="0.5416666666666666in"}
+
+OR
+
+![](media/image3.png){width="2.8333333333333335in" height="0.5416666666666666in"}
+
+### Milling
+
+- WEAR LONG SLEEVES, HOOD, AND COVER COLLARBONE
+
+  - Just trust it\'s not pleasant when hot and sharp metal pieces are flying at your face
+
+- Set up connector in square holder
+
+  - Will need the **0.75** size round holder that goes into the square block
+
+  - Lathed *connector* will go in end opposite to the thing you screw on the bottom of the block
+
+  - Will need to tighten until you can\'t tighten anymore with the wrench
+
+- If necessary, clean machine so no shavings are where the block will go
+
+  - Use the tiny brush try to prevent flying metal pieces
+
+- Place block holding *connector* in the machine
+
+  - make sure block is flush to the side of the clamps using the small metal square
+
+  - Run your finger across the seam to verify that it is flush
+
+  - Tighten
+
+- If necessary, put the right bit into the machine
+
+  - Ask J to show you how
+
+  - Need to hold the machine's brake and turn the bolt on top using the wrench
+
+    - I can't reach so I usually either find Zucker's stool or ask J
+
+- If necessary, raise the bed of the machine by turning the giant chrome removable crank until the *connector* is just below the drill bit
+
+  - It\'s the left crank on the bottom of the bed
+
+  - Give yourself a couple inches of bail room
+
+- If necessary, change the speed of the machine using the dial on the front
+
+  - Ask J which speed to use
+
+  - Want the machine on high
+
+  - Want something around 1200 []{.mark}
+
+- Zero the machine (Z-axis)
+
+  - Ask J to show you how
+
+  - Hit the DRO button to get to the right menu
+
+  - Crack various wheels until *connector* is under the drill bit
+
+  - Put tiny piece of paper on the top of the *connector*
+
+  - Crank the giant lever on the right side
+
+    - It looks like this:![](media/image8.png){width="1.234375546806649in" height="1.2214501312335957in"}
+
+    - (refrain from saying "Wrong lever Kronk")
+
+  - Crank lever until you can still pull the piece of paper out but there is a little bit of resistance
+
+  - Turn the smaller black lever so that it locks
+
+    - It looks like this:
+
+  - On the screen hit "Z" and then "abs zero"![](media/image2.png){width="0.6041666666666666in" height="0.8333333333333334in"}
+
+- Use the wheels to move the *connector* from under the drill
+
+- Rotate the giant lever out and crank until the screen says **-0.365 in**
+
+- Zero the machine (X-axis)
+
+  - Make sure the drill is a bit away from the *connector,* turn the machine on
+
+  - Move the *connector* so that the drill takes the smallest amount of material off
+
+  - Zero the screen (same as on Z-axis)
+
+- Take material off in small X-axis increments by cranking the Y-axis wheel so that the bit moves back and forth
+
+  - J suggests going in 0.02 in increments, but I suggest somewhere around 0.04. You just have to make sure everything is tight so that the *connector* doesn't rotate when you mill it flat
+
+- Take the correct amount of material off
+
+  - Amount will vary depending on measurements of the individual *connector*
+
+  - Leave **0.3 in** of a rim for vertical and one sided horizontal connectors
+
+  - Leave **0.2** **in** of a rim on each side for a double sided horizontal connector
+
+- Repeat on the other side
+
+  - Make sure connector and block is going on clean, level surface
+
+  - Make sure connector and block is flush with the clamp
+
+  - Re-zero X-axis, you do not need to re-zero Y-axis
+
+- Use a metal rasp to remove the burrs
+
+- The milled connector will look something like this:
+
+> OR![](media/image7.png){width="2.0in" height="0.5520833333333334in"}![](media/image5.png){width="2.4218755468066493in" height="0.4421959755030621in"}
+
+### Drilling
+
+- Use mill machine
+
+- Change drill bit from milling to drilling
+
+  - Will want something that makes a pilot hole and then a **⅜ in** drill bit
+
+- Mark the correct spot on the flat part of the *connector*
+
+- For one ended pieces
+
+  - Put the flat part of *connector* on top of the metal pieces in the clamp
+
+    - They look like this:
+
+  - Tighten clamp ![](media/image4.png){width="1.6614588801399826in" height="0.46235126859142606in"}
+
+  - Drill pilot hole, change drill bit, drill actual hole
+
+- For double ended pieces
+
+  - Put the flat part of connector on smaller square aluminium tubes in the clamp
+
+    - Use as many scrap square tubes as needed to make top clamp-able and flush-ish (try your best)
+
+  - Use same process as one ended pieces
+
+- Your final product should look something like this:
+
+![](media/image6.png){width="3.228827646544182in" height="1.5885422134733158in"}
+
+# Carbon Fibre
+
+### Cutting
+
+- Wrap in blue tape before cutting, prevents splintering
+
+- If you cut the piece slightly too long you can sand it down to size
+
+# 3D Printed Pieces
+
+- See [[Directions for Markforged]{.underline}](https://docs.google.com/document/d/1SXUvoPhqghTt13vDboOduyJPq2ltJI8EUF71OWwk-pQ/edit)
+
+- Files are located in folder
+
+- To remove supports, twist then pull

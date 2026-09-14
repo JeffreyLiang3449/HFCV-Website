@@ -1,0 +1,89 @@
+Cross members to be cut at 15.4 in to maintain floor size of 16 in
+
+To bind cowl pieces, epoxy first, then silicone
+
+[[https://www.testritealuminum.com/products/1_aluminum_rod_round_solid?variant=45251962536234]{.underline}](https://www.testritealuminum.com/products/1_aluminum_rod_round_solid?variant=45251962536234)
+
+Cowl
+
+- CAD
+
+<!-- -->
+
+- ~~Floor/Cowl Connectors~~
+
+  - ~~Flat~~
+
+  - ~~Scen1~~
+
+  - ~~Scen2~~
+
+  - ~~Scen3~~
+
+  - ~~Scen4~~
+
+- ~~Corners~~
+
+<!-- -->
+
+- Materials:
+
+  - Sheets: Dragon plate FDPLHP02S\*TWL\*901212
+
+  - Floor/Cowl Connectors: Onyx 3D print
+
+  - Corners: PLA
+
+  - "Fabric":
+
+  - Epoxy:
+
+Windshield
+
+- Clear part of cowl is 3/16 in hard coated polycarbonate
+
+- Hydraulic hinge for cowl: [[https://www.gasspringsshop.com/cart/]{.underline}](https://www.gasspringsshop.com/cart/)
+
+- 42 in x 21 in x 58.5 in triangle, height of 15.8 in
+
+- 58.5 x 16
+
+- Option 1
+
+> ![](media/image3.png){width="4.255208880139983in" height="2.952732939632546in"}
+
+- Option 2: https://www.fixsupply.com/ps-pc-sr-5-scratch-uv-resistant-polycarbonate-sheet-3-8-thick-x-48-wide-x-96-long
+
+> ![](media/image4.png){width="5.807292213473316in" height="3.247988845144357in"}
+
+- Option 3: https://www.zoro.com/zoro-select-clear-polycarbonate-sheet-stock-96-l-x-48-w-x-0375-thick-ps-pc-sr-196/i/G3713376/
+
+- ![](media/image2.png){width="6.5in" height="4.583333333333333in"}
+
+- Hardware
+
+- ![](media/image1.png){width="6.5in" height="2.486111111111111in"}
+
+- Get foam tape for edge
+
+The hydrogen issue
+
+- Asked chem department
+
+- Chem dept will likely buy it for us
+
+- Just buy a new tank DO NOT bother with refilling
+
+- 
+
+Brakes
+
+- Tutorial
+
+- Look at cad
+
+- Josh says look at trike for tee connection and installation
+
+Suspension
+
+- OPTION? [[LINK]{.underline}](https://www.amazon.com/PROYONGOO-Front-Suspension-Shock-Swing/dp/B0D7MHZD4N/ref=sr_1_5?crid=GY3AKSDAQKQI&dib=eyJ2IjoiMSJ9.X10NnQMLiNHJNai5aW87rfGi4VjcfR6uMZKqwjnkkCQnd8dWIhgvWRZ_GUli8xcBynC4ZoAfrJQubmsZYHjP_uuE_bvbkNK4c-xciECSIn9G5sf_qdZpfByLmqrl1srJXyUhVaSMVfl1o8Aa5dmT6UeI44V8QTfv51pYCl3yuhVWE_IjG5E82odIoajw-8ildBXlLQZOOlwtLhqPz_kYT5Hce46zw-pVYbx9UAAjLOtBNniNb1JpBsnvDvdnfNgz-hHWiH9Otrqfx541oQqKMLKdYdujKACalRll69YzoXE.glGvZygTdW0l-Fpa_DoI0WgJW56PToAh3RB16F5HMME&dib_tag=se&keywords=12+in+suspension+kit+go+kart&qid=1753292501&s=automotive&sprefix=12+in+suspension+kit+go+kart%2Cautomotive%2C53&sr=1-5)

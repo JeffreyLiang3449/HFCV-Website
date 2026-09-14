@@ -1,0 +1,89 @@
+## **How to Join Two Rigid Carbon Fiber Sheets Using Epoxy and Flexible Carbon Fiber**
+
+This guide explains how to structurally join two rigid carbon fiber sheets using epoxy resin and flexible carbon fiber fabric as a bonding bridge.
+
+### **Materials Needed:**
+
+- Two rigid carbon fiber sheets (clean and dry)
+
+- Flexible carbon fiber fabric (e.g., woven twill or plain weave)
+
+- Epoxy resin system (structural, slow-curing recommended)
+
+- Mixing cups, gloves, brush or squeegee
+
+- Sandpaper (80--120 grit) or scuff pad
+
+- Acetone or isopropyl alcohol (for surface cleaning)
+
+- Peel ply (optional)
+
+- Clamps or vacuum bagging setup (optional, for better bonding)
+
+### **Step-by-Step Instructions:**
+
+#### **1. Surface Preparation**
+
+- Sand the bonding areas on each rigid carbon fiber sheet with 80--120 grit sandpaper to promote adhesion.
+
+- Clean the sanded surfaces thoroughly with acetone or isopropyl alcohol to remove dust, oils, and debris.
+
+- Dry-fit the sheets to check alignment and spacing. Make sure the flexible fabric can span the gap with at least 1 inch (25 mm) of overlap on each side.
+
+#### **2. Cut the Flexible Carbon Fiber**
+
+- Cut one or more strips of flexible carbon fiber fabric wide enough to bridge the joint.
+
+- Ensure at least 1 inch of overlap on both sides of the joint for adequate bonding area.
+
+- Use multiple layers if increased joint strength is required.
+
+#### **3. Mix the Epoxy Resin**
+
+- Mix the epoxy according to the manufacturer's instructions, using the correct ratio of resin to hardener.
+
+- Allow the mixture to rest briefly to reduce bubbles.
+
+#### **4. Wet Out the Materials**
+
+- Use a brush or squeegee to thoroughly wet out the flexible carbon fiber fabric with epoxy.
+
+- Apply a coat of epoxy to the sanded bonding areas of both rigid carbon fiber sheets.
+
+#### **5. Apply the Flexible Carbon Fiber**
+
+- Carefully position the wetted fabric strip across the joint so that it adheres to both rigid sheets.
+
+- Press the fabric down to eliminate air bubbles and ensure full contact with the bonding surfaces.
+
+- Apply more resin as needed to eliminate dry spots, but avoid excessive saturation.
+
+#### **6. Consolidation (Optional but Recommended)**
+
+- For improved compaction and finish, place peel ply over the joint and apply pressure using clamps or a vacuum bag.
+
+- If vacuum bagging is not used, apply even pressure using weights or clamps to ensure good contact during cure.
+
+#### **7. Curing**
+
+- Allow the epoxy to cure fully according to the resin manufacturer's schedule (typically 12--24 hours at room temperature).
+
+- Avoid moving or disturbing the joint during the curing process.
+
+#### **8. Finishing (Optional)**
+
+- Once cured, excess epoxy or rough edges can be trimmed or sanded.
+
+- For a clean appearance and environmental resistance, consider applying a UV-protective clear coat.
+
+### **Tips for Strength and Durability:**
+
+- Ensure generous overlap---more surface area equals a stronger joint.
+
+- Multiple fabric layers can significantly increase bond strength.
+
+- Use structural-grade epoxy (e.g., West System 105/206 or Pro-Set).
+
+- Avoid fast-setting epoxies; they tend to have lower bond strength.
+
+- Test the joint if it\'s going to be under significant load.

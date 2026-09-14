@@ -1,0 +1,342 @@
+---
+title: "Presentation Title"
+author: "Author"
+format: 
+  revealjs:
+    slide-number: c/t
+    width: 1600
+    height: 900
+    logo: img/logo.png
+    footer: "Organization"
+    incremental: true
+    theme: [simple, custom.scss]
+---
+# Hydrogen Fuel Cell Vehicle
+
+# Nora Jiang
+Professor Carr Everbach
+
+# 02
+
+# 01
+
+# 03
+
+# Table of contents
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+# Introduction
+
+:::
+
+::: {.column width="50%"}
+
+# Future
+Considerations
+
+# Current 
+Project
+
+:::
+
+::::
+
+::: {.notes}
+
+
+
+
+:::
+
+# 01
+
+# Introduction
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# What is a HFCV? And why is there one sitting in the High Bay?
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# What you need to know first
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Hydrogen (H2) as a fuel?
+
+# H2 is incredibly energy dense
+Clean in comparison to gas
+Large range before needing to refuel
+
+# Why switch to H2
+
+# H2 is an energy carrier (like gasoline)
+Energy is produced through electrolysis
+Stored as a liquid before entering the fuel cell
+
+:::
+
+::::
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation0.png)
+
+__Photo Courtesy of 3M__
+
+:::
+
+::: {.column width="50%"}
+
+__Inside the Fuel Cell__
+
+![](img%5CHFCV%20SummerPresentation1.jpg)
+
+__Our Actual Fuel Cell__
+
+:::
+
+::::
+
+# Shell Eco Marathon
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Competition to make the most energy efficient vehicle
+
+# What Is It?
+
+# Gives a target for our work on the vehicle
+
+# Why Compete?
+
+:::
+
+::: {.column width="33%"}
+
+![](img%5CHFCV%20SummerPresentation2.jpg)
+
+__Photo Courtesy of Shell Eco Marathon__
+
+:::
+
+::::
+
+# 02
+
+# Current Project
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Rebuilding the Chassis
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# Before This Summer
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+* __Previous vehicle __
+  * __No longer adheres to Shell’s safety standards__
+  * __Needs a complete rebuild before competition ready__
+* __Revitalization w/ Ben\, Jano\, and Justin__
+  * __Materials testing__
+  * __Preliminary Chassis Design__
+  * __Rear Brakes and Suspension system__
+
+:::
+
+::: {.column width="50%"}
+
+![](img%5CHFCV%20SummerPresentation3.jpg)
+
+:::
+
+::::
+
+# Rough Design From Ben and Justin
+
+![](img%5CHFCV%20SummerPresentation4.png)
+
+# Goal:
+New Front End
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# What will that take?
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# What suspension to use? What size of wheels to use?
+
+# Choosing Components
+
+# 2
+
+# Learning how to weld, 3D print, and Lathe
+
+# Fabrication Techniques
+
+# 1
+
+:::
+
+::: {.column width="33%"}
+
+# Using the general idea left by Ben and Justin, create a new design
+
+# Front Chassis Design
+
+# 3
+
+# 4
+
+:::
+
+::: {.column width="33%"}
+
+# Actually putting together the front end
+
+# Construction
+
+# Completion
+
+# 5
+
+:::
+
+::::
+
+# 03
+
+# Future Considerations
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Rebuilding the rest of the HFCV
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::::
+
+# Fall 2024
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Build and fit the rear wheel + suspension system
+
+:::
+
+::: {.column width="33%"}
+
+# Rear of Chassis
+
+# Purchase components and assemble
+
+# Floor of Vehicle
+
+# Wire the new car and put in the hydrogen system
+
+# Electrical Components
+
+:::
+
+::::
+
+# Spring 2025
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+# Build the Cowl for the vehicle so that its not a skeleton
+
+# Cowl Design and Build
+
+:::
+
+::: {.column width="33%"}
+
+# Transport Team and Car to Indiana
+
+# Compete
+
+# Testing entire system to the Shell Eco Marathon Requirements
+
+# Testing
+
+:::
+
+::::
+
+# Thank you for listening
+
+:::: {.columns}
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+:::
+
+::: {.column width="33%"}
+
+# Questions, Comments, Concerns?
+
+# njiang1@swarthmore.edu
+avasque1@swarthmore.edu
+ceverba1@swarthmore.edu
+
+:::
+
+::::
+

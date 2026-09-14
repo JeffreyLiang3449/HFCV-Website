@@ -1,0 +1,770 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:02.690
+Carr Everbach (he/him/his): We'll just get an email link with a link in it.
+
+2
+00:00:03.000 --> 00:00:04.200
+Carr Everbach (he/him/his): Oh, there's Aaron
+
+3
+00:00:04.320 --> 00:00:04.865
+Carr Everbach (he/him/his): perfect!
+
+4
+00:00:06.330 --> 00:00:09.060
+Justin Chai: So the recording has started.
+
+5
+00:00:10.289 --> 00:00:13.689
+Justin Chai: Make sure. Yup, recording button at the bottom. Started alright cool.
+
+6
+00:00:15.150 --> 00:00:18.509
+Justin Chai: alright. I think we are ready to hop right into it.
+
+7
+00:00:19.900 --> 00:00:20.700
+Justin Chai: Okay.
+
+8
+00:00:20.900 --> 00:00:36.940
+Justin Chai: Hi, everyone. Thank you for coming to our E 90 mid semester Review. As you may know, I'm Justin. I'm Ben. It's my partner, Ben. So we're looking forward to actually share with you an overview of the exciting hydrogen fuel cell car renewal for the shell equal Marathon.
+
+9
+00:00:38.240 --> 00:00:39.300
+Justin Chai: And so, just
+
+10
+00:00:39.430 --> 00:00:51.210
+Justin Chai: to give you a structure of how our Mid semester Review is going to be going. We're going to first explain what what the shell equal. Marathon is, and maybe some prior iterations of this project done by previous E 90 students and previous teams
+
+11
+00:00:51.280 --> 00:01:00.409
+Justin Chai: before jumping into, like, what are our goals and motivations for this project, and giving you some idea of like, what are some existing versions of the card, and like
+
+12
+00:01:00.730 --> 00:01:03.489
+Justin Chai: of conditions that we were, we began working with.
+
+13
+00:01:03.540 --> 00:01:21.399
+Justin Chai: And then we'll jump into some relevant theory to like why? To what motivated some decisions and designs that we made before giving you an idea of actual progress that we've made and the struggles along the way. And finally, we'll just kind of cap off of like what our future plans are and what the plans are before finishing up for graduation.
+
+14
+00:01:23.880 --> 00:01:27.400
+Justin Chai: So the show Eco Marathon is
+
+15
+00:01:27.470 --> 00:01:35.400
+Justin Chai: this global engineering competition challenge that like focuses mainly on energy and energy efficiency for transportation methods.
+
+16
+00:01:35.510 --> 00:01:36.680
+Justin Chai: And so
+
+17
+00:01:36.690 --> 00:01:47.459
+Justin Chai: one of the coolest things like you read this online site and it kind of comes off as a racing competition. But it really isn't a racing competition, because we're focusing mainly in our vehicles
+
+18
+00:01:47.460 --> 00:02:07.869
+Justin Chai: to be the highest amount of mileage per tank of hydrogen per tank of like whatever fuel substance that you're going to be choosing to use. And so we don't actually need to focus on like either like top speed or like highest amount, power, or like whether or not your tires are the most efficient or ever all you care about is the highest amount of fuel efficiency for your vehicle.
+
+19
+00:02:07.910 --> 00:02:19.789
+Justin Chai: And so for the type of class, the type of class of vehicle for a shall ego. Marathon is usually broken up into 2 classes. You have the prototype class and urban class, and see the picture you're seeing on the top right is actually the prototype class which to
+
+20
+00:02:19.800 --> 00:02:22.099
+Justin Chai: the class of vehicle that we're entering in.
+
+21
+00:02:22.140 --> 00:02:37.750
+Justin Chai: And so the difference really is the prototype class. You've given a lot more leeway and a lot more freedom to kind of innovate and do a little bit more of a kind of non-traditional car type versus the urban type, where you follow more traditional commercial vehicle kind of designs.
+
+22
+00:02:37.830 --> 00:02:39.869
+Justin Chai: and as a result, like
+
+23
+00:02:40.330 --> 00:02:54.799
+Justin Chai: the competition, including so many different fuel cell fuel systems, we have different power train systems between hydrogen fuel cell combustion and battery Evs. But in our senses we're focusing on the rules into hydrogen prototype vehicles.
+
+24
+00:02:57.050 --> 00:02:57.860
+Justin Chai: And
+
+25
+00:02:58.000 --> 00:03:00.305
+Justin Chai: I think a really big plus
+
+26
+00:03:00.940 --> 00:03:17.360
+Justin Chai: using the shelliko marathon as kind of the context of the competition. And that's context for E 90. Presentation is that the shellic Marathon has a very specific set of rules in the form of 11 technical inspections that you need to pass before even you're allowed to put the car on the on the raceway.
+
+27
+00:03:17.450 --> 00:03:24.750
+Justin Chai: So this year and next year the raceway is actually going to be at the Indianapolis 500, which is like the giant motor raceway in Indianapolis, super cool
+
+28
+00:03:25.000 --> 00:03:25.940
+Justin Chai: and
+
+29
+00:03:26.480 --> 00:03:32.640
+Justin Chai: law. These technical inspections before you can touch down, or like some are mechan or mechanical decisions between like
+
+30
+00:03:33.150 --> 00:03:40.299
+Justin Chai: whether or not whether or not your braked, your braking, your break tests, or your brakes work at a certain degree slope.
+
+31
+00:03:40.390 --> 00:03:45.409
+Justin Chai: or whether or not you, your car steering column, can make us a specific turning radius.
+
+32
+00:03:45.540 --> 00:03:47.470
+Justin Chai: or even just
+
+33
+00:03:47.520 --> 00:04:04.179
+Justin Chai: what are your safety systems that you put in? How well integrated does it check for hydrogen leakage around your system? And so these like design constraints have been really helpful to like. Kind of decide and kind of keep us in a set box for how we will move forward with the hydrogen fuel cell vehicle design.
+
+34
+00:04:05.980 --> 00:04:18.750
+Justin Chai: So just to kind of provide some background on kind of how this project started, and then kind of how we are, how we have the current vehicle we have today. So in 2,012, a senior named Eric
+
+35
+00:04:19.017 --> 00:04:37.470
+Justin Chai: originally built the chassis and back. Then the shell eco Marathon was kinda more of a build, a chassis strap, some wheels on it, and as long as you have the hydrogen engine, then you can pretty much do it. So it had a few safety standards. But kind of as it's gone. Gotten more advanced as more people are involved with it as they kinda start to
+
+36
+00:04:37.470 --> 00:05:02.499
+Justin Chai: learn from their mistakes. They also start to add a little bit more specific safety measures. So one instance of that is the firewall on the back of the current vehicle. You can see in 2,015. It wasn't part of the vehicle at all. So the current vehicle that we have right now. Is an all aluminum chassis it was built originally in 2,012 in the summer, and then people have kind of Frankenstein and added onto it since then.
+
+37
+00:05:02.500 --> 00:05:30.899
+Justin Chai: and at the point where it is now. We are convinced that we can kinda do better than what they did before. As you can see. Another E 90 project that's been done on this vehicle before was the 2,018 front suspension. That's a very heavy piece of equipment. So it's kind of all tooled out of aluminum plates. We think that we can probably do a little bit better with that and then on the video right there. We have kind of the current running state. We basically started this semester with
+
+38
+00:05:30.900 --> 00:05:40.480
+Justin Chai: non-functional car, and we were able to kind of get the fuel cell starting to work again and starting to kind of get an idea of where how this car performed
+
+39
+00:05:40.560 --> 00:05:50.439
+Justin Chai: whenever it was kind of left off, since this was left off, I think, since 2,018, whenever it failed to run in competition. So another key part of this background is
+
+40
+00:05:51.020 --> 00:06:07.060
+Justin Chai: Whenever we went to the competition last, we ended up having fuel cell issues a day of, and we were not able to actually compete. So we really don't want to have a repeat of that again. So we really want to put extra effort extra time in actually planning this and making sure that the next vehicle goes well.
+
+41
+00:06:07.644 --> 00:06:15.010
+Justin Chai: So just to kind of move forward, we kind of summarize some of the points for improvement that we're going to try to go for.
+
+42
+00:06:15.320 --> 00:06:38.039
+Justin Chai: So currently we have the outdated chassis model was made in 2,01320 12 and there was a little bit of an aerodynamic consideration. More. So just the frontal area trying to minimize that relative to a driver. And then there's also been kind of new size requirements on the new chassis that we kind of need to update for another point of emphasis is that hydraulic disk pads are needed on each of the wheels
+
+43
+00:06:38.040 --> 00:07:03.288
+Justin Chai: on the front wheels. We don't think that we're going to be able to put hydraulic brakes on the existing wheels. So there's going to be new wheels that need to go on the front. We can put a hydraulic disc break on the back. So that's a good thing. We can kind of keep that same motor. There's also outdated materials. Again, aluminum chassis, very heavy aluminum throughout the chassis itself. We also need a back suspension added onto it. So while the front suspension does work well,
+
+44
+00:07:03.800 --> 00:07:07.512
+Justin Chai: it kind of is very heavy, and it's also kind of
+
+45
+00:07:08.640 --> 00:07:28.030
+Justin Chai: haphazardly put together and adjusted. So there's a few like aluminum blocks where it's adjusting kind of how it's set up. Also, the steering doesn't really work out too well with it. So we kind of need to rework that. There's also no current rear suspension system, and that is now a competition requirement. So that is another point of emphasis for a project.
+
+46
+00:07:28.414 --> 00:07:57.000
+Justin Chai: There's also yeah. Again, the steering columns, the safety electronics, I think, were designed in 2,018, and in the process of kind of reworking the electronics. Getting this thing to work again. We kind of had to rip out a lot of the safety systems, and we kind of need to reestablish those as we kind of move forward. And then also, the current fuel cell was inconsistent for a long time. It still sometimes cuts out, but we still are kind of working and evaluating the current state of that fuel cell, so we don't need to spend another $10,000
+
+47
+00:07:58.930 --> 00:08:00.689
+Justin Chai: right? And so
+
+48
+00:08:00.990 --> 00:08:28.259
+Justin Chai: the real big question was, where started updates? You saw it? A giant list of motivations and things we could have started working on. And how do we kind of update this owed 10 plus year v. 10 plus a year old vehicle to match the current competition standards. So you're seeing like a picture pictures that we've taken 2 weeks ago, like what current fuel cell vehicle looks like versus some of the past winners in North America. I think the one that left the more recent, and in 2,018 versus the one, the
+
+49
+00:08:28.680 --> 00:08:38.659
+Justin Chai: one that's one in 2,016 and very wildly different vehicles. But we want to be able to like kind of at least reach a level where we're competing with these other vehicles at the race.
+
+50
+00:08:39.630 --> 00:08:50.230
+Justin Chai: And so that kind of led us to think about the hydrogen fuel cell. At first it's like, how does the hydrogen feel so work? How do we know if the current fuel cell is feasible is like
+
+51
+00:08:50.390 --> 00:08:55.939
+Justin Chai: available and like actually functional for these like huge tests that we're going to be using for the competition.
+
+52
+00:08:56.070 --> 00:09:22.071
+Justin Chai: And just a quick rundown. How hydrogen fuel cell works! It's it's the fuel cells you see in the pictures to the very at the very bottom, right? It's a amazing. It uses an actual membrane, electrolyte membrane that turns hydrogen and oxygen gas into water electricity, and barring the complex details. That kind of the the diagram kind of does explain a little bit for you.
+
+53
+00:09:22.940 --> 00:09:43.329
+Justin Chai: if you attach an electric motor to use the electricity that that electricity formed from this hydrogen fuel cell process, you essentially almost gets you basically get a 0 emission kinetic propulsion for any vehicle that you attach it, barring you are forming the hydrogen in a sustainable method. So we're just buying the hydrogen for itself. So it's a more form function
+
+54
+00:09:43.330 --> 00:09:55.539
+Justin Chai: right now. But I think the biggest thing that we were worried about that Ben did mention was that we were worried about whether or not the feel so would still run as through our multiple tests and trying to figure out like whether or not the Fieldso would work.
+
+55
+00:09:56.106 --> 00:10:01.459
+Justin Chai: We had multiple startup problems. There's a huge possible need of
+
+56
+00:10:02.010 --> 00:10:10.989
+Justin Chai: need for changes from like fuel cell rehydration, because we didn't know if it was just haven't had been started up in so long that the membrane must have dried out.
+
+57
+00:10:11.270 --> 00:10:29.809
+Justin Chai: There's like potential need that like we saw like, you're seeing the video right now, like we try to run it. And the control you Controller would tell us that like, Hey, actually, there's like low fuel cell voltage, which means that there's not enough a initial electricity starting up to power to start up the fuel cell to jump started.
+
+58
+00:10:30.310 --> 00:10:31.369
+Justin Chai: And so
+
+59
+00:10:32.080 --> 00:10:41.329
+Justin Chai: this on top of like we we have us having to replace the old outdated Controller system. There's just so many different things that we didn't know what the old fuel cell that we have to kind of go
+
+60
+00:10:41.360 --> 00:10:42.830
+Justin Chai: and figure out.
+
+61
+00:10:43.430 --> 00:10:52.780
+Justin Chai: So yeah, when we did actually find it get to working, you saw the vehicle, the vehicle actually running. A couple engineering students saw us testing in the last couple of days in the hallways.
+
+62
+00:10:53.460 --> 00:10:55.980
+Justin Chai: We went back to drawing board on
+
+63
+00:10:56.330 --> 00:11:04.179
+Justin Chai: what the goals of the go of the shell eco Marathon was. And how do we now know now that we now know what the fuel should fuel cell works?
+
+64
+00:11:04.210 --> 00:11:09.519
+Justin Chai: Let's go. Let's figure out. How do we change the chassis? And how do we change like multiple things about the
+
+65
+00:11:09.600 --> 00:11:14.279
+Justin Chai: vehicle to get competition ready? And so shall we go. Marathon?
+
+66
+00:11:14.410 --> 00:11:26.699
+Justin Chai: Main goal is efficiency. And for our competition we're going to be doing 3.9 kilometers along the Indy. 500 race track in less than 35 min, so you can't really go at a slow crawl to say that we're doing the best efficiency wise
+
+67
+00:11:27.180 --> 00:11:28.090
+Justin Chai: and
+
+68
+00:11:28.340 --> 00:11:31.310
+Justin Chai: the biggest thing we noticed from the O. Chassis
+
+69
+00:11:31.350 --> 00:11:34.889
+Justin Chai: was the easiest issue is like, it's really heavy.
+
+70
+00:11:35.080 --> 00:11:47.289
+Justin Chai: And you. So we made a math model. And we worked up. We made an excel spreadsheet, basically using basic kinematic models for fuel efficiency. And we found that if we could reduce the weight of the current chassis in the new chassis
+
+71
+00:11:47.330 --> 00:11:52.410
+Justin Chai: we could save potentially 9 to 11 miles per gallon for every pound that we reduced.
+
+72
+00:11:52.580 --> 00:11:53.620
+Justin Chai: and so
+
+73
+00:11:53.800 --> 00:12:07.489
+Justin Chai: pivoting with, like a lot of different material changes that Ben's going to walk through in the next couple slides. We've found that like we could potentially gain 750 plus miles per gallon overall, just by changing the chassis material with the same chassis design.
+
+74
+00:12:07.550 --> 00:12:09.940
+Justin Chai: And so that gives us a lot of hope, because
+
+75
+00:12:10.020 --> 00:12:13.840
+Justin Chai: that increases our chances of doing a lot better in potential future competitions.
+
+76
+00:12:15.180 --> 00:12:18.259
+Justin Chai: So yeah, just to kind of build on that, too.
+
+77
+00:12:18.370 --> 00:12:26.470
+Justin Chai: With the current chassis, we have basically square aluminum tubing. That's kind of I think it was probably what was the easiest available at the time.
+
+78
+00:12:26.560 --> 00:12:36.619
+Justin Chai: and it was sized. Well, it stands up well over the course of time, but even just turning into circular tubing, we significantly reduce our weight.
+
+79
+00:12:36.640 --> 00:12:58.299
+Justin Chai: and that kind of got us thinking of other materials that we could possibly substitute in currently carbon fiber seems to be kind of the miracle material that everyone seems to be using racing. If you think about F one, any of like premium racing material is rip made out of carbon fiber in some extent. So while we don't think that would be necessarily possible to form a full
+
+80
+00:12:58.547 --> 00:13:07.209
+Justin Chai: chassis out of carbon fiber on site. Here we were thinking of other ways that we could go about that. And kind of one solution that we came up with was rap carbon fiber tubing
+
+81
+00:13:07.626 --> 00:13:18.139
+Justin Chai: along with poultry to carbon fiber. Tubing was another consideration, but rap seems to be the kind of one running way right now. So, looking on the right hand side, we can see that if we just change
+
+82
+00:13:18.160 --> 00:13:23.610
+Justin Chai: our existing chassis design to just be replaced with all carbon fiber tubing.
+
+83
+00:13:23.660 --> 00:13:38.550
+Justin Chai: then we are able to decrease our weight by 31. And just for reference here the driver that we're modeling with weighs 110 pounds. So really, with all the equipment that we put on it, all the wheels, everything that we put on the chassis itself.
+
+84
+00:13:38.550 --> 00:14:06.980
+Justin Chai: we're only all that equipment only weighs about 56 pounds. So really, if we can reduce the chassis material, we can see huge gains and fuel efficiency. As we can see, it's about like a 800 miles per gallon gain and fuel efficiency just by changing the chassis material. Additionally, the current suspension, we're estimating that it weighs about 25 pounds. With all the plate material that we kind of have built into it. We believe that if we change that to something a little bit more
+
+85
+00:14:07.480 --> 00:14:19.090
+Justin Chai: weight, conscious, such as like a chrome Molly tube that we can drop it by 13 pounds and add a back suspension on top of that. So really, the name of the game is just trying to drop weight wherever we can.
+
+86
+00:14:20.760 --> 00:14:29.279
+Justin Chai: So that also gets into another question. So if we're going to try to design this thing with carbon fiber tubing? How do we actually design the chassis?
+
+87
+00:14:29.290 --> 00:14:44.069
+Justin Chai: What weights do we need to withstand and everything there? So, as you can see on the right hand side, there's a quick idealized sat model that I made over chassis as a few different changes in the members, but overall if we were to put a 200 pound driver on this.
+
+88
+00:14:44.070 --> 00:15:00.319
+Justin Chai: the maximum compression, the maximum tension that we see in each member is about 200 pounds, and you can kind of see the red box there. That is our compression member, the largest red box kind of going down that diagonal, and then the back member in blue is our largest tension member.
+
+89
+00:15:00.410 --> 00:15:01.360
+Justin Chai: So
+
+90
+00:15:02.560 --> 00:15:15.220
+Justin Chai: it is kind of an idealized model in the fact that we don't necessarily know how the chassis would react if, like someone was jumping into it. Somebody was kind of climbing over the side, but this is kind of a good
+
+91
+00:15:15.250 --> 00:15:18.369
+Justin Chai: starting point to kind of figure out what magnitude we might need.
+
+92
+00:15:20.830 --> 00:15:48.250
+Justin Chai: So that kind of gets us into design of a different inserts. So there's 2 different methods that we kind of considered one trying to re really reduce weight and kind of use. A lot more modern techniques, 3D prints, and then kind of using a lot more mechanical techniques and trying to basically reinforce the core by using lumen of inserts. So if we kind of go down the left hand side with the aluminum inserts. We know that they are very reliable in strength. I mean metal itself.
+
+93
+00:15:48.250 --> 00:16:11.120
+Justin Chai: We have very good documentation on how it should react. But the only thing is we need to be able to machine it in house. So the drawbacks are. It's heavier and welding is extremely difficult, as we find out. So it definitely takes a lot of practice. Took multiple hours working with Jay just to kind of get a lot of these pieces going. Then. Even then I was kind of sloppy with my welds. So it definitely would take more practice if we were to go down that route.
+
+94
+00:16:11.435 --> 00:16:38.210
+Justin Chai: Then there's also potential additional strength by perhaps running like a cable through the core, connecting 2 ends and kind of adding extra attention on it, because these really the only failing method mechanism that we can really think of right now would be the aluminum insert pulling out as for the 3D printed callers, it's extremely lightweight, and we can basically print whatever shape we want. The drawbacks would be layer shear shear failure as we're finding out right now. So
+
+95
+00:16:38.330 --> 00:16:57.340
+Justin Chai: basically with how 3D prints are made layer by layer, it's fine whenever you kind of compress it all together, but as soon as you put a force directly 90 degrees to a layer, then it usually gives out a pretty low value. So we also, just we're looking to kind of get numbers on that and kind of figure out how the surface area interacts there.
+
+96
+00:16:57.697 --> 00:17:03.239
+Justin Chai: Then the potential additional strength would be maybe a hardware connection in that which we did end up trying out
+
+97
+00:17:03.620 --> 00:17:04.660
+Justin Chai: so
+
+98
+00:17:04.940 --> 00:17:23.970
+Justin Chai: kind of moving on to what we actually have done. So far, we've done a lot of tension testing. So basically, the overall design is putting epoxy on the inside of carbon fiber tubes or along the outside, whichever makes sense, we're for the overall connection. And then we basically load in the Utm and then pull on the 2 sides and see what it fails
+
+99
+00:17:23.970 --> 00:17:38.910
+Justin Chai: and see basically how strong the epoxy is. So right now, again, the epoxy seems to be. The limitation, for the aluminum inserts, it fails at about 400 pounds, which is about 2 times what we need. So we can potentially add hardware to it. It would add a little bit more weight.
+
+100
+00:17:38.910 --> 00:18:03.670
+Justin Chai: So we decided to kind of add hardware to the 3D print instead. And we saw a similar performance through that. And it is also kind of an interesting behavior curve, because we basically had the epoxy failing first, then the mechanical connection picking up second. So you actually were able to hear a loud audible pop whenever the epoxy failed, and then from there the hardware kind of took control. And another interesting point to make is
+
+101
+00:18:03.730 --> 00:18:07.709
+Justin Chai: the carbon fiber itself. Whenever it does kind of compress.
+
+102
+00:18:07.750 --> 00:18:16.469
+Justin Chai: It really only shaves itself. It doesn't have any frame. So it's kind of a nice quality. There. We had an idea of how it would act
+
+103
+00:18:16.490 --> 00:18:17.860
+Justin Chai: in tension.
+
+104
+00:18:17.920 --> 00:18:20.380
+Justin Chai: But compression is kind of a
+
+105
+00:18:20.890 --> 00:18:26.305
+Justin Chai: unknown and a no, no, with a carbon fiber. But we kind of needed to figure out the overall
+
+106
+00:18:26.890 --> 00:18:38.959
+Justin Chai: amount of strength that actually had. So we're very encouraged by the hardware connection with the 3D prints. As long as we are able to have a significant enough surface area in between each layer.
+
+107
+00:18:41.250 --> 00:18:43.809
+Justin Chai: Alright, just very quickly.
+
+108
+00:18:43.890 --> 00:18:46.708
+Justin Chai: There's been a long process trying to actually go about
+
+109
+00:18:47.200 --> 00:19:03.920
+Justin Chai: iterating every single type of the joints that we're doing. And so now you're right. Now you're seeing particularly the failures, for, like the different prints and different iterations that we've had for our 3D joints. So going from top left, you're seeing our latest iteration
+
+110
+00:19:04.293 --> 00:19:15.249
+Justin Chai: where we have a 10 cell member. We we had a 10 cell members like it's like it's more of like one of these like shapes as well right here as you're seeing as seeing on the presentation as well
+
+111
+00:19:15.330 --> 00:19:30.809
+Justin Chai: with a inner. So with the inner cylinder, with little divots. We try to print little digits inside of the tensile cylinder, so we had sort of possibly able to grip on to not only the carbon fiber tube, but also have have
+
+112
+00:19:30.870 --> 00:19:35.580
+Justin Chai: areas within the actual 10. So 3 printed number to connect the 2.
+
+113
+00:19:36.524 --> 00:19:56.240
+Justin Chai: We ended up on putting it after it failed into a band saw to see whether or not our epoxy method, like putting the epoxy onto carbon fiber tubes and putting it and then connecting it to was effective. And what we saw was essentially like, no matter how we applied it. With this inner cylinder it would only create like a thin layer on both the
+
+114
+00:19:56.340 --> 00:19:59.770
+Justin Chai: 3D. Printed member, and also the
+
+115
+00:19:59.960 --> 00:20:06.335
+Justin Chai: carbon 5, remember, which pretty much was the reason for the massive failure, the easy, the easy
+
+116
+00:20:06.720 --> 00:20:07.910
+Justin Chai: like the
+
+117
+00:20:08.060 --> 00:20:14.300
+Justin Chai: quick fill. But yeah, the immediate media pop and quick failure for the epoxy and many of our tension tension tests.
+
+118
+00:20:14.510 --> 00:20:18.026
+Justin Chai: Then you're seeing some of the 30 prick fails in the bottom.
+
+119
+00:20:18.650 --> 00:20:36.179
+Justin Chai: really, just quickly learning that like, okay, you really can't do the solid, like complete solid density, fill solid fill prints on the carbon fiber printer at the maker space, and as a result of like having really tall tensile members. They would fall over, and some of it would just burn off.
+
+120
+00:20:36.835 --> 00:20:39.629
+Justin Chai: So you're seeing a melted portion
+
+121
+00:20:39.650 --> 00:20:46.920
+Justin Chai: on the left, and you know you're seeing a portion of the print where it kind of flew everywhere because it tilted on itself.
+
+122
+00:20:46.970 --> 00:20:49.279
+Justin Chai: and the filament just like went everywhere.
+
+123
+00:20:49.843 --> 00:20:55.899
+Justin Chai: Finally, just like design design decisions and design failures really on the top right, was
+
+124
+00:20:56.120 --> 00:21:03.320
+Justin Chai: not designing a good enough attack like a good enough angle that was wide enough to distribute the tensile tensile load
+
+125
+00:21:03.360 --> 00:21:08.820
+Justin Chai: to the actual carbon fiber member or not, just to the 30 printed tension caller.
+
+126
+00:21:09.350 --> 00:21:18.009
+Justin Chai: So a lot of lot of really good things that we're learning about how to design the joints, either to reprinted and also potentially actually going down a route where we have a hardware, maybe a hybrid
+
+127
+00:21:18.230 --> 00:21:20.739
+Justin Chai: hybrid insert method for those joints.
+
+128
+00:21:20.980 --> 00:21:27.069
+Justin Chai: But the next couple weeks to graduation are really just focused on finishing up our compression tests.
+
+129
+00:21:27.508 --> 00:21:32.289
+Justin Chai: Doing. We just have just finished a second round of material iterations and design tests.
+
+130
+00:21:32.915 --> 00:21:40.240
+Justin Chai: and finally focusing the rest of our efforts to either either finish redoing the front and back suspension systems.
+
+131
+00:21:40.270 --> 00:21:42.290
+Justin Chai: I'm using the chrome tubes.
+
+132
+00:21:42.360 --> 00:21:51.649
+Justin Chai: finalizing our joint designs and kind of just finishing up the project with with potentially a renewed odor vehicle as a proof of concept
+
+133
+00:21:51.840 --> 00:21:54.580
+Justin Chai: for what next year's competition vehicle will look like
+
+134
+00:21:55.445 --> 00:21:56.190
+Justin Chai: and
+
+135
+00:21:56.330 --> 00:22:01.639
+Justin Chai: that's kind of everything we've been able to work on. Thank you for coming to our presentation, and we'll take any questions now.
+
+136
+00:22:04.540 --> 00:22:06.381
+Carr Everbach (he/him/his): Okay, questions from students, first.
+
+137
+00:22:11.870 --> 00:22:28.009
+Aaron Omadutt: I guess, to do the first. I have a quick question. It's more so on like, I guess the pre-existing design it like, you guys know, the reason why the front wheels are cambered or like kind of like tilted in is that like something that you guys would consider changing, or is it like a standard? It from the shell, from vision?
+
+138
+00:22:28.320 --> 00:22:33.401
+Justin Chai: Yeah. So I've done a little bit of reading on the overall theory of basically
+
+139
+00:22:34.370 --> 00:22:43.969
+Justin Chai: modern car wheels are also kind of cambered to the inside. It's just not as noticeable. Those wheels that we have on there, currently, I think, came directly off of a trike.
+
+140
+00:22:44.080 --> 00:23:08.760
+Justin Chai: So it was naturally kind of out like that. So hypothetically speaking, if you have a little bit of a Camber, it does help with fuel efficiency, but I think with the extent that we have it cambered. Currently it works against itself and steering so like, whenever we like, turn a corner, you'll hear the entire chassis vibrate because the steering column is kind of fighting with itself. It doesn't have the same grip, and you kind of had 2 wheels fighting against each other.
+
+141
+00:23:09.122 --> 00:23:12.200
+Justin Chai: So as far as the camera on the wheels
+
+142
+00:23:12.510 --> 00:23:21.760
+Justin Chai: we are considering, basically with the front suspension redesign. We also need to basically take into account what our design camber should be.
+
+143
+00:23:22.030 --> 00:23:31.060
+Justin Chai: as we kind of have that bottom fork rise as we load it. Also the the trike wheels right now.
+
+144
+00:23:32.350 --> 00:23:40.879
+Justin Chai: cannot. We can't. We can't put a hydraulic braking like braking system on it. So that's potentially just going to be like, got done away with moving forward. Anyway. Yeah.
+
+145
+00:23:41.040 --> 00:23:48.210
+Justin Chai: there's a lot of automotive theory as far as how you angle your kingpin, which is basically what the wheel sits on
+
+146
+00:23:48.220 --> 00:23:59.349
+Justin Chai: or angle in and out, and how that might affect fuel efficiency. But a lot of that is more word of mouth, more so than like scientifically proven. I think the camera is one thing where it's
+
+147
+00:23:59.380 --> 00:24:02.540
+Justin Chai: proven that if you have a little bit of camera, then it does help.
+
+148
+00:24:02.670 --> 00:24:06.310
+Justin Chai: But as far as where you get the point of diminishing returns. I don't know.
+
+149
+00:24:10.210 --> 00:24:10.920
+Aaron Omadutt: Thank you.
+
+150
+00:24:11.430 --> 00:24:12.120
+Aaron Omadutt: Broom.
+
+151
+00:24:14.499 --> 00:24:23.580
+Dzineon Gyaltsen: I had a question about sort of like documentation. I was wondering like if you if there's like some kind of like centralized like
+
+152
+00:24:23.720 --> 00:24:40.039
+Dzineon Gyaltsen: repository, or whatever of like all the information from the previous E. 90 s. That worked on this project. So that's like a I don't know. Maybe it's like helpful, for maybe you found previous like documentation helpful. And then maybe you you have, like some kind of documentation process that's helpful for future, E, 90
+
+153
+00:24:40.350 --> 00:24:41.750
+Dzineon Gyaltsen: people around.
+
+154
+00:24:42.150 --> 00:24:46.039
+Justin Chai: No, no, definitely. That was So
+
+155
+00:24:46.300 --> 00:24:55.909
+Justin Chai: what we do have maybe less of a repository, but because there is a current sophomore who's been helping with us named Hano Hano Vasquez.
+
+156
+00:24:56.450 --> 00:25:02.550
+Justin Chai: He's been working on the vehicle in and out for the last like year or so. Year and a half
+
+157
+00:25:02.670 --> 00:25:03.640
+Justin Chai: now.
+
+158
+00:25:03.750 --> 00:25:07.179
+Justin Chai: and what he's been doing is like he's he's taking like
+
+159
+00:25:07.800 --> 00:25:12.839
+Justin Chai: printed copies of the past United reports that I've been working on the project since 2013
+
+160
+00:25:13.190 --> 00:25:20.259
+Justin Chai: and made a Gi made a whole binder of, like all the past, like iterations and like reasonings. For why
+
+161
+00:25:20.320 --> 00:25:25.090
+Justin Chai: electrical electrical say electrical circuit software from this old safety system.
+
+162
+00:25:25.409 --> 00:25:30.079
+Justin Chai: The old blueprints, for, like the old rear spin system that'd be really helpful. And then, just like
+
+163
+00:25:30.090 --> 00:25:39.150
+Justin Chai: he found versions of the fuel cell. That wasn't for shell eco marathon before a hydrogen fuel cell vehicle, hydrogen, fuel cell motorcycle.
+
+164
+00:25:39.510 --> 00:25:47.349
+Justin Chai: which is, has actually been really helpful for us like design our beer suspension system and define like pretty much how we're thinking about doing the back wheel.
+
+165
+00:25:47.420 --> 00:25:51.280
+Justin Chai: So actually, really, not a 90 repository. But
+
+166
+00:25:51.300 --> 00:25:58.919
+Justin Chai: the majority of the older iterations have kind of told us, like what constraints they were working with, and basically informed us that
+
+167
+00:25:59.030 --> 00:26:04.889
+Justin Chai: we're we're working with a completely new beast of like regulations and rules, and they all worked with. And that's why
+
+168
+00:26:05.190 --> 00:26:17.180
+Justin Chai: going back to drawing board and kind of like redoing, the entire design was what we decide to do. Yeah. And kind of add on to that. We really need to make sure that whenever we wrap up this project that we keep all of our documentation
+
+169
+00:26:17.200 --> 00:26:44.879
+Justin Chai: kind of together and make sure that we pass that on to Hano, at least, have, like some physical copies here, and then some electronic copies, too. So we definitely need to make sure that all the work that we're doing this year is able to be kind of passed on to the next group, and then also kind of give them guidance on what the next step should be for them, since we kind of needed to figure that out for the first like few months, that we were working on this project with what made it sense, what we can do, and whether or not, we could even like participate this year, next year, or the year after.
+
+170
+00:26:48.789 --> 00:27:13.250
+Grace Hegland: I had a question about your 3D print that had the fray. I was wondering if you when you 3D printed that if you printed it with breakaway plastic at all, to like help avoiding the tilt or if that breakaway plastic just wasn't enough and also like what orientation you printed it. I'm assuming you printed it like vertically cause you said it tilted.
+
+171
+00:27:13.250 --> 00:27:22.669
+Grace Hegland: but, like also, if you could, if it would, would it be possible to print it like horizontally like this direction to avoid tilting? Or what you guys were thinking with that.
+
+172
+00:27:23.480 --> 00:27:24.510
+Justin Chai: So
+
+173
+00:27:24.600 --> 00:27:31.449
+Justin Chai: yeah, we. So we had printed them all of our callers and our tensile units. Vertically and
+
+174
+00:27:31.850 --> 00:27:32.770
+Justin Chai: couple.
+
+175
+00:27:33.080 --> 00:27:36.620
+Justin Chai: I guess it's the first question that I heard from there was
+
+176
+00:27:37.220 --> 00:27:44.580
+Justin Chai: whether and whether or not we've used breakaway boss like, yeah, we had. So we had. We use the law supports. Actually, because, as you saw, like, maybe in the top top left
+
+177
+00:27:45.400 --> 00:27:51.260
+Justin Chai: version, 2 of all our tensile prints had a M. 3 hole that was printed
+
+178
+00:27:51.710 --> 00:27:56.809
+Justin Chai: like, designed for like a potential screw for a potential hardware solution. And we thought it was necessary.
+
+179
+00:27:56.990 --> 00:28:08.369
+Justin Chai: And as a result, like basically, the rest of our rest of our prints had, like a lot of like carbon material to kind of, to make sure that the supports internally
+
+180
+00:28:08.580 --> 00:28:11.189
+Justin Chai: didn't just collapse, you know, until during the prints.
+
+181
+00:28:11.603 --> 00:28:18.499
+Justin Chai: The second thing, after after having designed that make sure supports were considered for the 3D prints.
+
+182
+00:28:18.550 --> 00:28:44.359
+Justin Chai: was, we found out, when it was tipping over. It was mainly tipping over because the specific mark forge carbon fiber printer in the in the maker space is printing it late is printing a norm like layer by layer by layer. But it's actually print. It's spending a considerable higher amount of time printing one side of a layer before moving on to the other. So actually, maybe 50% into half of our half our earlier prints.
+
+183
+00:28:44.410 --> 00:28:47.810
+Justin Chai: it would print like half of a
+
+184
+00:28:48.080 --> 00:28:56.030
+Justin Chai: half of the right side of one of the rounder parts before moving to the next layer on the left parts, causing kind of like a tipping
+
+185
+00:28:56.509 --> 00:29:09.419
+Justin Chai: like just simple solutions working at the maker space text. We're just adding, adding a brim on our CAD design like potent like, and intentionally making that CAD that CAD brim breakable
+
+186
+00:29:10.012 --> 00:29:16.840
+Justin Chai: even if it was like use, even if it was like still printed with a normal carbon fiber fiber glass solution that we were printing with.
+
+187
+00:29:17.010 --> 00:29:19.670
+Justin Chai: and a second thing that we thought to ourselves like just.
+
+188
+00:29:19.900 --> 00:29:33.420
+Justin Chai: I wish I thought about sooner. It was. We just glued the printing bed like we just use the glue stick on the printing bed to make sure that when it first initially printed there was like a huge adhesive. Are we keeping the prints onto the bed.
+
+189
+00:29:33.580 --> 00:29:36.029
+Justin Chai: But, I think a lot of future prints
+
+190
+00:29:36.170 --> 00:29:46.490
+Justin Chai: any feature prints for like next year's design. I'm already we're already thinking about some potential CAD methods or design methods to make sure that the principle faster than they are and a lot more
+
+191
+00:29:46.610 --> 00:29:51.679
+Justin Chai: a lot safer, because not well, not a lot safer, but more successful in the long run.
+
+192
+00:29:57.200 --> 00:30:10.739
+Carr Everbach (he/him/his): Okay, I think you should stop the recording. I've got a few quick comments, and then you can upload the link. Just a couple of things about the presentation while while I'm here. First of all. You both said it.
+

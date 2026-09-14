@@ -1,0 +1,24 @@
+- Arts
+ Implementation Drawing ROUGH   Legend
+                                       determined   path/location
+                                       TBD    path/location
+                                ----
+
+
+
+
+                                 Power
+                                Front      Brakes
+                                 Rear Brakes
+                                 Steering
+                                 Battery
+                                 Carbon      Fiber Members
+                                 Horn
+                                 Carbon Fiber Sheets (Floors + Cowl)
+                                                     ·
+
+
+
+
+    ~
+
