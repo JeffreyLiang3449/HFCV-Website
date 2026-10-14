@@ -1,17 +1,29 @@
-Hydrogen Fuel Cell
-Vehicle
-Nora Jiang
-Professor Carr Everbach
-      Table of contents
+---
+title: "Hydrogen Fuel Cell Vehicle"
+author:
+  - "Nora Jiang"
+  - "Professor Carr Everbach"
+format: revealjs
+---
 
+## Table of contents
 
-    01           02           03
-Introduction   Current      Future
-               Project   Considerations
- 01
+::: {layout="[33, 33, 33]"}
+
+01
 Introduction
+
+02
+Current Project
+
+03
+Future Considerations
+:::
+
+## 01 Introduction
 What is a HFCV? And why is there one sitting in the High Bay?
-       What you need to know first
+
+## What you need to know first
 
 
 Hydrogen (H2) as a fuel?           Why switch to H2
@@ -24,7 +36,7 @@ Hydrogen (H2) as a fuel?           Why switch to H2
    ●   Stored as a liquid before
        entering the fuel cell      ●   Large range before
                                        needing to refuel
-                       Inside the Fuel Cell
+## Inside the Fuel Cell
 
 
                          Our Actual Fuel Cell
@@ -33,7 +45,7 @@ Hydrogen (H2) as a fuel?           Why switch to H2
 
 
 Photo Courtesy of 3M
-           Shell Eco Marathon
+## Shell Eco Marathon
 
   What Is It?
  Competition to make
@@ -45,10 +57,9 @@ Why Compete?
  Gives a target for our
   work on the vehicle
                           Photo Courtesy of Shell Eco Marathon
- 02
-Current Project
+## 02 Current Project
 Rebuilding the Chassis
-Before This Summer
+## Before This Summer
 ●   Previous vehicle
      ○ No longer adheres to Shell’s safety
         standards
@@ -60,10 +71,11 @@ Rebuilding the Chassis
      ○ Materials testing
      ○ Preliminary Chassis Design
      ○ Rear Brakes and Suspension system
-Rough Design From Ben and Justin
-   Goal:
-New Front End
-            What will that take?
+## Rough Design From Ben and Justin
+
+## Goal: New Front End
+
+## What will that take?
               Choosing
         2     Components                                      Construction
                                                     4
@@ -80,10 +92,9 @@ New Front End
     3D print, and Lathe                idea left by Ben and         Completion
                                        Justin, create a new
                                        design
- 03
-Future Considerations
+## 03 Future Considerations
 Rebuilding the rest of the HFCV
-                        Fall 2024
+## Fall 2024
 
 
 Rear of Chassis                             Floor of Vehicle
@@ -96,7 +107,7 @@ Rear of Chassis                             Floor of Vehicle
                          Wire the new car
                           and put in the
                          hydrogen system
-                           Spring 2025
+## Spring 2025
 
 
 Cowl Design and Build                               Compete
@@ -110,11 +121,9 @@ Cowl Design and Build                               Compete
                              system to the Shell
                                Eco Marathon
                                Requirements
-Thank you for
-  listening
+## Thank you for listening
  Questions, Comments, Concerns?
 
-    njiang1@swarthmore.edu
-   avasque1@swarthmore.edu
-   ceverba1@swarthmore.edu
-
+   <njiang1@swarthmore.edu>
+   <avasque1@swarthmore.edu>
+   <ceverba1@swarthmore.edu>

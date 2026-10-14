@@ -18,48 +18,48 @@ Hydrogen is a colorless, odorless, and highly flammable gas. Due to its low igni
 
 ### 2.1 Storage Requirements
 
-\- Hydrogen cylinders must be stored in a designated area, such as the hydrogen gas cylinder holder on the equipment cart or another specially designated storage location.
+- Hydrogen cylinders must be stored in a designated area, such as the hydrogen gas cylinder holder on the equipment cart or another specially designated storage location.
 
-\- Cylinders may remain mounted in the hydrogen car if properly secured and not obstructing ventilation or access.
+- Cylinders may remain mounted in the hydrogen car if properly secured and not obstructing ventilation or access.
 
-\- Store cylinders away from open flames, sparks, and direct sunlight.
+- Store cylinders away from open flames, sparks, and direct sunlight.
 
-\- Maintain good ventilation in any area where hydrogen is stored or used.
+- Maintain good ventilation in any area where hydrogen is stored or used.
 
 ### 2.2 Handling Guidelines
 
-\- Never lift or carry a hydrogen cylinder by the valve or regulator knob.
+- Never lift or carry a hydrogen cylinder by the valve or regulator knob.
 
-\- Before connecting the tank, verify that the hydrogen regulator screw is loosened and the cylinder valve is closed.
+- Before connecting the tank, verify that the hydrogen regulator screw is loosened and the cylinder valve is closed.
 
 When ready to operate:
 
-1\. Attach the regulator securely to the tank.
+1. Attach the regulator securely to the tank.
 
-2\. Confirm that the nipple and connector are properly aligned and tightened.
+2. Confirm that the nipple and connector are properly aligned and tightened.
 
-3\. Slowly open the cylinder valve while monitoring for leaks.
+3. Slowly open the cylinder valve while monitoring for leaks.
 
 ### 2.3 Leak Detection
 
-\- Hydrogen is odorless --- leaks must be detected using a hydrogen leak detector or soapy water test.
+- Hydrogen is odorless --- leaks must be detected using a hydrogen leak detector or soapy water test.
 
-\- If a leak is suspected: immediately close the cylinder valve and check that fittings are correctly tightened and oriented before resuming operation.
+- If a leak is suspected: immediately close the cylinder valve and check that fittings are correctly tightened and oriented before resuming operation.
 
 ## 3. Emergency Procedures
 
 ### 3.1 Fire or Leak
 
-\- If a hydrogen fire occurs:
+- If a hydrogen fire occurs:
 
-\- Do not use water.
+- Do not use water.
 
-\- Use a Class B (flammable gas) fire extinguisher if safe to do so.
+- Use a Class B (flammable gas) fire extinguisher if safe to do so.
 
-\- Contact the supervising instructor or laboratory staff immediately.
+- Contact the supervising instructor or laboratory staff immediately.
 
 ## 4. Training and Authorization
 
-\- Only authorized, trained personnel may handle hydrogen or operate the fuel cell system.
+- Only authorized, trained personnel may handle hydrogen or operate the fuel cell system.
 
-\- Personnel must complete hydrogen safety training and review this document before working independently.
+- Personnel must complete hydrogen safety training and review this document before working independently.
