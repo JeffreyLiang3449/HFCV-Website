@@ -76,7 +76,7 @@
     "href": "Literature/Markforged Printer Instructions.html",
     "title": "Steps to use markforged",
     "section": "",
-    "text": "Export from fusion360 what you want to be printed in an STL file a. Email it to yourself\nLogin to makerspace desktop computer\nUse an online program called eiger.io a. Ask Josh to login if not already logged in\nImport into eiger.io the stl file\nPosition object by clicking on it a. It helps to have threads on z axis\nMaterial is onyx a. No reinforcement necessary unless object is a wonky shape\nExport Build\nPut that file onto flash drive\nStick flash drive into printer\nHit print from storage\nMake sure it runs a purge line (if necessary)\nMake sure print first layer correctly a. Filament is expensive, do not want to waste\n\n\n\n\nRun out? Ask Josh to order\nReplace Filament/Service printer follow instructions on printer itself",
+    "text": "Export from fusion360 what you want to be printed in an STL file\n\nEmail it to yourself\n\nLogin to makerspace desktop computer\nUse an online program called eiger.io\n\nAsk Josh to login if not already logged in\n\nImport into eiger.io the stl file\nPosition object by clicking on it\n\nIt helps to have threads on z axis\n\nMaterial is onyx\n\nNo reinforcement necessary unless object is a wonky shape\n\nExport Build\nPut that file onto flash drive\nStick flash drive into printer\nHit print from storage\nMake sure it runs a purge line (if necessary)\nMake sure print first layer correctly\n\nFilament is expensive, do not want to waste\n\n\n\n\n\nRun out? Ask Josh to order\nReplace Filament/Service printer follow instructions on printer itself",
     "crumbs": [
       "Home",
       "Literature",
@@ -100,7 +100,7 @@
     "href": "Literature/HFCV SummerPresentation.html#table-of-contents",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "Table of contents",
-    "text": "Table of contents\n\n\n\n01 Introduction\n\n\n02 Current Project\n\n\n03 Future Considerations",
+    "text": "Table of contents\n\n\n\n\n\n\n\n\nNote\n\n\n01\n\n\n\nIntroduction\n\n\n\n\n\n\n\nNote\n\n\n02\n\n\n\nCurrent Project\n\n\n\n\n\n\n\nNote\n\n\n03\n\n\n\nFuture Considerations",
     "crumbs": [
       "Home",
       "Literature",
@@ -112,7 +112,7 @@
     "href": "Literature/HFCV SummerPresentation.html#introduction",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "01 Introduction",
-    "text": "01 Introduction\nWhat is a HFCV? And why is there one sitting in the High Bay?",
+    "text": "01 Introduction\n\n\n\n\n\n\nNote\n\n\nWhat is a HFCV? And why is there one sitting in the High Bay?",
     "crumbs": [
       "Home",
       "Literature",
@@ -124,7 +124,7 @@
     "href": "Literature/HFCV SummerPresentation.html#what-you-need-to-know-first",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "What you need to know first",
-    "text": "What you need to know first\nHydrogen (H2) as a fuel? Why switch to H2 ● H2 is an energy carrier ● H2 is incredibly energy (like gasoline) dense ● Energy is produced ● Clean in comparison to through electrolysis gas ● Stored as a liquid before entering the fuel cell ● Large range before needing to refuel ## Inside the Fuel Cell\n                     Our Actual Fuel Cell\nPhoto Courtesy of 3M ## Shell Eco Marathon\nWhat Is It? Competition to make the most energy efficient vehicle\nWhy Compete? Gives a target for our work on the vehicle Photo Courtesy of Shell Eco Marathon ## 02 Current Project Rebuilding the Chassis ## Before This Summer ● Previous vehicle ○ No longer adheres to Shell’s safety standards ○ Needs a complete rebuild before competition ready\n● Revitalization w/ Ben, Jano, and Justin ○ Materials testing ○ Preliminary Chassis Design ○ Rear Brakes and Suspension system ## Rough Design From Ben and Justin",
+    "text": "What you need to know first\n\n\nHydrogen (H2) as a fuel? - H2 is an energy carrier (like gasoline) - Energy is produced through electrolysis - Stored as a liquid before entering the fuel cell\n\nWhy switch to H2 - H2 is incredibly energy dense - Clean in comparison to gas - Large range before needing to refuel",
     "crumbs": [
       "Home",
       "Literature",
@@ -132,11 +132,71 @@
     ]
   },
   {
-    "objectID": "Literature/HFCV SummerPresentation.html#goal-new-front-end",
-    "href": "Literature/HFCV SummerPresentation.html#goal-new-front-end",
+    "objectID": "Literature/HFCV SummerPresentation.html#inside-the-fuel-cell",
+    "href": "Literature/HFCV SummerPresentation.html#inside-the-fuel-cell",
     "title": "Hydrogen Fuel Cell Vehicle",
-    "section": "Goal: New Front End",
-    "text": "Goal: New Front End",
+    "section": "Inside the Fuel Cell",
+    "text": "Inside the Fuel Cell\n\nOur Actual Fuel Cell",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#shell-eco-marathon",
+    "href": "Literature/HFCV SummerPresentation.html#shell-eco-marathon",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "Shell Eco Marathon",
+    "text": "Shell Eco Marathon\n\n\nWhat Is It?\nCompetition to make the most energy efficient vehicle\nWhy Compete?\nGives a target for our work on the vehicle",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#current-project",
+    "href": "Literature/HFCV SummerPresentation.html#current-project",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "02 Current Project",
+    "text": "02 Current Project\n\n\n\n\n\n\nNote\n\n\nRebuilding the Chassis",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#before-this-summer",
+    "href": "Literature/HFCV SummerPresentation.html#before-this-summer",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "Before This Summer",
+    "text": "Before This Summer\n\n\n\nPrevious vehicle\n\nNo longer adheres to Shell’s safety standards\nNeeds a complete rebuild before competition ready\n\nRevitalization w/ Ben, Jano, and Justin\n\nMaterials testing\nPreliminary Chassis Design\nRear Brakes and Suspension system",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#rough-design-from-ben-and-justin",
+    "href": "Literature/HFCV SummerPresentation.html#rough-design-from-ben-and-justin",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "Rough Design From Ben and Justin",
+    "text": "Rough Design From Ben and Justin",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#goal",
+    "href": "Literature/HFCV SummerPresentation.html#goal",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "Goal:",
+    "text": "Goal:\nNew Front End",
     "crumbs": [
       "Home",
       "Literature",
@@ -148,7 +208,31 @@
     "href": "Literature/HFCV SummerPresentation.html#what-will-that-take",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "What will that take?",
-    "text": "What will that take?\n          Choosing\n    2     Components                                      Construction\n                                                4\n          What suspension to                              Actually putting\n          use? What size of                               together the front\n          wheels to use?                                  end\n\n\n\nFabrication                        Front Chassis\nTechniques                         Design\n1 3 5 Learning how to weld, Using the general 3D print, and Lathe idea left by Ben and Completion Justin, create a new design ## 03 Future Considerations Rebuilding the rest of the HFCV ## Fall 2024\nRear of Chassis Floor of Vehicle Build and fit the Purchase rear wheel + components and suspension system Electrical assemble\n                    Components\n                     Wire the new car\n                      and put in the\n                     hydrogen system",
+    "text": "What will that take?\n\n\nFabrication Techniques Learning how to weld, 3D print, and lathe\n\n\nChoosing Components What suspension to use? What size of wheels to use?\n\n\nFront Chassis Design Using the general idea left by Ben and Justin, create a new design\n\n\nConstruction Actually putting together the front end\n\n\nCompletion",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#future-considerations",
+    "href": "Literature/HFCV SummerPresentation.html#future-considerations",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "03 Future Considerations",
+    "text": "03 Future Considerations\n\n\n\n\n\n\nNote\n\n\nRebuilding the rest of the HFCV",
+    "crumbs": [
+      "Home",
+      "Literature",
+      "HFCV SummerPresentation"
+    ]
+  },
+  {
+    "objectID": "Literature/HFCV SummerPresentation.html#fall-2024",
+    "href": "Literature/HFCV SummerPresentation.html#fall-2024",
+    "title": "Hydrogen Fuel Cell Vehicle",
+    "section": "Fall 2024",
+    "text": "Fall 2024\n\n\nRear of Chassis\nBuild and fit the rear wheel + suspension system\n\nElectrical Components\nWire the new car and put in the hydrogen system\n\nFloor of Vehicle\nPurchase components and assemble",
     "crumbs": [
       "Home",
       "Literature",
@@ -160,7 +244,7 @@
     "href": "Literature/HFCV SummerPresentation.html#spring-2025",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "Spring 2025",
-    "text": "Spring 2025\nCowl Design and Build Compete Build the Cowl for Transport Team the vehicle so that and Car to Indiana its not a skeleton\n                            Testing\n                           Testing entire\n                         system to the Shell\n                           Eco Marathon\n                           Requirements",
+    "text": "Spring 2025\n\n\nCowl Design and Build\nBuild the cowl for the vehicle so that it is not a skeleton\n\nTesting\nTesting entire system to the Shell Eco Marathon Requirements\n\nCompete\nTransport Team and Car to Indiana",
     "crumbs": [
       "Home",
       "Literature",
@@ -172,7 +256,7 @@
     "href": "Literature/HFCV SummerPresentation.html#thank-you-for-listening",
     "title": "Hydrogen Fuel Cell Vehicle",
     "section": "Thank you for listening",
-    "text": "Thank you for listening\nQuestions, Comments, Concerns?\nnjiang1@swarthmore.edu avasque1@swarthmore.edu ceverba1@swarthmore.edu",
+    "text": "Thank you for listening\n\n\n\n\n\n\nNote\n\n\nQuestions, Comments, Concerns?\n\n\n\nnjiang1@swarthmore.edu\navasque1@swarthmore.edu\nceverba1@swarthmore.edu",
     "crumbs": [
       "Home",
       "Literature",
