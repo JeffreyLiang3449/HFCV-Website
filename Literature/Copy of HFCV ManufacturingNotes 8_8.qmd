@@ -36,11 +36,11 @@
 
 - Carefully cut the lathed portion off leaving the corresponding amount of stock for application
 
-  - **1.300 in** for vertical members
+  - **1.300 in** for [vertical members]{style="background-color: yellow;"}
 
-  - **2.300 in** for one ended horizontal members
+  - **2.300 in** for [one ended horizontal members]{style="background-color: yellow;"}
 
-  - **4.400 in** for double ended horizontal members
+  - **4.400 in** for [double ended horizontal members]{style="background-color: yellow;"}
 
 - For double ended members, repeat process on other side
 

@@ -15,25 +15,19 @@ filters:
 :::: {.columns}
 
 ::: {.column width="33%" style="display: flex; flex-direction: column; justify-content: center; height: 100%;"}
-::: {.callout-note}
 01
-:::
 
 Introduction
 :::
 
 ::: {.column width="33%" style="display: flex; flex-direction: column; justify-content: center; height: 100%;"}
-::: {.callout-note}
 02
-:::
 
 Current Project
 :::
 
 ::: {.column width="33%" style="display: flex; flex-direction: column; justify-content: center; height: 100%;"}
-::: {.callout-note}
 03
-:::
 
 Future Considerations
 :::
@@ -42,17 +36,18 @@ Future Considerations
 
 ## 01 Introduction
 
-::: {.callout-note}
-What is a HFCV? And why is there one sitting in the High Bay?
-:::
+**What is a HFCV? And why is there one sitting in the High Bay?**
 
 ## What you need to know first
+
+::::: {.nonincremental}
 
 ::::{.columns}
 
 ::: {.column width="50%" style="display: flex; flex-direction: column; justify-content: center; height: 100%;"}
 
 Hydrogen (H~2~) as a fuel?
+
   - H~2~ is an energy carrier (like gasoline)
   - Energy is produced through electrolysis
   - Stored as a liquid before entering the fuel cell
@@ -62,6 +57,7 @@ Hydrogen (H~2~) as a fuel?
 ::: {.column width="50%" style="display: flex; flex-direction: column; justify-content: center; height: 100%;"}
 
 Why switch to H~2~
+
    - H~2~ is incredibly energy dense
    - Clean in comparison to gas
    - Large range before needing to refuel
@@ -70,7 +66,9 @@ Why switch to H~2~
 
 ::::
 
-## Inside the Fuel Cell
+:::::
+
+## Inside the Fuel Cell {scrollable="true"}
 
 ![](media/media2/image1.jpg){width="6.5in" height="4.319444444444445in"}
 
@@ -79,6 +77,8 @@ Why switch to H~2~
 ![](media/media2/image2.jpg){width="6.5in" height="4.319444444444445in"}
 
 ## Shell Eco Marathon
+
+::::: {.nonincremental}
 
 :::: {.columns}
 
@@ -102,13 +102,15 @@ Gives a target for our work on the vehicle
 
 ::::
 
+:::::
+
 ## 02 Current Project
 
-::: {.callout-note}
-Rebuilding the Chassis
-:::
+**Rebuilding the Chassis**
 
-## Before This Summer
+## Before This Summer {scrollable="true"}
+
+::::: {.nonincremental}
 
 :::: {.columns}
 
@@ -133,15 +135,17 @@ Rebuilding the Chassis
 
 ::::
 
+:::::
+
 ## Rough Design From Ben and Justin
 
-![](media/media2/image5.jpg){width="6.5in" height="4.319444444444445in"}
+![](media/media2/image5.jpg){width="7in" height="4.319444444444445in"}
 
 ## Goal:
 
 **New Front End**
 
-## What will that take?
+## What will that take? {scrollable="true"}
 
 ::: {.timeline .vertical-alt}
 ::: {.event data-label="1"}
@@ -172,11 +176,11 @@ Actually putting together the front end
 
 ## 03 Future Considerations
 
-::: {.callout-note}
-Rebuilding the rest of the HFCV
-:::
+**Rebuilding the rest of the HFCV**
 
 ## Fall 2024
+
+::::: {.nonincremental}
 
 :::: {.columns}
 
@@ -200,7 +204,11 @@ Purchase components and assemble
 
 ::::
 
+:::::
+
 ## Spring 2025
+
+::::: {.nonincremental}
 
 :::: {.columns}
 
@@ -224,11 +232,11 @@ Transport Team and Car to Indiana
 
 ::::
 
+:::::
+
 ## Thank you for listening
 
-::: {.callout-note}
-Questions, Comments, Concerns?
-:::
+**Questions, Comments, Concerns?**
 
 <njiang1@swarthmore.edu>
 
