@@ -3,7 +3,13 @@ title: "Hydrogen Fuel Cell Vehicle"
 author:
   - "Nora Jiang"
   - "Professor Carr Everbach"
-format: revealjs
+format:
+  revealjs:
+    theme: default
+    scrollable: true
+  html:
+    toc: true
+    number-sections: false
 ---
 
 ## Table of contents
