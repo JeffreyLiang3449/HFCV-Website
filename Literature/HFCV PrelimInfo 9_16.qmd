@@ -104,9 +104,9 @@
 
 ### Rough Sketch 
 
-![](media/image2.jpg){width="4.012957130358705in" height="2.34375in"}![](media/image1.png){width="3.5925010936132984in" height="2.3395614610673667in"}
+![](media/image2.png){width="4.012957130358705in" height="2.34375in"}
 
-![](media/image3.jpg){width="4.012957130358705in" height="2.34375in"}![](media/image1.png){width="3.5925010936132984in" height="2.3395614610673667in"}
+![](media/image3.jpg){width="4.012957130358705in" height="2.34375in"}
 
 ### Chassis Final Design 
 
