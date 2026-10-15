@@ -1,24 +1,7 @@
-- Arts
- Implementation Drawing ROUGH   Legend
-                                       determined   path/location
-                                       TBD    path/location
-                                ----
+---
+title: Parts Implementation Drawing ROUGH
+resources:
+  - "Parts Implementation Drawing ROUGH.pdf"
+---
 
-
-
-
-                                 Power
-                                Front      Brakes
-                                 Rear Brakes
-                                 Steering
-                                 Battery
-                                 Carbon      Fiber Members
-                                 Horn
-                                 Carbon Fiber Sheets (Floors + Cowl)
-                                                     ·
-
-
-
-
-    ~
-
+{{< pdf "Parts Implementation Drawing ROUGH.pdf" width="100%" height=700 >}}

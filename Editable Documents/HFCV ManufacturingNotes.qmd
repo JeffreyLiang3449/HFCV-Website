@@ -36,21 +36,21 @@
 
 - Carefully cut the lathed portion off leaving the corresponding amount of stock for application
 
-  - **1.300 in** for vertical members
+  - **1.300 in** for [vertical members]{style="background-color: yellow;"}
 
-  - **2.300 in** for one ended horizontal members
+  - **2.300 in** for [one ended horizontal members]{style="background-color: yellow;"}
 
-  - **4.400 in** for double ended horizontal members
+  - **4.400 in** for [double ended horizontal members]{style="background-color: yellow;"}
 
 - For double ended members, repeat process on other side
 
 - WHEN REMOVING BE CAREFUL METAL IS HOT
 
-- The *connector* should look something like this: ![](media/image1.png){width="2.0104166666666665in" height="0.5416666666666666in"}
+- The *connector* should look something like this: ![](../Literature/media/media1/image3.png){width="2.0104166666666665in" height="0.5416666666666666in"}
 
 OR
 
-![](media/image7.png){width="2.8333333333333335in" height="0.5416666666666666in"}
+![](../Literature/media/media1/image7.png){width="2.3in" height="0.5416666666666666in"}
 
 ### Milling
 
@@ -112,7 +112,7 @@ OR
 
   - Crank the giant lever on the right side
 
-    - It looks like this:![](media/image8.png){width="1.234375546806649in" height="1.2214501312335957in"}
+    - It looks like this:![](../Literature/media/media1/image2.png){width="1.234375546806649in" height="1.2214501312335957in"}
 
     - (refrain from saying "Wrong lever Kronk")
 
@@ -122,7 +122,7 @@ OR
 
     - It looks like this:
 
-  - On the screen hit "Z" and then "abs zero"![](media/image6.png){width="0.6041666666666666in" height="0.8333333333333334in"}
+  - On the screen hit "Z" and then "abs zero"![](../Literature/media/media1/image1.png){width="0.6041666666666666in" height="0.8333333333333334in"}
 
 - Use the wheels to move the *connector* from under the drill
 
@@ -160,7 +160,11 @@ OR
 
 - The milled connector will look something like this:
 
-> OR![](media/image2.png){width="2.0in" height="0.5520833333333334in"}![](media/image5.png){width="2.4218755468066493in" height="0.4421959755030621in"}
+![](../Literature/media/media1/image8.png){width="2.0in" height="0.5520833333333334in"}
+
+OR
+
+![](../Literature/media/media1/image5.png){width="2.4218755468066493in" height="0.4421959755030621in"}
 
 ### Drilling
 
@@ -178,7 +182,7 @@ OR
 
     - They look like this:
 
-  - Tighten clamp ![](media/image3.png){width="1.6614588801399826in" height="0.46235126859142606in"}
+  - Tighten clamp ![](../Literature/media/media1/image4.png){width="1.2in" height="0.46235126859142606in"}
 
   - Drill pilot hole, change drill bit, drill actual hole
 
@@ -192,7 +196,7 @@ OR
 
 - Your final product should look something like this:
 
-![](media/image4.png){width="3.228827646544182in" height="1.5885422134733158in"}
+![](../Literature/media/media1/image6.png){width="3.228827646544182in" height="1.5885422134733158in"}
 
 # Carbon Fibre
 
