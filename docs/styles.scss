@@ -1,0 +1,12 @@
+/*-- scss:rules --*/
+.quarto-title-block .quarto-title-authors {
+  display: flex;
+  flex-direction: column; /* Stacks authors vertically */
+  align-items: center;    /* Center them horizontally (use 'flex-start' for left-align) */
+  gap: 0.5em;             /* Space between author names */
+}
+
+.quarto-title-block .quarto-title-authors .quarto-title-author {
+  padding-left: 0;
+  padding-right: 0;
+}
