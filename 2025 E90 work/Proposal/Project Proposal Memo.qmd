@@ -8,7 +8,7 @@ Michael Moran Bojorquez
 
 **Engineering Design E90 Proposal Title:** Hydrogen Fuel Car
 
-**Participants:** [[Michael Moran Bojorquez](mailto:mmoranb1@swarthmore.edu)[Gabriel Salas](mailto:gsalas1@swarthmore.edu)]{.underline}
+**Participants:** [Michael Moran Bojorquez](mailto:mmoranb1@swarthmore.edu)[Gabriel Salas](mailto:gsalas1@swarthmore.edu)
 
 **Advisor:** Professor [[Carr Everbach]{.underline}](mailto:ceverba1@swarthmore.edu)
 

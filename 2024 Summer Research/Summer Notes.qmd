@@ -10,7 +10,7 @@ Need
 
 -back break needs new spring (3 of them)
 
-\-![](media/image3.png){width="6.5in" height="3.0694444444444446in"}
+\-![](media/media/image3.png){width="6.5in" height="3.0694444444444446in"}
 
 Red box make aluminum joint and not 3D print
 
@@ -34,7 +34,7 @@ Redesign front half to have suspension connect
 
 - Most go-karts have suspension attached to one vertical member
 
-- ![](media/image1.png){width="3.0364588801399823in" height="2.4291666666666667in"}
+- ![](media/media/image1.png){width="3.0364588801399823in" height="2.4291666666666667in"}
 
 [Steps to use markforged]{.underline}
 
@@ -64,7 +64,7 @@ Redesign front half to have suspension connect
 
 Look into villanova sae
 
-![](media/image2.png){width="6.5in" height="3.875in"}
+![](media/media/image2.png){width="6.5in" height="3.875in"}
 
 [[https://abhijeetscad.wordpress.com/2015/01/03/fsae-car/]{.underline}](https://abhijeetscad.wordpress.com/2015/01/03/fsae-car/)
 

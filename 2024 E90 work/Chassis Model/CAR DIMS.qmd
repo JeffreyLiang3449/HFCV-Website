@@ -1,7 +1,7 @@
-Friday, November 3, 2023   2:35 PM
+---
+title: CAR DIMS
+resources:
+  - "CAR DIMS.pdf"
+---
 
-
-
-
-                                     Quick Notes Page 1
-
+{{< pdf "CAR DIMS.pdf" width="100%" height=700 >}}

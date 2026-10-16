@@ -102,7 +102,7 @@ P=Load,L=Length of full member, E=Modulus of Elasticity, I=Moment of Inertia
 
 I=(½)M(R1\^2+R2\^2)
 
-![](media/image4.png){width="4.817708880139983in" height="2.933860454943132in"}
+![](media/media/image4.png){width="4.817708880139983in" height="2.933860454943132in"}
 
 Materials: [[8974K12]{.mark}](https://www.mcmaster.com/8974K12)
 
@@ -353,13 +353,13 @@ Next Week:
 
 - We will epoxy everything and hardware the prints on Wednesday afternoon after doing presentation run-through
 
-- ![](media/image5.png){width="5.333333333333333in" height="1.9791666666666667in"}
+- ![](media/media/image5.png){width="5.333333333333333in" height="1.9791666666666667in"}
 
 **Notes on Back Suspension Design:**
 
 - Back wheel to remain the same
 
-![](media/image7.png){width="6.5in" height="3.111111111111111in"}
+![](media/media/image7.png){width="6.5in" height="3.111111111111111in"}
 
 Max Loads
 
@@ -533,7 +533,7 @@ Max Loads
 
     - [[https://www.ellsworth.com/resources/insights/white-papers/fatigue-resistance-of-structural-adhesives/]{.underline}](https://www.ellsworth.com/resources/insights/white-papers/fatigue-resistance-of-structural-adhesives/)
 
-    - [[https://multimedia.3m.com/mws/media/1235389O/dp420-technical-data-sheet.pdf]{.underline}](https://multimedia.3m.com/mws/media/1235389O/dp420-technical-data-sheet.pdf)
+    - [[https://multimedia.3m.com/mws/media/media/1235389O/dp420-technical-data-sheet.pdf]{.underline}](https://multimedia.3m.com/mws/media/media/1235389O/dp420-technical-data-sheet.pdf)
 
     - [[https://www.instron.com/en/testing-solutions/astm-standards/astm-d1002]{.underline}](https://www.instron.com/en/testing-solutions/astm-standards/astm-d1002)
 
@@ -599,15 +599,15 @@ Max Loads
 
   - [[What Spring Rate Do I Need? \| Suspension Setup - YouTube]{.underline}](https://www.youtube.com/watch?v=MITt8zpQnFw&ab_channel=HighPerformanceAcademy)
 
-- ![](media/image6.png){width="4.646871172353456in" height="2.4427088801399823in"}
+- ![](media/media/image6.png){width="4.646871172353456in" height="2.4427088801399823in"}
 
   - Rough SAP2000 Model - with simulated 200 lb driver, max compression was approximately 2.7x the load and tension was 1.5x the load
 
-  - ![](media/image2.png){width="3.651042213473316in" height="1.5659678477690289in"}
+  - ![](media/media/image2.png){width="3.651042213473316in" height="1.5659678477690289in"}
 
   - Minor decrease in max loads if point load is moved back
 
-  - ![](media/image1.png){width="3.526042213473316in" height="1.474834864391951in"}
+  - ![](media/media/image1.png){width="3.526042213473316in" height="1.474834864391951in"}
 
   - Middle of the road approach (Distributed along the member
 
@@ -697,7 +697,7 @@ Thoughts:
 
   - [[Carbon fiber tube lashing+epoxy joint stress test (youtube.com)]{.underline}](https://www.youtube.com/watch?v=Yr0U1gSd9FQ&t=368s)
 
-  - ![](media/image8.png){width="4.770833333333333in" height="4.197916666666667in"}
+  - ![](media/media/image8.png){width="4.770833333333333in" height="4.197916666666667in"}
 
   - Joint design -\> leading method is currently smooth insert and epoxy. Can consider having male/female thread attachment plus loctite
 
@@ -715,9 +715,9 @@ Thoughts:
 
 - Image of motorcycle suspension -\> how do we get something similar?
 
-- [[mass-flow-meter-installation-manual-5860i.pdf (brooksinstrument.com)]{.underline}](https://www.brooksinstrument.com/en/~/media/brooks/documentation/products/mass-flow-controllers/elastomer%20sealed/5800e-i/mass-flow-meter-installation-manual-5860i.pdf)
+- [[mass-flow-meter-installation-manual-5860i.pdf (brooksinstrument.com)]{.underline}](https://www.brooksinstrument.com/en/~/media/media/brooks/documentation/products/mass-flow-controllers/elastomer%20sealed/5800e-i/mass-flow-meter-installation-manual-5860i.pdf)
 
-> ![](media/image3.png){width="4.453125546806649in" height="2.96875in"}
+> ![](media/media/image3.png){width="4.453125546806649in" height="2.96875in"}
 
 **[WK 2:]{.underline}**
 
@@ -759,7 +759,7 @@ Prefab CF Tube Connectors - \$10-30 per connector
 
 Example of tensile testing inserts -\> spacing important on bonding.
 
-[[joining-bonding-of-composite-parts-white-paper-en.pdf (3m.com)]{.underline}](https://multimedia.3m.com/mws/media/1198329O/joining-bonding-of-composite-parts-white-paper-en.pdf)
+[[joining-bonding-of-composite-parts-white-paper-en.pdf (3m.com)]{.underline}](https://multimedia.3m.com/mws/media/media/1198329O/joining-bonding-of-composite-parts-white-paper-en.pdf)
 
 How strong is scotch weld epoxy on carbon fiber? Strong enough to act as weld
 

@@ -1,1 +1,7 @@
-
+---
+title: Chassis Drawn Design
+resources:
+  - "Chassis Drawn Design.pdf"
+---
+
+{{< pdf "Chassis Drawn Design.pdf" width="100%" height=700 >}}
