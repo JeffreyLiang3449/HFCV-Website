@@ -1002,7 +1002,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "This website is documentation for all of the work that has been done to build and maintain the hydrogen fuel cell vehicle (HFCV) that belongs to Swarthmore College’s Shell Eco-Marathon team."
   },
   {
     "objectID": "Chassis/Drawings/Parts Implementation Drawing ROUGH.html",
@@ -1057,9 +1057,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "HFCV Website",
+    "title": "Swarthmore College Shell Eco-Marathon Team",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Welcome to the Quarto website for Swarthmore College’s Shell Eco-Marathon team!"
   },
   {
     "objectID": "Literature/HFCV PrelimInfo 9_16.html",

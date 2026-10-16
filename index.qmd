@@ -1,7 +1,5 @@
 ---
-title: "HFCV Website"
+title: "Swarthmore College Shell Eco-Marathon Team"
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Welcome to the Quarto website for Swarthmore College's Shell Eco-Marathon team!

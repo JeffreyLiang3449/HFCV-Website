@@ -11,8 +11,11 @@ website:
       - text: "About"
         href: about.qmd
   sidebar:
+    collapse-level: 1
     style: docked
     contents:
+    - section: Technical
+    - section: Administrative
     - section: 2024 E90 work
       contents:
       - section: Chassis Model
